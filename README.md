@@ -1,6 +1,6 @@
 # RamyAura transcripts
 
-Searchable, timestamped transcripts of **151 regular YouTube uploads by RamyAura**, covering **66.77 hours** of Teemo gameplay and discussion. Published with RamyAura's permission, as confirmed by the maintainer.
+Searchable, timestamped transcripts of **151 regular YouTube uploads by RamyAura**, covering **66.77 hours** of Teemo gameplay and discussion. Shared free of charge with RamyAura's permission; his agreement to sharing is conditional on it being free.
 
 **[Browse by matchup](MATCHUPS.md)** · **[Browse all videos](TRANSCRIPTS.md)** · **[Download the complete repository](https://github.com/ivystopia/ramyaura-transcripts/archive/refs/heads/main.zip)**
 
