@@ -36,7 +36,7 @@ https://www.youtube.com/watch?v=x9i6jBai9D8&t=30s
 
 https://www.youtube.com/watch?v=x9i6jBai9D8&t=60s
 
-> He used both his potions. I still have one. I might just cheat a recall here, get a Dark Seal, and get my health back. Akali is getting into Teemo? Yeah, very good into Teemo. After level 6, he can just mush on me, especially with Ignite. I'm guessing this means that Aatrox died top. I didn't actually pay attention
+> He used both his potions. I still have one. I might just cheater recall here, get a Dark Seal, and get my health back. Akali is getting into Teemo? Yeah, very good into Teemo. After level 6, he can just mush on me, especially with Ignite. I'm guessing this means that Aatrox died top. I didn't actually pay attention
 
 <a id="p-80a2b1e3d580df668fd2985b37cdf57fd69499db5630ce871ec3b7149e2b4769"></a>
 

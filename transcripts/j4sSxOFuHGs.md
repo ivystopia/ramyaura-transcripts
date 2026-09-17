@@ -52,7 +52,7 @@ https://www.youtube.com/watch?v=j4sSxOFuHGs&t=90s
 
 https://www.youtube.com/watch?v=j4sSxOFuHGs&t=120s
 
-> what I did to Garen last game, if you guys were watching last game, where I let the wave bounce back into me and I killed him? Most likely Olaf's gonna do that to me here, or he's gonna cheat to recall and it does the same thing, because I can't push the wave in time. I'm a Teemo level one or level three. Like, I don't have my level six, I mean, so I can't push the waves quickly. So most likely he'd recall to cheat a recall, buy an item, and then he's gonna look to all-in me here. And I'm not gonna be level four as well because I missed XP. He won't be level four until he kills five of these minions.
+> what I did to Garen last game, if you guys were watching last game, where I let the wave bounce back into me and I killed him? Most likely Olaf's gonna do that to me here, or he's gonna cheater recall and it does the same thing, because I can't push the wave in time. I'm a Teemo level one or level three. Like, I don't have my level six, I mean, so I can't push the waves quickly. So most likely he'd recall to cheater recall, buy an item, and then he's gonna look to all-in me here. And I'm not gonna be level four as well because I missed XP. He won't be level four until he kills five of these minions.
 
 <a id="p-4f23eca628f9a9bfcef580c229360c73db26e751b819b25385940c714922ea76"></a>
 
@@ -60,7 +60,7 @@ https://www.youtube.com/watch?v=j4sSxOFuHGs&t=120s
 
 https://www.youtube.com/watch?v=j4sSxOFuHGs&t=150s
 
-> We actually lost nothing for this cheat to recall. But now he has an extra longsword, you see. I'm gonna have to try and play for my level four and try push this out somehow. I get level four on the next minion. And now he has to be a little bit scared because I'm level four. Go invis here because he's gonna pick up the Q. Dodge the Q. He doesn't Q, okay. He's tanking the whole wave here. Briar's top as well,
+> We actually lost nothing for this cheater recall. But now he has an extra longsword, you see. I'm gonna have to try and play for my level four and try push this out somehow. I get level four on the next minion. And now he has to be a little bit scared because I'm level four. Go invis here because he's gonna pick up the Q. Dodge the Q. He doesn't Q, okay. He's tanking the whole wave here. Briar's top as well,
 
 <a id="p-10f3cc6c9497e78f3076d3470bb7d5a1c93ad2a35b362aece77748b751da8972"></a>
 

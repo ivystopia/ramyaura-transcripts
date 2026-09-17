@@ -44,7 +44,7 @@ https://www.youtube.com/watch?v=fqtOAL4mxwQ&t=60s
 
 https://www.youtube.com/watch?v=fqtOAL4mxwQ&t=90s
 
-> Zaahen should be bot side, I think. We could cheat a recall here, by the way. I think that's a pretty good idea. He won't push this wave in time, hopefully. I'll buy boots as well, just to make sure.
+> Zaahen should be bot side, I think. We could cheater recall here, by the way. I think that's a pretty good idea. He won't push this wave in time, hopefully. I'll buy boots as well, just to make sure.
 
 <a id="p-3e915865fe24bf23b3cabe2215d92621915522ab165c8be980910e417578c11b"></a>
 

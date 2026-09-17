@@ -2,7 +2,7 @@
 
 Searchable, timestamped transcripts of **151 regular YouTube uploads by RamyAura**, covering **66.77 hours** of Teemo gameplay and discussion. Shared free of charge with RamyAura's permission; his agreement to sharing is conditional on it being free.
 
-**[Browse by matchup](MATCHUPS.md)** · **[Browse all videos](TRANSCRIPTS.md)** · **[Download the complete repository](https://github.com/ivystopia/ramyaura-transcripts/archive/refs/heads/main.zip)**
+**[Browse by matchup](MATCHUPS.md)** · **[Browse all videos](TRANSCRIPTS.md)** · **[Gameplay glossary](GLOSSARY.md)** · **[Download the complete repository](https://github.com/ivystopia/ramyaura-transcripts/archive/refs/heads/main.zip)**
 
 Original creator: **RamyAura** — https://www.youtube.com/channel/UChk2Zu5h5yJ9BBD4VS-_chQ · https://www.twitch.tv/ramyaura
 
@@ -11,6 +11,8 @@ Original creator: **RamyAura** — https://www.youtube.com/channel/UChk2Zu5h5yJ9
 Choose an opponent in [MATCHUPS.md](MATCHUPS.md), or a video in [TRANSCRIPTS.md](TRANSCRIPTS.md). Each transcript has its original title, publication date, recorded opponent and role where established, and links to the relevant moments on YouTube. For uploads containing multiple games, the matchup index links into the appropriate game.
 
 The collection contains 150 videos with detected speech and one guide presented as on-screen text. The latter has a separately labelled OCR transcript. Livestreams and Shorts are outside this snapshot. Collection completed on **12 September 2026**; new uploads are not added automatically.
+
+The [gameplay glossary](GLOSSARY.md#cheater-recall) explains **cheater recall**, with timestamped examples of Ramy planning it, using the return-wave advantage and deciding when to cancel it. Editorial explanations are kept separate from the transcript wording and retain the recording-patch limitations.
 
 ## For search and future AI use
 
@@ -25,7 +27,7 @@ The large JSONL file is intended for downloading or cloning; GitHub's preview ma
 
 ## Accuracy and patch context
 
-The spoken material was transcribed with OpenAI `gpt-transcribe` and compared against local Whisper large-v3. The reading layer includes **1,497 traceable terminology corrections across 1,119 passages**, including champion names, player names and items. Original wording and alternative transcripts are retained so readers can inspect those decisions. Eight detected terminology questions remain unresolved and are flagged; that count is not a claim that no other errors remain.
+The spoken material was transcribed with OpenAI `gpt-transcribe` and compared against local Whisper large-v3. The reading layer includes **1,508 traceable terminology corrections across 1,127 passages**, including champion names, player names, items and the cheater recall concept. Original wording and alternative transcripts are retained so readers can inspect those decisions. Eight detected terminology questions remain unresolved and are flagged; that count is not a claim that no other errors remain.
 
 **These are machine transcripts, not a fully proofread or creator-approved script.** Model agreement is not an accuracy score. Speakers have not been reliably separated, so another speaker's dialogue should not automatically be attributed to RamyAura. A small, explicitly scoped human wording check is preserved separately from the surrounding machine text and from editorial gameplay interpretation.
 

@@ -44,7 +44,7 @@ https://www.youtube.com/watch?v=-uXjerowSog&t=60s
 
 https://www.youtube.com/watch?v=-uXjerowSog&t=90s
 
-> And I'll just get the XP. Hello, new friend. We'll let him push into us. Only thing is he could cheat a recall after he gets the third wave crashed in. Just played against a Teemo. It wasn't that good. Yeah, Mato Blade. We have to be a bit careful. He's level two here. See,
+> And I'll just get the XP. Hello, new friend. We'll let him push into us. Only thing is he could cheater recall after he gets the third wave crashed in. Just played against a Teemo. It wasn't that good. Yeah, Mato Blade. We have to be a bit careful. He's level two here. See,
 
 <a id="p-6b9d951dc901430164d41732b1258c129f704d33f25d72ea65863acbb71eb16c"></a>
 
@@ -60,7 +60,7 @@ https://www.youtube.com/watch?v=-uXjerowSog&t=120s
 
 https://www.youtube.com/watch?v=-uXjerowSog&t=150s
 
-> Because he could cheat to recall here, and then I'm gonna have to fight him with an item disadvantage. Most likely he recalled, right? And also he's gonna freeze the wave on me. I need some of these minions to die, but none of them are gonna die, so he's not gonna miss any. Oh, he's here. My bad, I didn't expect that.
+> Because he could cheater recall here, and then I'm gonna have to fight him with an item disadvantage. Most likely he recalled, right? And also he's gonna freeze the wave on me. I need some of these minions to die, but none of them are gonna die, so he's not gonna miss any. Oh, he's here. My bad, I didn't expect that.
 
 <a id="p-6b51d3c0246eb9b058f5ceebc36be0077820669cb0b42fd4d08af4d5ec093296"></a>
 

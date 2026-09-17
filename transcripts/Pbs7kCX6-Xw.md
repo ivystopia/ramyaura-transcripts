@@ -28,7 +28,7 @@ https://www.youtube.com/watch?v=Pbs7kCX6-Xw&t=0s
 
 https://www.youtube.com/watch?v=Pbs7kCX6-Xw&t=30s
 
-> Doran's Ring into Vayu earlier today in that GP game, and I regretted it because I pushed in the wave level three and crashed it, so I'm just gonna flip it and go Dark Seal. Because, like, my plan against GP is to just crash wave three and just cheat the recall. And it's much nicer to cheat the recall if you start Dark Seal, because then you get the refill pot, and then you can buy the Doran's Ring instead of the other way around. If he walks too close to me, I'm gonna auto him and get PTA procced. I'm gonna see if he walks up. No, he's not walking. Let's get pushed then,
+> Doran's Ring into Vayu earlier today in that GP game, and I regretted it because I pushed in the wave level three and crashed it, so I'm just gonna flip it and go Dark Seal. Because, like, my plan against GP is to just crash wave three and just cheater recall. And it's much nicer to cheater recall if you start Dark Seal, because then you get the refill pot, and then you can buy the Doran's Ring instead of the other way around. If he walks too close to me, I'm gonna auto him and get PTA procced. I'm gonna see if he walks up. No, he's not walking. Let's get pushed then,
 
 <a id="p-a7ae434f913d2d72392952f43f7b523902e5e461f6c20506c3b1da5bf3257f16"></a>
 
@@ -44,7 +44,7 @@ https://www.youtube.com/watch?v=Pbs7kCX6-Xw&t=60s
 
 https://www.youtube.com/watch?v=Pbs7kCX6-Xw&t=90s
 
-> then if I'm able to get PTA, then I will trade for the Q, but I mean, he just used Q on a minion, so he didn't even have it there. And then we'll crash the next wave, and then we'll cheat the recall. And we'll look to fight him when we're back. So we should trade with him, to be honest, because I don't mind losing health because I'm going to recall anyway, right? Just as long as I don't die. We'll
+> then if I'm able to get PTA, then I will trade for the Q, but I mean, he just used Q on a minion, so he didn't even have it there. And then we'll crash the next wave, and then we'll cheater recall. And we'll look to fight him when we're back. So we should trade with him, to be honest, because I don't mind losing health because I'm going to recall anyway, right? Just as long as I don't die. We'll
 
 <a id="p-7dc7e4ab8296c86baeac8ec29d7691e1d96bc6052ea11c8149244e4a677cec04"></a>
 

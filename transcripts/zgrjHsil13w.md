@@ -36,7 +36,7 @@ https://www.youtube.com/watch?v=zgrjHsil13w&t=30s
 
 https://www.youtube.com/watch?v=zgrjHsil13w&t=60s
 
-> Did she take W or did she take Q? Yeah, she took W. I know she can't E onto me in this massive wave. Okay, I should have autoed her there if I wasn't gonna dodge the W. So maybe I should cheat to recall, but
+> Did she take W or did she take Q? Yeah, she took W. I know she can't E onto me in this massive wave. Okay, I should have autoed her there if I wasn't gonna dodge the W. So maybe I should cheater recall, but
 
 <a id="p-0d10a7cfb0b4106b47c481190ae0db9c908cb99558c9db302444b63306a92542"></a>
 

@@ -7,8 +7,8 @@
     "nonempty_spoken_passages": 7802,
     "videos_with_spoken_text": 150,
     "audio_hours": 66.76969194,
-    "terminology_corrections": 1497,
-    "corrected_passages": 1119,
+    "terminology_corrections": 1508,
+    "corrected_passages": 1127,
     "known_unresolved_terminology_candidates": 8,
     "visual_caption_groups": 190,
     "assistant_visual_checks": 6,
@@ -21,7 +21,7 @@
   ],
   "source_snapshot": "Regular-upload batch completed 2026-09-12; this is not an automatically updating channel mirror.",
   "input_sha256": {
-    "corrected_corpus": "5a99f6c5ed9c1f83f0724489f69f8eb27d270fce7db22f00871d898155754d5b",
+    "corrected_corpus": "5512b8633fdc048f848d94c300f86ac9f7a993c9b82c05726c2b23d747059868",
     "source_catalogue": "e790c1eba33695071da75b30693a212f29b0005d358ae715cfe6a8931b6b609f",
     "matchup_index": "446eea846bd81611c2f249edee80e6c652094bc00a347bf5e99cfd02d11a7c9c",
     "visual_captions": "75a7796ca22297977ce0cac0a91173d1d71bffb532a3a529f4060fd63ceabb91",
@@ -34,6 +34,10 @@
       "sha256": "9e1d47fda03417af3e1b33c8d732e2c45471dd4d0b1e6acac5f05f1b8e37b900",
       "bytes": 111
     },
+    "GLOSSARY.md": {
+      "sha256": "e88cd415fa59dd39258fac91a77803f17a0cc4192d9a4d798646bbda909bc833",
+      "bytes": 4577
+    },
     "MATCHUPS.md": {
       "sha256": "39fb3fbcd195c620e0f83d078289f4dcc8323b37c4cab615961dd1bce50039d3",
       "bytes": 35023
@@ -43,20 +47,20 @@
       "bytes": 1132
     },
     "README.md": {
-      "sha256": "78be0dedd6c0f447d90d17d386e181274bc15fa60989008052a3be68aaa09ea5",
-      "bytes": 5219
+      "sha256": "3d35c0698eb6f96636d9872d2b73ace3549d19ff4a6c751ab7e882cc696234fb",
+      "bytes": 5593
     },
     "SCHEMA.md": {
-      "sha256": "cd0cdfac97ed59414420aed7fd30094f6da2403b3d4b37810b1d9b12c8e4fb6c",
-      "bytes": 6615
+      "sha256": "d3be96d1d891a89f02deffbd3a772972dd64538315df68e233f7aa395d42045d",
+      "bytes": 6956
     },
     "TRANSCRIPTS.md": {
       "sha256": "c25aca41b60d92a7604fd0c5d0969e10fe534113fda9d324188356bbe7302495",
       "bytes": 17495
     },
     "data/corpus.jsonl": {
-      "sha256": "6be98d46936770147735015f5892684e5bc96ebb58384e1c2c95b98342dfed4c",
-      "bytes": 21423852
+      "sha256": "fb2548e4dd09e8df95ab85a3a9ea144e0c5df408a1c6336b4537eb1920f399b0",
+      "bytes": 21431615
     },
     "data/sources.jsonl": {
       "sha256": "a9aa1a6ae2fd74368c0cd438efdc68529032f8a094cc476b177ef925213b5f99",
@@ -83,8 +87,8 @@
       "bytes": 26112
     },
     "transcripts/-uXjerowSog.md": {
-      "sha256": "1fa70d6ea17ddc904f184dfdd18ca2453f3c615001d6b11b8dc429cdfd94b279",
-      "bytes": 26586
+      "sha256": "3ab681caec92da57b34def26caf711810c1b3536900ecab1b92978e968e19685",
+      "bytes": 26585
     },
     "transcripts/02P9C6UHfjI.md": {
       "sha256": "9b0dc64998f1b8e521dec2bea60ddca6cf3286dd0839c9a3f799e06413b249d9",
@@ -347,8 +351,8 @@
       "bytes": 15157
     },
     "transcripts/Pbs7kCX6-Xw.md": {
-      "sha256": "00c2349a8fe5e6b8bad37a60fa5060d90fd155a2ea3b4df00a823aaa69e70c1f",
-      "bytes": 24468
+      "sha256": "b034a4e450176ac4238c5bc45a08538abb4d5b51c1e3f31f6e721e5c714c3896",
+      "bytes": 24462
     },
     "transcripts/Ptg28_bWNLg.md": {
       "sha256": "810881a191f4296c498ac387ad513e993aa773a0abbfc47df5b322899490ef01",
@@ -499,7 +503,7 @@
       "bytes": 17629
     },
     "transcripts/fqtOAL4mxwQ.md": {
-      "sha256": "442766e34b52b2a0cc593958db63348ceac1bd208321bdbb035b84abf5da9158",
+      "sha256": "0d00e2a8adf4dd0088e70f96d5cbce16720628fe87c45bf8e215ee897239631e",
       "bytes": 17162
     },
     "transcripts/g2SSwQrSJgM.md": {
@@ -543,8 +547,8 @@
       "bytes": 21202
     },
     "transcripts/j4sSxOFuHGs.md": {
-      "sha256": "8c19c17cba0ef10501f9a2d6257fb12d3f8563f44d467e9c9d0f7965a96f6ac6",
-      "bytes": 30061
+      "sha256": "d10379503f14e581a5e916bea7b02ac57a826d39779be75d6e798129929379b9",
+      "bytes": 30059
     },
     "transcripts/j9HVq5mQE_Y.md": {
       "sha256": "b7f2dbfb1a69f19b2b3b591f5de20e85bd88b4e8027bc6ce9b6bf506bb0bffc0",
@@ -651,7 +655,7 @@
       "bytes": 19156
     },
     "transcripts/x9i6jBai9D8.md": {
-      "sha256": "eb52cd811345a2eb184cc56bc2f0cd2884f6c353abf92a588daf558bcdc7b75f",
+      "sha256": "1a9a6aa308301547e051797908ec6ae9d1446205fdd4179f97be7092e6033746",
       "bytes": 16544
     },
     "transcripts/y-RqY2eGXAo.md": {
@@ -675,8 +679,8 @@
       "bytes": 25529
     },
     "transcripts/zgrjHsil13w.md": {
-      "sha256": "cdf437781bbb0909de6ac96953871af3ba84aa66ba4097137e3a3268a2c5ca69",
-      "bytes": 18398
+      "sha256": "2c60d349786506331b54df1dea72ca0cf760a2c9dc3f14dc177736b58c8c2e2b",
+      "bytes": 18397
     }
   }
 }
