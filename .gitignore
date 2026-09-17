@@ -1,0 +1,15 @@
+.env
+.env.*
+*.pem
+*.key
+*.sqlite
+*.sqlite-*
+*.mp4
+*.webm
+*.mp3
+*.wav
+*.flac
+*.m4a
+cookies*
+__pycache__/
+.venv/
