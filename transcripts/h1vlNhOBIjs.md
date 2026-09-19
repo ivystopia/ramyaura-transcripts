@@ -174,7 +174,7 @@ https://www.youtube.com/watch?v=h1vlNhOBIjs&t=600s
 
 > I don't want to be in time Bessa. Two beats me. And he was gonna flash. Wow, really? I need to
 
-**Unresolved wording:** this passage has a flagged terminology disagreement. Compare the original and alternatives in the JSONL before relying on the affected phrase.
+**Unresolved wording:** this passage has flagged terminology. Check the source recording and the notes in the JSONL before relying on the affected phrase.
 
 <a id="p-4651db993b1909aefedf8d048dd8d18717c56f294aa634bf7ba5a54dfc6aaf47"></a>
 

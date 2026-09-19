@@ -10,7 +10,7 @@ Machine transcript with audited terminology corrections. Times are approximate p
 
 ## Transcript
 
-Neither speech model detected spoken words. The on-screen captions are transcribed separately below; this is an empty speech record, not a failed omission.
+No spoken words were detected. The on-screen captions are transcribed separately below; this is an empty speech record, not a failed omission.
 
 ## On-screen text (OCR)
 

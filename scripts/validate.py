@@ -77,6 +77,9 @@ def main(update_manifest=False):
                 require(key in by_key and by_key[key]["video_id"] == video_id, "Missing matchup evidence")
         private_fields(source, "source." + video_id)
     for row in rows:
+        require(row["schema_version"] == 2, "Unexpected passage schema version")
+        require(set(row) <= set(['annotations', 'chunk_key', 'current_patch_applicability', 'end_seconds', 'model', 'provenance', 'quality_flags', 'recording_patch', 'review_notes', 'review_status', 'schema_version', 'source_audio_sha256', 'source_chunk_key', 'source_url', 'start_seconds', 'terminology_corrections', 'terminology_uncertainties', 'text', 'text_char_range', 'text_original', 'text_original_sha256', 'text_sha256', 'text_status', 'timing_method', 'video_id', 'visual_reference']), "Unexpected public passage field")
+        require(set(row["provenance"]) <= {"api", "visual"}, "Unexpected transcription provenance")
         key = row["chunk_key"]
         require(row["video_id"] in by_id, "Orphan passage")
         require(row["recording_patch"] is None and row["current_patch_applicability"] == "unvalidated", "Unreviewed patch promotion")

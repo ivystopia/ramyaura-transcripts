@@ -310,7 +310,7 @@ https://www.youtube.com/watch?v=H5NhbzxuohQ&t=1080s
 
 > time. I mean, the auto didn't kill it. Tryndamere might be in that bush. Oh, we're against Azir. To be honest, he has ult now. He could beat me. Also, I don't know if Bard is coming. No, Bard is bot. I guess I'll just play it safe and, I don't know. Jeez him, die.
 
-**Unresolved wording:** this passage has a flagged terminology disagreement. Compare the original and alternatives in the JSONL before relying on the affected phrase.
+**Unresolved wording:** this passage has flagged terminology. Check the source recording and the notes in the JSONL before relying on the affected phrase.
 
 <a id="p-31b405dc243f95636bdd60ff048d10282d97e2d5fc16d273caeb5be15b129585"></a>
 
@@ -344,7 +344,7 @@ https://www.youtube.com/watch?v=H5NhbzxuohQ&t=1200s
 
 > If our team is gonna recall then let's back off. Zeri might get cancelled here, so I'll stay next to her. Yeah, she does. I should
 
-**Unresolved wording:** this passage has a flagged terminology disagreement. Compare the original and alternatives in the JSONL before relying on the affected phrase.
+**Unresolved wording:** this passage has flagged terminology. Check the source recording and the notes in the JSONL before relying on the affected phrase.
 
 <a id="p-9f5d7276dcc51497c2378f6e68941acd5d4d66af54707a23191b8f6d3ad9ea92"></a>
 

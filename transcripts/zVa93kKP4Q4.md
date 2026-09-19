@@ -390,7 +390,7 @@ https://www.youtube.com/watch?v=zVa93kKP4Q4&t=1564s
 
 > They're gonna get stalled with
 
-**Unresolved wording:** this passage has a flagged terminology disagreement. Compare the original and alternatives in the JSONL before relying on the affected phrase.
+**Unresolved wording:** this passage has flagged terminology. Check the source recording and the notes in the JSONL before relying on the affected phrase.
 
 <a id="p-d37f369feb07c63f27b06c5028e964ebe3c90b579bd7e5e61a6ab9f0500b6c8d"></a>
 

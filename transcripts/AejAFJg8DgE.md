@@ -326,7 +326,7 @@ https://www.youtube.com/watch?v=AejAFJg8DgE&t=1170s
 
 > Your turret has been destroyed. I need to be careful. No, nothing.
 
-**Unresolved wording:** this passage has a flagged terminology disagreement. Compare the original and alternatives in the JSONL before relying on the affected phrase.
+**Unresolved wording:** this passage has flagged terminology. Check the source recording and the notes in the JSONL before relying on the affected phrase.
 
 <a id="p-160fc5a91e2b319997f77c9a28bf5edc0e57117f4613a71cad138a64e45702ea"></a>
 

@@ -390,7 +390,7 @@ https://www.youtube.com/watch?v=WVEviT8Mbl0&t=1559s
 
 > If I was quicker on shrooming him on the Zhonya's Hourglass, we would have killed him a lot. Yo, Flicky, what's up? It was good,
 
-**Unresolved wording:** this passage has a flagged terminology disagreement. Compare the original and alternatives in the JSONL before relying on the affected phrase.
+**Unresolved wording:** this passage has flagged terminology. Check the source recording and the notes in the JSONL before relying on the affected phrase.
 
 <a id="p-b4c5a283800b0e4f5c8aafc4f3a693395fe5e19c3937c4000bdc67382ca1cf43"></a>
 

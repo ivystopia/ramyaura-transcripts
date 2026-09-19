@@ -134,7 +134,7 @@ https://www.youtube.com/watch?v=FXBmJzuX-kA&t=420s
 
 > Do I hit this once? I think I need to hit it more than once to get the plate, though. I don't know if I'll get that plate. I need to recall quickly. Would have been nice to get the plate. Then I could buy boots instead of a Kindlegem here. If I, if I went a little bit earlier against Anivia, I could have got an extra auto before recalling. Wonder what Naafiri is up to. I was thinking about this.
 
-**Unresolved wording:** this passage has a flagged terminology disagreement. Compare the original and alternatives in the JSONL before relying on the affected phrase.
+**Unresolved wording:** this passage has flagged terminology. Check the source recording and the notes in the JSONL before relying on the affected phrase.
 
 <a id="p-cab25ffaf35e72180868ed71e49e1b8f71a7acf119ac3458ea8a5d14603879c1"></a>
 

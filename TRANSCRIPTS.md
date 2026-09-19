@@ -1,7 +1,14 @@
 # All transcripts
 
-151 regular uploads, newest publication first. Dates are upload dates; recording patches remain unknown. [Browse by matchup](MATCHUPS.md).
+158 regular uploads, newest publication first. Dates are upload dates; recording patches remain unknown. [Browse by matchup](MATCHUPS.md).
 
+- 2026-09-18 — [When Teemo Gets Filled Jungle...](transcripts/S_Oc4qOyOxk.md) — Tryndamere (Jungle); Shen (Top).
+- 2026-09-17 — [Rank 1 Garen Stood No Chance vs My Teemo!!](transcripts/zVoOvrr0bh8.md) — Garen (Top); Jax (Top).
+- 2026-09-16 — [Rank 1 Darius RaiderGO Could Not Handle My Teemo!!](transcripts/ACfHOTFX0ZA.md) — Darius (Top).
+- 2026-09-15 — [I'm tired of playing vs MAGES TOP!!](transcripts/yGOpxKpV1E8.md) — Viktor (Top).
+- 2026-09-14 — [THIS IS WHAT 20 KILLS ON TEEMO LOOKS LIKE!!](transcripts/_aAZMW255RU.md) — Gragas (Top).
+- 2026-09-13 — [Rank 1 Volibear Top Could Not Handle My Teemo!!](transcripts/V7pDSzs6tJo.md) — Volibear (Top).
+- 2026-09-12 — [RANK 1 TEEMO TEACHES YOU HOW TO DESTROY TOPLANE (educational commentary)](transcripts/Z86RdWK4P3s.md) — Kennen (Top).
 - 2026-09-11 — [THIS IS HOW YOU PLAY VS AMBESSA](transcripts/6AjHNdKtUGU.md) — Ambessa (Top).
 - 2026-09-10 — [NEW BUFFS MADE THIS MATCHUP SO HARD!!](transcripts/cgg5XDj4H5k.md) — Camille (Top).
 - 2026-09-08 — [I Forced Alois to do the Teemo Level 1 Cheese...](transcripts/02P9C6UHfjI.md) — Kennen (Top).

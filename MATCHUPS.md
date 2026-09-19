@@ -4,7 +4,7 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 [All transcripts](TRANSCRIPTS.md) · [Dataset notes](README.md)
 
-[Aatrox](#matchup-aatrox) · [Akali](#matchup-akali) · [Alistar](#matchup-alistar) · [Ambessa](#matchup-ambessa) · [Anivia](#matchup-anivia) · [Annie](#matchup-annie) · [Aurelion Sol](#matchup-aurelion-sol) · [Camille](#matchup-camille) · [Cassiopeia](#matchup-cassiopeia) · [Cho'Gath](#matchup-cho-gath) · [Darius](#matchup-darius) · [Dr. Mundo](#matchup-dr-mundo) · [Fiora](#matchup-fiora) · [Fizz](#matchup-fizz) · [Gangplank](#matchup-gangplank) · [Garen](#matchup-garen) · [Gnar](#matchup-gnar) · [Gragas](#matchup-gragas) · [Illaoi](#matchup-illaoi) · [Irelia](#matchup-irelia) · [Jax](#matchup-jax) · [Jayce](#matchup-jayce) · [Karma](#matchup-karma) · [Kayle](#matchup-kayle) · [Kennen](#matchup-kennen) · [Lissandra](#matchup-lissandra) · [Malphite](#matchup-malphite) · [Master Yi](#matchup-master-yi) · [Mel](#matchup-mel) · [Mordekaiser](#matchup-mordekaiser) · [Naafiri](#matchup-naafiri) · [Nasus](#matchup-nasus) · [Olaf](#matchup-olaf) · [Ornn](#matchup-ornn) · [Pantheon](#matchup-pantheon) · [Poppy](#matchup-poppy) · [Quinn](#matchup-quinn) · [Renekton](#matchup-renekton) · [Riven](#matchup-riven) · [Rumble](#matchup-rumble) · [Ryze](#matchup-ryze) · [Sett](#matchup-sett) · [Shen](#matchup-shen) · [Shyvana](#matchup-shyvana) · [Singed](#matchup-singed) · [Sion](#matchup-sion) · [Swain](#matchup-swain) · [Syndra](#matchup-syndra) · [Trundle](#matchup-trundle) · [Tryndamere](#matchup-tryndamere) · [Twisted Fate](#matchup-twisted-fate) · [Urgot](#matchup-urgot) · [Varus](#matchup-varus) · [Vayne](#matchup-vayne) · [Vi](#matchup-vi) · [Viktor](#matchup-viktor) · [Warwick](#matchup-warwick) · [Yasuo](#matchup-yasuo) · [Yone](#matchup-yone) · [Yorick](#matchup-yorick) · [Zaahen](#matchup-zaahen) · [Zed](#matchup-zed) · [Zilean](#matchup-zilean)
+[Aatrox](#matchup-aatrox) · [Akali](#matchup-akali) · [Alistar](#matchup-alistar) · [Ambessa](#matchup-ambessa) · [Anivia](#matchup-anivia) · [Annie](#matchup-annie) · [Aurelion Sol](#matchup-aurelion-sol) · [Camille](#matchup-camille) · [Cassiopeia](#matchup-cassiopeia) · [Cho'Gath](#matchup-cho-gath) · [Darius](#matchup-darius) · [Dr. Mundo](#matchup-dr-mundo) · [Fiora](#matchup-fiora) · [Fizz](#matchup-fizz) · [Gangplank](#matchup-gangplank) · [Garen](#matchup-garen) · [Gnar](#matchup-gnar) · [Gragas](#matchup-gragas) · [Illaoi](#matchup-illaoi) · [Irelia](#matchup-irelia) · [Jax](#matchup-jax) · [Jayce](#matchup-jayce) · [Karma](#matchup-karma) · [Kayle](#matchup-kayle) · [Kennen](#matchup-kennen) · [Lissandra](#matchup-lissandra) · [Malphite](#matchup-malphite) · [Master Yi](#matchup-master-yi) · [Mel](#matchup-mel) · [Mordekaiser](#matchup-mordekaiser) · [Naafiri](#matchup-naafiri) · [Nasus](#matchup-nasus) · [Olaf](#matchup-olaf) · [Ornn](#matchup-ornn) · [Pantheon](#matchup-pantheon) · [Poppy](#matchup-poppy) · [Quinn](#matchup-quinn) · [Renekton](#matchup-renekton) · [Riven](#matchup-riven) · [Rumble](#matchup-rumble) · [Ryze](#matchup-ryze) · [Sett](#matchup-sett) · [Shen](#matchup-shen) · [Shyvana](#matchup-shyvana) · [Singed](#matchup-singed) · [Sion](#matchup-sion) · [Swain](#matchup-swain) · [Syndra](#matchup-syndra) · [Trundle](#matchup-trundle) · [Tryndamere](#matchup-tryndamere) · [Twisted Fate](#matchup-twisted-fate) · [Urgot](#matchup-urgot) · [Varus](#matchup-varus) · [Vayne](#matchup-vayne) · [Vi](#matchup-vi) · [Viktor](#matchup-viktor) · [Volibear](#matchup-volibear) · [Warwick](#matchup-warwick) · [Yasuo](#matchup-yasuo) · [Yone](#matchup-yone) · [Yorick](#matchup-yorick) · [Zaahen](#matchup-zaahen) · [Zed](#matchup-zed) · [Zilean](#matchup-zilean)
 
 
 <a id="matchup-aatrox"></a>
@@ -85,6 +85,7 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 ## Darius
 
+- 2026-09-16 · **Top** · [Rank 1 Darius RaiderGO Could Not Handle My Teemo!!](transcripts/ACfHOTFX0ZA.md#p-852dbea3d9ad65f5e2975c6f0a2ff3786834e7aac51936e9be81d632119dca08) · video 00:00–36:33.
 - 2026-08-22 · **Lane unspecified** · [Rank 1 Darius RaiderGO Gets the Teemo Top Experience... (INSANE FLASH PREDICT)](transcripts/YAZEYclWYqc.md#p-ada7500d528223d9551f8089ed70d1e90d4516a81e54f79ee94cc7a64928c6d0) · video 00:00–28:09.
 - 2026-08-18 · **Top** · [THE MOST PERFECT TEEMO VS DARIUS GAME EVER](transcripts/iZ-48pMef8g.md#p-d6903119b8f1158bd541c2a9f771e400bcc429b0ff7d8cf34eda5e74944d1a0e) · video 00:00–36:54.
 - 2026-06-25 · **Lane unspecified** · [DARIUS STOOD NO CHANCE VS THE RANK 1 TEEMO](transcripts/hTY31z2zQbM.md#p-cb2099e9795950655d471860f677fd1c5394b0b49597945fba8288598ec72163) · video 00:00–32:12.
@@ -129,6 +130,7 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 ## Garen
 
+- 2026-09-17 · **Top** · [Rank 1 Garen Stood No Chance vs My Teemo!!](transcripts/zVoOvrr0bh8.md#p-fcde5e9e3f4826ac75b952d143f8f998143366d4f691a5156b2e9c82d111b1a3) · video 00:00–19:01.
 - 2026-08-20 · **Top** · [Garen is UNPLAYABLE into Teemo!!](transcripts/g2SSwQrSJgM.md#p-d4162d04327290f1afc19bc15c14c153103f3c3851b125a38634b0c3a43205e4) · video 00:00–18:25.
 - 2026-06-16 · **Lane unspecified** · [HOW TO PLAY WEAKSIDE PERFECTLY AS TEEMO](transcripts/YPj_ZzRBaZM.md#p-81e31ca9f233105ddc091a4ad661f909e1a436bbd24d0f7f4d0732f48d62f723) · video 00:00–26:49.
 - 2026-05-04 · **Lane unspecified** · [Garen is UNPLAYABLE into Teemo!!](transcripts/t08SBVArj5A.md#p-89bbe720ec3db923497d80f2aa5ab08e3de84229782e9ca08c092f79ae939b76) · video 00:00–17:02.
@@ -148,6 +150,7 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 ## Gragas
 
+- 2026-09-14 · **Top** · [THIS IS WHAT 20 KILLS ON TEEMO LOOKS LIKE!!](transcripts/_aAZMW255RU.md#p-6a56679e00e57beaaa07dae4e41d1b918753cda79dfe85ccfadf8ea2609adefd) · video 00:00–37:49.
 - 2026-07-01 · **Lane unspecified** · [10 CS PER MINUTE TEEMO VS GRAGAS](transcripts/ZluenfxNyKk.md#p-6d00ec94bfb0ce516e823c2984380ca9e7c56e55104b46f6bae67b28ac9a00d0) · video 00:00–25:03.
 - 2026-06-10 · **Lane unspecified** · [SHROOMS ARE OP IN THIS MATCHUP!!](transcripts/3wjwQrMW1Ms.md#p-6f095605d1c4cb47417e8c4ea7208ca1507a1c4118d9a53ade05e8986ecf3996) · video 00:00–31:40.
 
@@ -169,6 +172,7 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 ## Jax
 
+- 2026-09-17 · **Top** · [Rank 1 Garen Stood No Chance vs My Teemo!!](transcripts/zVoOvrr0bh8.md#p-e6b3787c26f76ee23e98650fbfdbe4a0857b98d16bd7fd40b34986a3fcc27379) · video 19:31–47:36.
 - 2026-08-09 · **Top** · [KC Canna meets the Rank 1 Teemo...](transcripts/9j8ZvwND_uQ.md#p-64e31bd1e96834ae827365a7e43ba92f609809f282268178f460a4be0c1046d6) · video 00:00–32:39.
 - 2026-07-29 · **Top** · [TEEMO VS THE BEST TOPLANER IN EUROPE (ft. RaiderGO)](transcripts/JvQk3pO9aeU.md#p-6d200a097dcba7eb446ebe1c455987f28d76871676ef007a6ee0a0472856cf3e) · video 00:00–27:10.
 - 2026-05-22 · **Lane unspecified** · [5 MILLION MASTERY TEEMO LOOKS LIKE THIS...](transcripts/KhFQgJwrCsA.md#p-2bf7c53198637f3c43b3354e24838d35d9e172830bb96a4acf2e3ed1adb35c9a) · video 00:00–24:17.
@@ -196,6 +200,7 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 ## Kennen
 
+- 2026-09-12 · **Top** · [RANK 1 TEEMO TEACHES YOU HOW TO DESTROY TOPLANE (educational commentary)](transcripts/Z86RdWK4P3s.md#p-acecd31c5661032ebd55f11286af1ed2aa2b177c02e770b73dcdb3da8aef2275) · video 00:00–39:08.
 - 2026-09-08 · **Top** · [I Forced Alois to do the Teemo Level 1 Cheese...](transcripts/02P9C6UHfjI.md#p-a5f1c589b7d82e1b44c270e7ef6e26b0a49f25282cd76a8d43cd0465dfdfdad7) · video 00:00–25:53.
 - 2026-06-22 · **Lane unspecified** · [THIS IS HOW YOU BEAT KENNEN AS TEEMO!! (Level 1 Cheese)](transcripts/V-Ux4XkofuM.md#p-6836794a0f263b0cf7a840a1af5ca643a4ff99ce75c428ab54a735aa7c51a3d1) · video 00:00–17:10.
 
@@ -329,6 +334,7 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 ## Shen
 
+- 2026-09-18 · **Top** · [When Teemo Gets Filled Jungle...](transcripts/S_Oc4qOyOxk.md#p-1e3b63a86f7d407da2e4f3097b45c547c74ad3fbeaa7acb620cd0f5bd6a29ef3) · video 19:59–37:36.
 - 2026-08-01 · **Top** · [The ONLY time I build Nashor's on Teemo!](transcripts/nHE41YPgfpQ.md#p-b93127b7125813edd236c3f26c43900ef959adf39fbab1dd8f73e1ed7738477a) · video 00:00–26:20.
 - 2026-05-02 · **Lane unspecified** · [THE NEW DUSK &amp; DAWN IS SO OP ON TEEMO!](transcripts/JQ0cvJoIf2E.md#p-02210c2a0770f6995c10a6680ee2982df7fc139696ae0146b2c54ae843a09f24) · video 00:00–24:32.
 - 2025-06-17 · **Lane unspecified** · [How the RANK 1 TEEMO EUW DESTROYS SHEN ONE TRICKS](transcripts/gjgrfQKPCxU.md#p-5de1b9409f3e7f4c266523052971fded305a6e13eddf83dbb69e94416a164095) · video 00:00–33:05.
@@ -384,6 +390,7 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 ## Tryndamere
 
+- 2026-09-18 · **Jungle** · [When Teemo Gets Filled Jungle...](transcripts/S_Oc4qOyOxk.md#p-5761d3b2871acd2317ed50769d1738aaf862db3ad15b206b98511ddfdb309838) · video 00:00–09:58.
 - 2026-08-13 · **Top** · [Tryndamere is UNPLAYABLE into Teemo!!](transcripts/H5NhbzxuohQ.md#p-e7c17d2e036047c65a4eaafd4085af4eaabdaafc5e0cd07ffe873eb3cc428095) · video 00:00–23:18.
 
 <a id="matchup-twisted-fate"></a>
@@ -424,7 +431,14 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 ## Viktor
 
+- 2026-09-15 · **Top** · [I'm tired of playing vs MAGES TOP!!](transcripts/yGOpxKpV1E8.md#p-bde59c92f45a97d69ef74ea594e3c5b79be98b733e2de4a78f4f90bde6d4bc62) · video 00:00–27:44.
 - 2026-04-03 · **Top** · [I IMPRESSED SPEAR SHOT WITH MY TEEMO AND HIT 1600LP!](transcripts/CInnb6rXOh8.md#p-6ee6be53fa669fdcf74709d079cf907eb2211c66a323754d63f1662b7b432d1f) · video 00:00–19:49.
+
+<a id="matchup-volibear"></a>
+
+## Volibear
+
+- 2026-09-13 · **Top** · [Rank 1 Volibear Top Could Not Handle My Teemo!!](transcripts/V7pDSzs6tJo.md#p-fd4587b945e2d818974f515b6ffa26046811e4d9d491c3866a3b7c4c91589c9f) · video 00:00–26:11.
 
 <a id="matchup-warwick"></a>
 

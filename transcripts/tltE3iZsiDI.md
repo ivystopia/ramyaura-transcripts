@@ -374,7 +374,7 @@ https://www.youtube.com/watch?v=tltE3iZsiDI&t=1320s
 
 > Run. Got to go out of the tower as well. Nice.
 
-**Unresolved wording:** this passage has a flagged terminology disagreement. Compare the original and alternatives in the JSONL before relying on the affected phrase.
+**Unresolved wording:** this passage has flagged terminology. Check the source recording and the notes in the JSONL before relying on the affected phrase.
 
 <a id="p-8d49ea22678ccafbfca61f107e4a327276566fa6ccf9e1ce54aa5f8275e5e0e2"></a>
 
