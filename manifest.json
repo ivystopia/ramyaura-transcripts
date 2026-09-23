@@ -34,9 +34,13 @@
       "sha256": "9e1d47fda03417af3e1b33c8d732e2c45471dd4d0b1e6acac5f05f1b8e37b900",
       "bytes": 111
     },
+    "AGENTS.md": {
+      "sha256": "3cd5ebc65332cb242106b5a03feee44872c3bc3164b467e6a34f666a487f1c2d",
+      "bytes": 166
+    },
     "GLOSSARY.md": {
-      "sha256": "e88cd415fa59dd39258fac91a77803f17a0cc4192d9a4d798646bbda909bc833",
-      "bytes": 4577
+      "sha256": "55c4d3ff29de343065a4c3b2b019a3ce9d22419bb269d52102db295ceaf0e189",
+      "bytes": 21170
     },
     "MATCHUPS.md": {
       "sha256": "a1851c2e5b99e74f6407cfbfdd79088c870036f914a58a2860239ada91057eaa",
@@ -47,8 +51,8 @@
       "bytes": 1132
     },
     "README.md": {
-      "sha256": "8d3aafdd9da374cdb7223f10008c79d0945bad85f6f48bcb25118bca094f78b1",
-      "bytes": 5895
+      "sha256": "8a048d7b37a7012469790a0bf4c82009a92cfdc26a3573845fe7e51d00a9e831",
+      "bytes": 6016
     },
     "SCHEMA.md": {
       "sha256": "dcb4baa3de91f21a51fef29fe8af006f68c8aeeb5d2b7b6471f23d48bd0e0d50",
