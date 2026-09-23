@@ -32,8 +32,8 @@
       "bytes": 166
     },
     "AUTOMATION.md": {
-      "sha256": "90b95e8e53b5f412771cc01d1d17057cb1affa452e845511e01bb1c5daabb8a8",
-      "bytes": 4234
+      "sha256": "3c5432bd93a8858408e10af77c789861bd4bb9bfdcd9854d527609e3adf8859b",
+      "bytes": 4775
     },
     "GLOSSARY.md": {
       "sha256": "55c4d3ff29de343065a4c3b2b019a3ce9d22419bb269d52102db295ceaf0e189",
@@ -76,8 +76,8 @@
       "bytes": 132055
     },
     "scripts/daily_update.py": {
-      "sha256": "11568102965474129f3db26e6f387edd222a3b5e01c7fda15656f3f95f59f9ae",
-      "bytes": 27643
+      "sha256": "ac286879edd82e1f76c5eb798d53bdaa81eded9f834ef4aca986d664571943f4",
+      "bytes": 28820
     },
     "scripts/validate.py": {
       "sha256": "c6b8e836520e9ea0e005d3a8c41f1382abb340b6162921b0372eacbcdc110d05",

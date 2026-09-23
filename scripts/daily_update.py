@@ -78,6 +78,19 @@ def require(value, message):
         raise RuntimeError(message)
 
 
+def require_complete_batch(result):
+    if result['state'] == 'complete':
+        return
+    errors = [item.get('errors', {}).get('api', {}).get('message', '')
+              for item in result.get('items', [])]
+    for message in errors:
+        if re.search(r'\b(?:insufficient_quota|insufficient_credits|billing_hard_limit_reached|billing_limit_reached)\b', message, re.I):
+            raise RuntimeError('OpenAI credits or API quota exhausted. Paid transcription stopped; check your API credit balance and project spending limit. No top-up was made. Saved progress is retained.')
+        if 'Local spending cap reached' in message:
+            raise RuntimeError('The approved cumulative transcription spending cap has been reached. Paid transcription stopped; no top-up or budget increase was made. Saved progress is retained.')
+    raise RuntimeError('Batch incomplete; checkpoints retained for the next attempt')
+
+
 def command(args, cwd=None, timeout=180):
     env = dict(os.environ, GIT_TERMINAL_PROMPT='0', GCM_INTERACTIVE='Never')
     result = subprocess.run([str(a) for a in args], cwd=cwd, env=env, capture_output=True, text=True, timeout=timeout)
@@ -353,7 +366,7 @@ def run(archive, execute=False):
             write(plan_path, plan)
         write(journal, state)
         result = batch_module.run_batch(config, plan_path, max_cost='30', limit=plan['videos'], progress=lambda s: print(s, flush=True))
-        require(result['state'] == 'complete', 'Batch incomplete; checkpoints retained for the next attempt')
+        require_complete_batch(result)
         report = audit.audit_batch(config, batch_name=plan['name'], progress=lambda s: print(s, flush=True))
         write(plan_path.parent / 'audit.json', report)
         require(report['status'] == 'passed', 'Archive audit failed; nothing published')
@@ -429,10 +442,14 @@ def main():
             notify_phone(f"RamyAura: published {result['new_videos']} new videos. https://github.com/ivystopia/ramyaura-transcripts")
     except Exception as exc:
         message = safe_error(exc)
-        write(archive / 'data/automation/last-run.json', dict(started_at=started, finished_at=utc(), state='failed', error=message))
+        failure = dict(started_at=started, finished_at=utc(), state='failed', error=message)
+        write(archive / 'data/automation/last-run.json', failure)
         print('RamyAura daily update failed: ' + message, file=sys.stderr, flush=True)
         if args.execute:
-            notify_phone('RamyAura daily update needs attention: ' + message[:250])
+            failure['phone_notification_sent'] = notify_phone('RamyAura daily update needs attention: ' + message[:250])
+            write(archive / 'data/automation/last-run.json', failure)
+            if not failure['phone_notification_sent']:
+                print('KDE Connect could not send the phone alert; failure details remain in last-run.json.', file=sys.stderr, flush=True)
         raise SystemExit(1)
 
 

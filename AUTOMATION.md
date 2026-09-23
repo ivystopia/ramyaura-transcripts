@@ -14,6 +14,8 @@ The maintainer’s PC checks RamyAura’s regular YouTube uploads at **06:00 Eur
 
 The workflow keeps the original **$30 cumulative transcription ceiling**, including earlier runs, and a **20 GiB free-space reserve**. It does not buy credit or enable top-ups. Exhaustion stops paid work and triggers a notification; continuing requires an explicit budget decision. Local search, validation and publication do not make model calls.
 
+If OpenAI rejects transcription because credits or API quota are exhausted, the failure alert explicitly tells the maintainer to check the API balance and project spending limit. Reaching the local cumulative spending cap produces a separate, explicit alert. Both use KDE Connect, retain saved progress and leave paid transcription stopped. A temporary rate limit is not described as exhausted credit. The last-run record includes whether KDE Connect accepted the alert; if the phone is unreachable, the failed notification is also logged.
+
 New transcript timestamps identify the submitted audio chunks, which may cover several minutes or an entire small audio file. They are not sentence-level timings. The process does not automatically revise the gameplay glossary or turn historical advice into current-patch recommendations.
 
 ## Operation
