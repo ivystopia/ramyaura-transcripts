@@ -79,6 +79,7 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 ## Cho'Gath
 
+- 2026-09-19 · **Top** · [Cho'Gath is UNPLAYABLE into Teemo!!](transcripts/_YglXds6JpY.md#p-5e2d84f7b8bc25f668b3ffe11f0977b5f29313e55b0a621b44edeb06db38c37a) · video 00:00–30:04.
 - 2025-08-19 · **Top** · [BAUS, WELCOME TO THE TEEMO PENITENTIARY](transcripts/flUxN3deS6Q.md#p-d500b91349c4e3afaad9c494ea3f8431582d9a9d88d6a1c25a299e03fda9c698) · video 00:00–26:59.
 
 <a id="matchup-darius"></a>
@@ -99,6 +100,7 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 ## Dr. Mundo
 
+- 2026-09-21 · **Top** · [Teemo is the BEST Antiheal Abuser in the Game!!](transcripts/JB52UgLJTlI.md#p-5bbbce480616b81b0a883d7b680ac17112d9dc25b7d1068dfc214f68c0cac5f7) · video 00:00–34:48.
 - 2026-08-10 · **Top** · [THIS GAME LOOKED COMPLETELY OVER...](transcripts/jS5UIdQKDU8.md#p-0e38714961d28fb6bedebae49140b5d34ad007c6b801ff57f55454913747a6f7) · video 00:00–38:43.
 - 2026-04-28 · **Lane unspecified** · [Dr. Mundo is UNPLAYABLE into Teemo](transcripts/5RjcrkTLdC8.md#p-0a8d69ff786460ddd848ee0d0997459e6aaa50547af77b1b5bb4e48cbd0fdf74) · video 00:00–23:20.
 - 2025-06-19 · **Lane unspecified** · [THIS IS WHY YOU DON'T PICK MUNDO INTO MY TEEMO - Rank 1 Teemo vs Dr. Mundo](transcripts/y-RqY2eGXAo.md#p-06de3ecafb3e2d8ca00345fc480104fda8b0405fc3e8b4f3cc1d0d72d97dd6e5) · video 00:00–30:21.
@@ -164,6 +166,7 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 ## Irelia
 
+- 2026-09-22 · **Top** · [When They Pick FULL AD into TEEMO...](transcripts/JnHGvoS972g.md#p-2e81f04df05c40759537b9da4f16e2e0881956e99bd43633ce9f3a729efc8abb) · video 00:00–21:04.
 - 2026-07-08 · **Lane unspecified** · [DOES TEEMO NEED BUFFS??](transcripts/QOWT48xPQRA.md#p-c47848260334ee0f317e870830b3cf0adb9fd4eac17871baae173a7c937ba84d) · video 00:00–24:15.
 - 2026-03-29 · **Top** · [HOW TO NEVER GET GANKED AS TEEMO!](transcripts/FFjfusfvyqs.md#p-cb64fd04b79fe5ef0c4ac0329596703b251c81c5f917603872f16d3876f4a348) · video 00:00–25:11.
 - 2026-02-13 · **Top** · [DUSK &amp; DAWN IS SO OP ON TEEMO](transcripts/Q69SqQ0mB8U.md#p-36a005a670367238c83a1093c5b541868275b7a6e5dd1a176949c263cd9111a9) · video 00:00–29:05.
@@ -488,7 +491,8 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 - 2026-06-29 · **Top** · [HE COULDN'T EVEN TOUCH THE WAVE (LEVEL 1 CHEESE)](transcripts/w1i16ucTPh0.md#p-8bf017fdc99d5e87ddf522e6905d72d2f091c0bf46dd06ab85188695446e00fa) · video 00:00–27:32.
 
-## General guides
+## General guides and matchups awaiting review
 
+- 2026-09-20 — [This Item Combo is BROKEN on Teemo!!](transcripts/o2-PqVfzv88.md) — matchup awaiting review.
 - 2026-02-06 — [The ULTIMATE Teemo Level 1 Cheese Guide (FREE LP)](transcripts/gyWGLQYigsE.md).
 - 2025-08-22 — [EVERY Ability That Reveals Teemo Passive](transcripts/5dJ8ObaWENo.md).

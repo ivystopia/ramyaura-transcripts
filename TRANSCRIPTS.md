@@ -1,7 +1,11 @@
 # All transcripts
 
-158 regular uploads, newest publication first. Dates are upload dates; recording patches remain unknown. [Browse by matchup](MATCHUPS.md).
+162 regular uploads, newest publication first. Dates are upload dates; recording patches remain unknown. [Browse by matchup](MATCHUPS.md).
 
+- 2026-09-22 — [When They Pick FULL AD into TEEMO...](transcripts/JnHGvoS972g.md) — Irelia (Top).
+- 2026-09-21 — [Teemo is the BEST Antiheal Abuser in the Game!!](transcripts/JB52UgLJTlI.md) — Dr. Mundo (Top).
+- 2026-09-20 — [This Item Combo is BROKEN on Teemo!!](transcripts/o2-PqVfzv88.md) — Matchup awaiting review.
+- 2026-09-19 — [Cho'Gath is UNPLAYABLE into Teemo!!](transcripts/_YglXds6JpY.md) — Cho'Gath (Top).
 - 2026-09-18 — [When Teemo Gets Filled Jungle...](transcripts/S_Oc4qOyOxk.md) — Tryndamere (Jungle); Shen (Top).
 - 2026-09-17 — [Rank 1 Garen Stood No Chance vs My Teemo!!](transcripts/zVoOvrr0bh8.md) — Garen (Top); Jax (Top).
 - 2026-09-16 — [Rank 1 Darius RaiderGO Could Not Handle My Teemo!!](transcripts/ACfHOTFX0ZA.md) — Darius (Top).
@@ -155,7 +159,7 @@
 - 2025-11-07 — [BIG SHROOMS TEEMO | Challenger peak Teemo vs Aatrox](transcripts/HHpPnu8uFfY.md) — Aatrox (Lane unspecified).
 - 2025-11-02 — [Making Ambessa players suffer with my Teemo! (educational-ish)](transcripts/lPQbLheGI7k.md) — Ambessa (Lane unspecified).
 - 2025-08-25 — [WE MADE NEMESIS BAN TEEMO AFTER THIS](transcripts/h1vlNhOBIjs.md) — Illaoi (Mid).
-- 2025-08-22 — [EVERY Ability That Reveals Teemo Passive](transcripts/5dJ8ObaWENo.md) — General guide · on-screen text / no detected speech.
+- 2025-08-22 — [EVERY Ability That Reveals Teemo Passive](transcripts/5dJ8ObaWENo.md) — General guide.
 - 2025-08-19 — [BAUS, WELCOME TO THE TEEMO PENITENTIARY](transcripts/flUxN3deS6Q.md) — Cho'Gath (Top).
 - 2025-06-22 — [JANKOS LOVED MY TEEMO AFTER I DID THIS - Rank 1 Teemo vs Ambessa](transcripts/KLRwxkVm99c.md) — Ambessa (Lane unspecified).
 - 2025-06-19 — [THIS IS WHY YOU DON'T PICK MUNDO INTO MY TEEMO - Rank 1 Teemo vs Dr. Mundo](transcripts/y-RqY2eGXAo.md) — Dr. Mundo (Lane unspecified).
