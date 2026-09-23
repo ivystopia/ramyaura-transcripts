@@ -38,6 +38,10 @@
       "sha256": "3cd5ebc65332cb242106b5a03feee44872c3bc3164b467e6a34f666a487f1c2d",
       "bytes": 166
     },
+    "AUTOMATION.md": {
+      "sha256": "90b95e8e53b5f412771cc01d1d17057cb1affa452e845511e01bb1c5daabb8a8",
+      "bytes": 4234
+    },
     "GLOSSARY.md": {
       "sha256": "55c4d3ff29de343065a4c3b2b019a3ce9d22419bb269d52102db295ceaf0e189",
       "bytes": 21170
@@ -51,8 +55,8 @@
       "bytes": 1132
     },
     "README.md": {
-      "sha256": "8a048d7b37a7012469790a0bf4c82009a92cfdc26a3573845fe7e51d00a9e831",
-      "bytes": 6016
+      "sha256": "79abdc0dac9d427dffda97e91997c28c3d7bd537edb729f31bc3c492adbbcbe1",
+      "bytes": 6198
     },
     "SCHEMA.md": {
       "sha256": "dcb4baa3de91f21a51fef29fe8af006f68c8aeeb5d2b7b6471f23d48bd0e0d50",
@@ -77,6 +81,10 @@
     "data/visual-captions.jsonl": {
       "sha256": "3e957f7978c16c59df100cace4e1089b83d72c00074573afab3708a3884fefe1",
       "bytes": 132055
+    },
+    "scripts/daily_update.py": {
+      "sha256": "11568102965474129f3db26e6f387edd222a3b5e01c7fda15656f3f95f59f9ae",
+      "bytes": 27643
     },
     "scripts/validate.py": {
       "sha256": "c6b8e836520e9ea0e005d3a8c41f1382abb340b6162921b0372eacbcdc110d05",
