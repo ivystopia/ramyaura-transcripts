@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import argparse
 from collections import defaultdict
+from contextlib import ExitStack
 from datetime import datetime, timezone
 import fcntl
 import hashlib
@@ -291,6 +292,93 @@ def resume_push(repo, state, journal):
     return {'state': 'published', 'commit': commit, 'new_videos': state['videos']}
 
 
+def video_cleanup_plan(archive, sources):
+    """Select video payloads for published IDs; audio and metadata stay intact."""
+    published = {s['video_id']: s for s in sources}
+    candidates = {}
+    media_name = re.compile(r'.*\.(?:mp4|webm|mkv|mov|avi|ts)(?:\.(?:part|ytdl)(?:-Frag\d+)?)?$', re.I)
+
+    def add(path, identifier):
+        require(not path.is_symlink() and path.resolve() == archive / path.relative_to(archive), 'Video cleanup refuses symlinks')
+        require(path.is_file(), 'Video cleanup candidate is not a regular file')
+        info = path.stat()
+        candidates[str(path.relative_to(archive))] = dict(video_id=identifier, bytes=info.st_size, mtime_ns=info.st_mtime_ns, inode=info.st_ino, device=info.st_dev)
+
+    for identifier, public in published.items():
+        require(re.fullmatch(r'[A-Za-z0-9_-]{11}', identifier), 'Invalid cleanup video ID')
+        directory = archive / 'data/sources' / identifier
+        if not directory.exists():
+            continue
+        source = read(directory / 'source.json')
+        require(source['video_id'] == identifier and source['audio_sha256'] == public['audio_sha256'], 'Cleanup source differs from published audio identity')
+        audio = directory / source['audio_file']
+        require(audio.parent == directory and audio.is_file(), 'Original audio must remain available during video cleanup')
+        for path in directory.rglob('*'):
+            if path == audio or not media_name.fullmatch(path.name):
+                continue
+            relative = path.relative_to(directory)
+            named_video = path.parent == directory and path.name.startswith(('video', 'pilot-video', 'pilot-review'))
+            video_attempt = len(relative.parts) == 3 and relative.parts[0] == 'download-attempts' and relative.parts[1].startswith('video-') and path.name.startswith('source.')
+            if not named_video and path.parent == directory and path.suffix.lower() in {'.mp4', '.webm', '.mkv', '.mov', '.avi', '.ts'}:
+                probe = read_media_streams(path)
+                named_video = any(s.get('codec_type') == 'video' for s in probe)
+            if named_video or video_attempt:
+                add(path, identifier)
+    # Earlier recovery runs saved rejected video copies beside their manifests.
+    for manifest in (archive / 'data/updates').rglob('video.json'):
+        info = read(manifest)
+        identifier = next((i for i, s in published.items() if info.get('source_url') == s['url']), None)
+        if identifier:
+            for path in manifest.parent.iterdir():
+                if path.name.startswith('video') and media_name.fullmatch(path.name):
+                    add(path, identifier)
+    return [dict(path=path, **entry) for path, entry in sorted(candidates.items())]
+
+
+def read_media_streams(path):
+    return json.loads(command(['ffprobe', '-v', 'error', '-show_entries', 'stream=codec_type', '-of', 'json', path]))['streams']
+
+
+def cleanup_published_videos(archive, repo):
+    """Caller holds daily.lock; take batch locks and verify publication before deleting."""
+    require(not git(repo, 'status', '--porcelain'), 'Cleanup requires a clean publication checkout')
+    commit = git(repo, 'rev-parse', 'HEAD')
+    require(git(repo, 'ls-remote', 'origin', 'refs/heads/main').split()[0] == commit, 'Cleanup requires the verified remote publication')
+    command([sys.executable, repo / 'scripts/validate.py'])
+    with ExitStack() as locks:
+        for path in sorted((archive / 'data/batches').glob('*/batch.lock')):
+            lock = locks.enter_context(path.open('a'))
+            fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
+        plan = video_cleanup_plan(archive, rows(repo / 'data/sources.jsonl'))
+        journal = archive / 'data/automation/video-cleanup.json'
+        history = read(journal) if journal.exists() else {'schema_version': 1, 'files': []}
+        pending = {r['path']: r for r in history['files'] if r['state'] == 'pending'}
+        for entry in plan:
+            if entry['path'] not in pending:
+                history['files'].append(dict(entry, state='pending', publication_commit=commit, planned_at=utc()))
+        write(journal, history)  # Persist intent before deleting the first file.
+        removed, released = 0, 0
+        allowed = {r['path'] for r in plan}
+        for entry in history['files']:
+            if entry['state'] != 'pending':
+                continue
+            path = archive / entry['path']
+            require(not Path(entry['path']).is_absolute() and '..' not in Path(entry['path']).parts, 'Invalid cleanup journal path')
+            if path.exists() or path.is_symlink():
+                require(entry['path'] in allowed, 'Pending cleanup file is no longer eligible')
+                info = path.stat()
+                require((info.st_size, info.st_mtime_ns, info.st_ino, info.st_dev) == (entry['bytes'], entry['mtime_ns'], entry['inode'], entry['device']), 'Video changed after cleanup was planned')
+                path.unlink()
+                removed += 1
+                released += entry['bytes']
+            entry.update(state='removed', removed_at=utc())
+            write(journal, history)
+        summary = {'removed_video_files': removed, 'released_bytes': released}
+        if removed:
+            print('Published video cleanup: ' + json.dumps(summary), flush=True)
+        return summary
+
+
 def run(archive, execute=False):
     sys.path.insert(0, str(archive / 'src'))
     from ramyaura import audit, batch as batch_module, bundle, media
@@ -310,9 +398,13 @@ def run(archive, execute=False):
         if not repo.exists():
             command(['git', '-c', 'core.sshCommand=ssh -o BatchMode=yes -o ConnectTimeout=20', 'clone', '--branch', 'main', REMOTE, repo])
         require(git(repo, 'remote', 'get-url', 'origin') == REMOTE, 'Unexpected publication remote')
+        def finish(result):
+            if execute and result['state'] == 'published':
+                result['video_cleanup'] = cleanup_published_videos(archive, repo)
+            return result
         state = read(journal) if journal.exists() else None
         if state and state['phase'] == 'push_pending':
-            return resume_push(repo, state, journal) if execute else {'state': 'push_pending', 'commit': state['commit']}
+            return finish(resume_push(repo, state, journal)) if execute else {'state': 'push_pending', 'commit': state['commit']}
         if state and state['phase'] == 'installing':
             # Only a clean, exact old tree or our exact staged snapshot is recoverable.
             head = git(repo, 'rev-parse', 'HEAD')
@@ -323,14 +415,17 @@ def run(archive, execute=False):
                 require(all(sha(repo / name) == expected for name, expected in state['files'].items()), 'Committed publication differs from staged snapshot')
                 state.update(phase='push_pending', commit=head)
                 write(journal, state)
-                return resume_push(repo, state, journal) if execute else {'state': 'push_pending', 'commit': head}
+                return finish(resume_push(repo, state, journal)) if execute else {'state': 'push_pending', 'commit': head}
             require(execute, 'Publication installation is pending; execute to resume')
-            return install_and_push(repo, state, journal)
+            return finish(install_and_push(repo, state, journal))
         require(not git(repo, 'status', '--porcelain'), 'Managed checkout has unexpected changes; refusing to overwrite them')
         git(repo, 'fetch', 'origin', 'main')
         git(repo, 'merge', '--ff-only', 'origin/main')
         require(git(repo, 'rev-parse', 'HEAD') == git(repo, 'rev-parse', 'origin/main'), 'Unexpected unpublished commits in managed checkout')
         command([sys.executable, repo / 'scripts/validate.py'])
+        # Catch up older successful publications, including an interrupted cleanup,
+        # before checking disk space for any new work. Failed uploads are excluded.
+        cleanup = cleanup_published_videos(archive, repo) if execute else None
         published = {s['video_id'] for s in rows(repo / 'data/sources.jsonl')}
         if state and state['phase'] == 'processing':
             plan_path = config.data / 'batches' / state['batch'] / 'plan.json'
@@ -342,7 +437,7 @@ def run(archive, execute=False):
             inventory = media.inventory(config)
             selection = select_new(rows(inventory['path']), published, config['channel_id'])
             if not selection:
-                return {'state': 'no_new_videos', 'published_videos': len(published), 'checked_at': utc()}
+                return {'state': 'no_new_videos', 'published_videos': len(published), 'checked_at': utc(), 'video_cleanup': cleanup}
             name = 'uploads-' + utc()[:10] + '-' + digest(sorted(r['video_id'] for r in selection))[:8]
             seconds = sum(r['duration_seconds'] for r in selection)
             plan = dict(schema_version=1, name=name, created_at=utc(), channel_id=config['channel_id'], source_tab='videos',
@@ -399,7 +494,7 @@ def run(archive, execute=False):
         state.update(phase='installing', base=base, staged=str(staged), files=files, counts=c,
                      previous_files={name: sha(repo/name) if (repo/name).exists() else None for name in files})
         write(journal, state)  # Write before touching the managed checkout.
-        return install_and_push(repo, state, journal)
+        return finish(install_and_push(repo, state, journal))
 
 
 def install_and_push(repo, state, journal):

@@ -6,11 +6,14 @@ The maintainer’s PC checks RamyAura’s regular YouTube uploads at **06:00 Eur
 
 1. Acquire a single-run lock, refresh a dedicated Git checkout and validate the published edition.
 2. Compare channel video IDs with the published source catalogue. With no new uploads, finish without a transcription request or commit.
-3. Freeze a resumable batch, archive its original audio and playable video, and transcribe with `gpt-transcribe`. Successful responses are reused. Requests with an uncertain outcome require inspection before another paid attempt.
+3. Freeze a resumable batch, save its original audio and a temporary playable video, and transcribe with `gpt-transcribe`. Successful responses are reused. Requests with an uncertain outcome require inspection before another paid attempt.
 4. Apply a conservative subset of the existing spelling rules. Context-dependent alternatives are flagged instead of silently substituted. Automatic additions are labelled `automated_ingestion_not_editorially_reviewed`; original GPT text remains available.
 5. Add a matchup only when the saved description names one opponent and a lane. Ambiguous or multiple-game uploads remain available under **matchup awaiting review** until their intervals can be reviewed. Upload dates do not establish recording patches.
 6. Build the addition in a staging directory, preserving existing transcripts, glossary entries and editorial decisions. Validate text hashes, correction offsets, source joins, links, counts and publication privacy checks.
 7. Inspect the staged file set and diff, make an **unsigned commit**, push without force, and verify the remote revision. A failed push can resume without transcribing again. Concurrent changes stop publication for inspection rather than being overwritten.
+8. After verified publication, delete the completed uploads’ local video payloads, including video download attempts and partial copies. Each executing run also catches up video cleanup for earlier successful publications, even if there are no new uploads. Unpublished uploads retain their video files for recovery. Discovery-only runs do not delete files.
+
+Original audio, transcripts, API responses, captions, extracted images, source metadata, video checksums and the spending ledger are retained. The local `data/automation/video-cleanup.json` journal records deletion intent and completion so cleanup can resume safely after an interruption. Historical audits describe the files checked at publication time; after cleanup, a fresh full media audit or local video playback requires downloading the video again. Text validation and normal daily updates do not require the deleted videos. Audio and text still consume some additional space over time; the free-space reserve continues to apply.
 
 The workflow keeps the original **$30 cumulative transcription ceiling**, including earlier runs, and a **20 GiB free-space reserve**. It does not buy credit or enable top-ups. Exhaustion stops paid work and triggers a notification; continuing requires an explicit budget decision. Local search, validation and publication do not make model calls.
 
