@@ -25,6 +25,8 @@ New transcript timestamps identify the submitted audio chunks, which may cover s
 
 This public repository is the text edition. The scheduled runner also requires the maintainer’s existing processing archive, installed Python environment, saved source/reference data and cost ledger. Credentials stay in that archive’s ignored configuration and the local Git credential setup; they are not published here. The archive is passed explicitly with `--archive`.
 
+The processing archive passes `--cookies-from-browser firefox` explicitly on every yt-dlp invocation, including channel discovery, metadata, captions and media downloads. This reads the current local Firefox cookie store even though unrelated yt-dlp configuration is ignored; no reusable cookie export is saved in the archive or published. If YouTube still requires verification, open the affected video in the usual Firefox profile and check its sign-in/playback state before retrying. Failure alerts direct the maintainer back to the existing RamyAura Codex chat: the background script does not start a separate conversation. See the [yt-dlp cookie instructions](https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp).
+
 ```sh
 # Discover and estimate only; no paid requests or publication.
 python scripts/daily_update.py --archive /path/to/processing-archive

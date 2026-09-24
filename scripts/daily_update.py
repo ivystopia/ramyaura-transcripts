@@ -89,6 +89,11 @@ def require_complete_batch(result):
             raise RuntimeError('OpenAI credits or API quota exhausted. Paid transcription stopped; check your API credit balance and project spending limit. No top-up was made. Saved progress is retained.')
         if 'Local spending cap reached' in message:
             raise RuntimeError('The approved cumulative transcription spending cap has been reached. Paid transcription stopped; no top-up or budget increase was made. Saved progress is retained.')
+    for item in result.get('items', []):
+        for stage in ('download', 'video'):
+            message = item.get('errors', {}).get(stage, {}).get('message', '').lower()
+            if 'sign in to confirm' in message and 'not a bot' in message:
+                raise RuntimeError('YouTube blocked the download and needs Firefox sign-in or verification. The downloader reads Firefox cookies; open the video in your usual Firefox profile and check that it plays. Saved progress is retained.')
     raise RuntimeError('Batch incomplete; checkpoints retained for the next attempt')
 
 
@@ -541,7 +546,7 @@ def main():
         write(archive / 'data/automation/last-run.json', failure)
         print('RamyAura daily update failed: ' + message, file=sys.stderr, flush=True)
         if args.execute:
-            failure['phone_notification_sent'] = notify_phone('RamyAura daily update needs attention: ' + message[:250])
+            failure['phone_notification_sent'] = notify_phone('RamyAura daily update needs attention: ' + message[:250] + ' For help, reply in your existing RamyAura Codex chat; this job does not create a separate conversation.')
             write(archive / 'data/automation/last-run.json', failure)
             if not failure['phone_notification_sent']:
                 print('KDE Connect could not send the phone alert; failure details remain in last-run.json.', file=sys.stderr, flush=True)
