@@ -142,6 +142,7 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 ## Gnar
 
+- 2026-09-23 · **Top** · [Riot Keep Sending Me Their TOUGHEST Battles...](transcripts/VmGVaa-kf1s.md#p-2a12948028e2c56598d1b4cd7aa6e582d1ec2c30db46e57fd81a77b18fe739c8) · video 00:00–22:15.
 - 2026-07-25 · **Top** · [LEC Toplaner could not handle my Teemo! (FULL CHALLENGER LOBBY)](transcripts/I7PRkUs0LZc.md#p-0dea016c4fba832b7580ebdff3fa3e4a8001ecabffa16b1ca5f66229b985e79d) · video 00:00–27:22.
 - 2026-05-19 · **Lane unspecified** · [TEEMO LEVEL 1 CHEESE IS JUST FREE LP!!](transcripts/4qJnHDztx-E.md#p-9f80c965332c2f55da240377610f1909113bb3ad48e4025b16bb0534be3de057) · video 00:00–25:38.
 - 2026-04-30 · **Lane unspecified** · [FIRST TEEMO GAME WITH THE NEW ITEMS + BUFFS!!](transcripts/GoNaFBI15BM.md#p-3e1b560d54162d4c79e5ae918ce183e3d3a6ef29a3275b485d72f4d7590f80a2) · video 00:00–23:00.
