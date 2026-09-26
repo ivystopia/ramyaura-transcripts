@@ -21,6 +21,7 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 ## Akali
 
+- 2026-09-25 · **Top** · [NA UNRANKED TO CHALLENGER STARTS NOW!!!](transcripts/QBSdvlBi4l8.md#p-fe416e7d1c791b34a4e871b7743c09ca29485ac1c4255959d068aa7f455a8e69) · video 00:00–29:56.
 - 2026-03-01 · **Lane unspecified** · [RANK 1 TEEMO VS 1800 LP AKALI](transcripts/x9i6jBai9D8.md#p-859aff6a911e915d757facb620d94988156c88b1d1da3842d7bd01a83d4e8355) · video 00:00–19:56.
 
 <a id="matchup-alistar"></a>

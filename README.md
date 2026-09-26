@@ -1,6 +1,6 @@
 # RamyAura transcripts
 
-Searchable, timestamped transcripts of **163 regular YouTube uploads by RamyAura**, covering **73.42 hours** of Teemo gameplay and discussion. Shared free of charge with RamyAura's permission; his agreement to sharing is conditional on it being free.
+Searchable, timestamped transcripts of **164 regular YouTube uploads by RamyAura**, covering **73.92 hours** of Teemo gameplay and discussion. Shared free of charge with RamyAura's permission; his agreement to sharing is conditional on it being free.
 
 **[Browse by matchup](MATCHUPS.md)** · **[Browse all videos](TRANSCRIPTS.md)** · **[Gameplay glossary](GLOSSARY.md)** · **[Download the complete repository](https://github.com/ivystopia/ramyaura-transcripts/archive/refs/heads/main.zip)**
 
@@ -10,14 +10,14 @@ Original creator: **RamyAura** — https://www.youtube.com/channel/UChk2Zu5h5yJ9
 
 Choose an opponent in [MATCHUPS.md](MATCHUPS.md), or a video in [TRANSCRIPTS.md](TRANSCRIPTS.md). Each transcript has its original title, publication date, recorded opponent and role where established, and links to the relevant moments on YouTube. For uploads containing multiple games, the matchup index links into the appropriate game.
 
-The collection contains 162 videos with detected speech and one guide presented as on-screen text. The latter has a separately labelled OCR transcript. Livestreams and Shorts are outside this snapshot. Collection last updated on **2026-09-24**, including regular uploads published through **2026-09-23**. New regular uploads are checked daily at 06:00 Europe/London; see [Automation](AUTOMATION.md).
+The collection contains 163 videos with detected speech and one guide presented as on-screen text. The latter has a separately labelled OCR transcript. Livestreams and Shorts are outside this snapshot. Collection last updated on **2026-09-26**, including regular uploads published through **2026-09-25**. New regular uploads are checked daily at 06:00 Europe/London; see [Automation](AUTOMATION.md).
 
 The [gameplay glossary](GLOSSARY.md) explains **15 recurring terms**, starting with [level one cheese](GLOSSARY.md#level-one-cheese), then XP denial, wave control, cheater recalls, trading, priority and shroom setup. Each entry links to examples of Ramy using the concept. Editorial explanations stay separate from transcript wording, and patch-sensitive interactions such as the Dusk and Dawn trick are explicitly qualified.
 
 ## For search and future AI use
 
-- [data/corpus.jsonl](data/corpus.jsonl): 8,204 passage records, including the explicit empty speech record for the visual guide. `text` is the corrected reading; `text_original` preserves the original machine transcript. Records also retain review flags, correction provenance, approximate timestamps and source hashes.
-- [data/sources.jsonl](data/sources.jsonl): 163 video records with public source metadata, upload dates and 165 recorded matchup intervals across 64 opponents. Join it to the corpus using `video_id`.
+- [data/corpus.jsonl](data/corpus.jsonl): 8,207 passage records, including the explicit empty speech record for the visual guide. `text` is the corrected reading; `text_original` preserves the original machine transcript. Records also retain review flags, correction provenance, approximate timestamps and source hashes.
+- [data/sources.jsonl](data/sources.jsonl): 164 video records with public source metadata, upload dates and 166 recorded matchup intervals across 64 opponents. Join it to the corpus using `video_id`.
 - [data/visual-captions.jsonl](data/visual-captions.jsonl): 190 OCR caption groups from the on-screen guide, kept separate from speech.
 - [data/visual-caption-checks.jsonl](data/visual-caption-checks.jsonl): six separately attributed assistant checks of visible wording and markers. These are not human review or verification of game mechanics.
 - [SCHEMA.md](SCHEMA.md): field definitions and an example of reading the dataset with Python.
