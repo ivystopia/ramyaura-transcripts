@@ -1,7 +1,8 @@
 # All transcripts
 
-164 regular uploads, newest publication first. Dates are upload dates; recording patches remain unknown. [Browse by matchup](MATCHUPS.md).
+165 regular uploads, newest publication first. Dates are upload dates; recording patches remain unknown. [Browse by matchup](MATCHUPS.md).
 
+- 2026-09-26 — [FULL ON-HIT TEEMO IS THE WAY (CRAZY DPS)](transcripts/Dp8YMVaNc3o.md) — Yone (Top).
 - 2026-09-25 — [NA UNRANKED TO CHALLENGER STARTS NOW!!!](transcripts/QBSdvlBi4l8.md) — Akali (Top).
 - 2026-09-23 — [Riot Keep Sending Me Their TOUGHEST Battles...](transcripts/VmGVaa-kf1s.md) — Gnar (Top).
 - 2026-09-22 — [When They Pick FULL AD into TEEMO...](transcripts/JnHGvoS972g.md) — Irelia (Top).

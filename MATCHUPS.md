@@ -463,6 +463,7 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 ## Yone
 
+- 2026-09-26 · **Top** · [FULL ON-HIT TEEMO IS THE WAY (CRAZY DPS)](transcripts/Dp8YMVaNc3o.md#p-fc8954dfc6ed274df0fcaa68713a14e09fda5c6c3b144e89dec324ae3302840d) · video 00:00–20:53.
 - 2026-08-27 · **Top** · [63% Winrate Challenger Yone Could Not Stop My Teemo!!](transcripts/ZrdrdYzhr48.md#p-b17a1a7cb41ab595287b4be6879542c4a6e585e74436db34eded7e700079282b) · video 00:00–15:14.
 - 2026-07-27 · **Lane unspecified** · [THIS IS HOW YOU MAKE COMEBACKS ON TEEMO!!](transcripts/zeKH9_VTkeE.md#p-47b5e4ffebe5e231fe2306c3080b70207d10d976594985ca01ae9151349d7ada) · video 00:00–35:36.
 - 2026-05-10 · **Lane unspecified** · [MAKING YONE RAGE WITH MY TEEMO!!](transcripts/ApevFxy9mB8.md#p-eab101e80d7a36d9589f67df91d82c71c6eced8e2f0b5e668973075671efa32e) · video 00:00–27:02.
