@@ -2,14 +2,14 @@
   "schema_version": 2,
   "publication_created_at": "2026-09-17T16:10:50.729606+00:00",
   "counts": {
-    "videos": 165,
-    "passage_records": 8208,
-    "nonempty_spoken_passages": 8207,
-    "videos_with_spoken_text": 164,
-    "audio_hours": 74.26452789,
-    "terminology_corrections": 1659,
-    "corrected_passages": 1187,
-    "known_unresolved_terminology_candidates": 35,
+    "videos": 166,
+    "passage_records": 8212,
+    "nonempty_spoken_passages": 8211,
+    "videos_with_spoken_text": 165,
+    "audio_hours": 74.91507262,
+    "terminology_corrections": 1660,
+    "corrected_passages": 1188,
+    "known_unresolved_terminology_candidates": 38,
     "visual_caption_groups": 190,
     "assistant_visual_checks": 6,
     "matchup_encounters": 167,
@@ -17,9 +17,9 @@
   },
   "upload_date_range": [
     "2025-06-17",
-    "2026-09-26"
+    "2026-09-27"
   ],
-  "source_snapshot": "Regular uploads checked 2026-09-27; automated daily additions, excluding livestreams and Shorts.",
+  "source_snapshot": "Regular uploads checked 2026-09-28; automated daily additions, excluding livestreams and Shorts.",
   "text_preservation": "Corrected and original passage text copied byte-for-byte as UTF-8 strings. Every correction sequence was replayed and checked during export.",
   "publication_transform": "Allowlisted public metadata; local paths, API request identifiers, private review correspondence, personal reviewer identity, and media excluded. Source hashes and public evidence URLs retained.",
   "files": {
@@ -40,15 +40,15 @@
       "bytes": 21170
     },
     "MATCHUPS.md": {
-      "sha256": "7a2191007a0ceac6f376ecab4e17c8f9b89f392b4a98d90ec5404951acad1174",
-      "bytes": 38119
+      "sha256": "6623a0ebea0055fcda10c49d8861fb70d241520966d8bbc83fcf6c76c2ee653a",
+      "bytes": 38255
     },
     "NOTICE.md": {
       "sha256": "569c4918cc50ed33e7d26b0677f0d4d68989d7a599e52d12b426b718e5c36291",
       "bytes": 1132
     },
     "README.md": {
-      "sha256": "e812635574010a20a1fc73bc4f70b51aaeed4a4a53a29c32ec40910c8b9fdfb8",
+      "sha256": "f5b00c1f6c2361b1e913e51a483a2712b21c1a265cb362cddfa322698934b977",
       "bytes": 6202
     },
     "SCHEMA.md": {
@@ -56,16 +56,16 @@
       "bytes": 6458
     },
     "TRANSCRIPTS.md": {
-      "sha256": "0d877dd4fb7ad87a399f1a4c919eb502c0fe2a2945dac5a399dc71d1d2ff1d03",
-      "bytes": 19022
+      "sha256": "7d74998604adcfc4d9495116c64b6037d0341943addc7747046e3c563b35b571",
+      "bytes": 19158
     },
     "data/corpus.jsonl": {
-      "sha256": "95a9c1d7e9fc7dc8a1b9f321a0bf39e82a8fd8d53a4a540156f33ea5119c7e5c",
-      "bytes": 16668348
+      "sha256": "1ad2264a83ea0fff31c6ecfcb1fc001f0379299119068665f465f53f847d4bdb",
+      "bytes": 16718004
     },
     "data/sources.jsonl": {
-      "sha256": "f74936b7868c9b68cacf6fee51963b0e1b1f4b0dde33d94b5c0d6638ff4b474d",
-      "bytes": 280728
+      "sha256": "8d5d86a81a81603c29a3454c9569974572ccce3ecdbaea81b2a52e9c68ee4aaf",
+      "bytes": 282158
     },
     "data/visual-caption-checks.jsonl": {
       "sha256": "bcfc86a95b04ea729dba5fba78475c77ff89c312b296e968c932117a1a5d92a6",
@@ -723,6 +723,10 @@
       "sha256": "41695487fbebc74965dcef69269d94a53c657f2dfd083058c5a33b4227bf211f",
       "bytes": 17817
     },
+    "transcripts/z0vw9Une2WM.md": {
+      "sha256": "d797d642570e2296256716b73e2fb18812961987c5a04774a5d0078b99f278e3",
+      "bytes": 23188
+    },
     "transcripts/zVa93kKP4Q4.md": {
       "sha256": "e18957500584a6ebf3bf8240675e5b8cd64e4009b2b78db241d4bffe624ba364",
       "bytes": 19650
@@ -744,7 +748,7 @@
       "bytes": 18397
     }
   },
-  "publication_updated_at": "2026-09-27T05:01:58.434270+00:00",
+  "publication_updated_at": "2026-09-28T05:03:47.082702+00:00",
   "input_batches": {
     "regular-uploads": {
       "export_manifest_sha256": "5164a2e9017682944c23916b8ea8dae18125189d562fcdd29143bd944cae5dfa",
@@ -769,6 +773,10 @@
     "uploads-2026-09-27-2145f371": {
       "export_manifest_sha256": "81a92f6ddd1b57a748ca6af6d4c189fc432badd888e2e8e3c959191a15b88258",
       "reading_manifest_sha256": "6af9ed2e932e5725f59576d28fcbdbbea1ec3d3bf7697491d261bfb442bc643d"
+    },
+    "uploads-2026-09-28-78c40f1d": {
+      "export_manifest_sha256": "673e0587f2a31f556e9514c6d59cbaef5231a748694ef4aff8f74ac980227261",
+      "reading_manifest_sha256": "34a0661e42407ed08f0bf39d841f72208bac7edef616ee4adf701013f77626c7"
     }
   },
   "baseline_input_sha256": {

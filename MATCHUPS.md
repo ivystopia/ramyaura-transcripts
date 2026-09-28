@@ -496,6 +496,7 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 ## General guides and matchups awaiting review
 
+- 2026-09-27 — [DAY 2 ON THE NA SUPERSERVER. (Teemo Unranked to Challenger)](transcripts/z0vw9Une2WM.md) — matchup awaiting review.
 - 2026-09-20 — [This Item Combo is BROKEN on Teemo!!](transcripts/o2-PqVfzv88.md) — matchup awaiting review.
 - 2026-02-06 — [The ULTIMATE Teemo Level 1 Cheese Guide (FREE LP)](transcripts/gyWGLQYigsE.md).
 - 2025-08-22 — [EVERY Ability That Reveals Teemo Passive](transcripts/5dJ8ObaWENo.md).
