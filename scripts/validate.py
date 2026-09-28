@@ -10,6 +10,8 @@ import re
 import subprocess
 from urllib.parse import unquote, urlsplit
 
+from concept_search import CHANNEL_ID, validate as validate_concepts
+
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -68,6 +70,7 @@ def main(update_manifest=False):
         video_id = source["video_id"]
         require(re.fullmatch(r"[\w-]{11}", video_id), "Invalid video ID")
         require(source["url"] == f"https://www.youtube.com/watch?v={video_id}", "Unexpected source URL")
+        require(source["channel_id"] == CHANNEL_ID, "Publication sources must belong to RamyAura")
         require(counts[video_id] == source["passage_count"], f"Missing passages for {video_id}")
         require(source["recording_patch"] is None and source["current_patch_applicability"] == "unvalidated", "Unreviewed patch promotion")
         require((ROOT / source["transcript_path"]).is_file(), "Missing readable transcript")
@@ -101,6 +104,11 @@ def main(update_manifest=False):
     for row in captions + checks:
         require(row["video_id"] in by_id, "Orphan visual record")
         private_fields(row, "visual")
+    concepts = json.loads((ROOT / "data/concepts.json").read_text())
+    concept_annotations = records("concept-annotations.jsonl")
+    validate_concepts(concepts, concept_annotations, by_key, by_id, (ROOT / "GLOSSARY.md").read_text())
+    private_fields(concepts, "concepts")
+    private_fields(concept_annotations, "concept_annotations")
     files = sorted(path for path in ROOT.rglob("*") if path.is_file() and ".git" not in path.relative_to(ROOT).parts and "__pycache__" not in path.parts)
     actual = {}
     patterns = [r"\bsk-[A-Za-z0-9_-]{20,}", r"\bgh[pousr]_[A-Za-z0-9]{25,}", r"\bgithub_pat_[A-Za-z0-9_]{25,}", r"-----BEGIN [A-Z ]*PRIVATE KEY-----", r"/(?:home|Users)/[A-Za-z0-9_.-]+/", r"\breq_[A-Za-z0-9]{12,}", r"\bproj_[A-Za-z0-9]{12,}", r"\b(?:pi4\.)?home\.arpa\b", r"\b(?:192\.168|10\.\d+)\.\d+\.\d+\b"]

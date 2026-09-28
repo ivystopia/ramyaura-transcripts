@@ -58,6 +58,27 @@ for row in map(json.loads, Path("data/corpus.jsonl").open()):
         print("Uncertainty:", row["terminology_uncertainties"])
 ```
 
+<a id="concept-annotations"></a>
+
+## Editorial concept index
+
+The optional search layer is described in [CONCEPTS.md](CONCEPTS.md). Its files use their own format version 1 and do not change the schema or text of `data/corpus.jsonl`.
+
+`data/concepts.json` contains `schema_version`, `editorial_author`, `editorial_basis`, `review_scope` and `concepts`. Each concept has a stable `id`, label, aliases, a `glossary_anchor`, a definition and related concept IDs. Aliases are lookup conveniences and do not establish that a particular phrase occurs in the speech. Map tempo and the Lethal Tempo rune have separate IDs; recall action and recall window also remain separate.
+
+Each line of `data/concept-annotations.jsonl` contains:
+
+- `id`, `concept_id`, `chunk_key`: annotation identity, concept and the existing source passage. No new video or transcript is embedded.
+- `text_sha256`, `span`: the hash of the existing corrected `text` and its `[start, end]` Unicode code-point offsets, with an exclusive end. These offsets refer to corrected passage text, unlike terminology-correction offsets into `text_original`.
+- `classification`: `supports`, `exclude` or `unresolved`. A passage discussing a mistaken action can still support a concept; `exclude` means the text has a different sense, such as a rune name instead of map tempo. Default concept search returns only `supports`.
+- `interpretation`, `conditions`: newly written editorial explanation and the circumstances that constrain it. These are separate from Ramy’s speech.
+- `context_keys`, `context_text_sha256`: additional passages from the same video needed to retain the reasoning or qualification, with hashes of their corrected text. Search returns their text as context rather than silently collapsing the argument to one sentence. Changes to a continuation invalidate its dependent interpretation too.
+- `decision`: optional `situation`, `goal`, `considered_action`, `chosen_action`, `reason` and `qualification`. A choice may be explicitly unresolved; this is not a ground-truth action label reconstructed from the game video.
+- `confidence`, `review_status`, `human_reviewed`: scoped confidence in the interpretation. Current entries use `assistant_context_review_not_audio_verification` and `human_reviewed: false`; they do not upgrade the underlying machine transcript’s review status.
+- `recording_patch`, `current_patch_applicability`: currently `null` and `unvalidated`, matching the source uncertainty.
+
+Join annotations to passages by `chunk_key`, then to sources by `video_id`. Obtain dates, timing limits, source URLs and encounter/role information from those existing records. Multiple annotations can point at a passage or at different spans within it. Do not discard an entire passage merely because one occurrence has an unrelated meaning. New corpus records do not acquire annotations automatically, so a missing annotation is not evidence of a missing concept.
+
 ## Manifest and maintenance
 
 `manifest.json` records the initial source snapshot hashes, counts, publication transform and hashes of every published file except itself. Run `python3 scripts/validate.py` to check a copy. After intentional, reviewed edits, maintainers can run `python3 scripts/validate.py --update-manifest`; all content checks must pass before new hashes are written. Hash consistency shows that files have not changed relative to that manifest; it does not establish factual accuracy or authorisation independently.

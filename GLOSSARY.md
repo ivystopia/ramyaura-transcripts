@@ -1,10 +1,12 @@
 # Gameplay glossary
 
-These 15 entries explain recurring terms in Ramy’s Teemo commentary, starting with his level-one opening and the lane decisions it leads into. They are editorial summaries, separate from the spoken transcripts. Each entry links to examples in the archive.
+These 19 entries explain recurring terms in Ramy’s Teemo commentary, starting with his level-one opening and the lane decisions it leads into. They are editorial summaries, separate from the spoken transcripts. Each entry links to examples in the archive.
 
 Recording patches are unknown. Upload dates establish when a video was published, not when the match was played. These definitions explain what Ramy means in context; matchup choices, exact timings, item interactions and damage assumptions require checking the relevant patch. Video timestamps are approximate and are not the in-game clock.
 
 [Browse matchups](MATCHUPS.md) · [All transcripts](TRANSCRIPTS.md) · [Dataset notes](README.md)
+
+Related concepts and selected evidence can also be searched with the [local concept search](CONCEPTS.md). That index separates gameplay meanings from matching rune names, item names and interface actions. It is a curated subset, not a complete annotation of every transcript.
 
 ## Find a term
 
@@ -15,11 +17,15 @@ Recording patches are unknown. Upload dates establish when a video was published
 - [Crash / shove / fast push](#crash)
 - [Bounce / return wave](#bounce)
 - [Cheater recall](#cheater-recall)
+- [Lane control](#lane-control)
 - [Freeze / holding the wave](#freeze)
 - [Spacing](#spacing)
 - [Trade / poke / all-in](#trade-and-all-in)
+- [Sustain / the value of a trade](#sustain)
+- [Shadowing / covering a teammate](#shadowing)
 - [Priority / prio](#priority)
 - [Reset / recall timer / tempo](#reset-and-tempo)
+- [Team timing / syncing pressure / overstay](#team-timing)
 - [Weakside / strongside](#weakside)
 - [Shroom setup / fighting on your terms](#shroom-setup)
 - [Dusk and Dawn trick](#dusk-and-dawn-trick)
@@ -103,6 +109,16 @@ The corrected reading standardises **“cheat a recall,” “cheat to recall”
 
 The unchanged machine wording remains in `text_original`. Every edit in `data/corpus.jsonl` has its original character offsets, replacement and terminology reference under `terminology_corrections`, with `entity_kind: concept`, `entity_id: cheater-recall` and `rule_id: concept-cheater-recall`. These are context-based terminology corrections, not claims of full audio verification.
 
+<a id="lane-control"></a>
+
+## Lane control
+
+Lane control means being able to influence what happens to the wave. It can mean holding the opponent away from a [freeze](#freeze), building a [slow push](#slow-push), or choosing when to [shove and crash](#crash). It does not mean pushing at every opportunity, and it is not identical to [priority](#priority): controlling a wave near your turret does not automatically put you first to a river play.
+
+Ramy calls his push a mistake because the freeze had left Darius with no useful lane option; pushing gives that option back. [Why keeping the freeze mattered, 08:00](transcripts/YAZEYclWYqc.md#p-e45dd12f5158cd3ab23f5469fc6a6d377e3f505348f5712de38a80a0a2d7bab8) · Uploaded 2026-08-22 · https://www.youtube.com/watch?v=YAZEYclWYqc&t=480s. Elsewhere he explicitly distinguishes slow pushing from freezing because the minion balance will not hold a freeze. [A slow push is not a freeze, 10:30](transcripts/Z86RdWK4P3s.md#p-84736d1919ba9862d8aae0999e097b5ef0f63a5f7b9bdc861da4fda8c91229e4) · Uploaded 2026-09-12 · https://www.youtube.com/watch?v=Z86RdWK4P3s&t=631s.
+
+Treat [slow push](#slow-push), [crash](#crash), [bounce](#bounce) and [cheater recall](#cheater-recall) as related decisions and results, not a compulsory sequence. A bounce describes the wave changing direction; it does not by itself establish that both players intend a passive lane.
+
 <a id="freeze"></a>
 
 ## Freeze / holding the wave
@@ -119,13 +135,37 @@ Spacing is managing the distance between champions so you can threaten your own 
 
 Against Gangplank, he discusses avoiding Q poke through spacing and bush use, while judging one exchange worthwhile for a Press the Attack proc. [Spacing a poke ability, 01:00](transcripts/Pbs7kCX6-Xw.md#p-a7ae434f913d2d72392952f43f7b523902e5e461f6c20506c3b1da5bf3257f16) · Uploaded 2026-05-20 · https://www.youtube.com/watch?v=Pbs7kCX6-Xw&t=60s. That recorded trade is an example of the judgement, not a current-patch damage calculation.
 
+The important distance is relative to the opponent’s threatening ability and the tools available now, not only auto-attack range. Ramy’s Quinn example ends the exchange after auto–Q when blind is unavailable. [Distance and disengaging after blind, 04:00](transcripts/F26kgKnSaHI.md#p-3297ec7037e404ecea0ca5664eb1e62853f72615d0ee9d18b08d4f6098e052ff) · Uploaded 2026-03-11 · https://www.youtube.com/watch?v=F26kgKnSaHI&t=240s. See [short trades](#trade-and-all-in). **Tethering** is an editorial lookup alias for this distance-management idea; the linked passages do not establish that Ramy uses that word. Exact ranges, bush positions and movement sequences need the video and the applicable patch.
+
 <a id="trade-and-all-in"></a>
 
 ## Trade / poke / all-in
 
-**Poke** is damage intended to wear the opponent down. A **trade** is an exchange after which you expect to disengage. An **all-in** is committing to an extended fight for a kill, potentially spending summoner spells. Ramy distinguishes having enough tools for a short exchange from having enough to finish the opponent.
+**Poke** is damage intended to wear the opponent down. A **trade** is an exchange after which you expect to disengage. An **all-in** is committing to try to finish the opponent, potentially spending summoner spells. Ramy distinguishes having enough tools for a short exchange from having enough to finish the opponent.
 
 In the Jax game, he says having Ignite would have changed his decision to all-in. [A missing summoner changes the decision, 27:01](transcripts/zVoOvrr0bh8.md#p-85a0abc29c9acbc442589bbc465f2d4f8cec2b252a639bb09697233441a455bc) · Uploaded 2026-09-17 · https://www.youtube.com/watch?v=zVoOvrr0bh8&t=1622s. In another matchup, he warns against continuing after Q because the opponent can Cleanse and commit onto him. [Ending the trade, 01:00](transcripts/SULBrVIR3XQ.md#p-89410abd9d93225dc9f8754f9438e2b685e0e886ab654e107b115f4d700ef936) · Uploaded 2026-06-09 · https://www.youtube.com/watch?v=SULBrVIR3XQ&t=60s.
+
+A **short trade** has a planned exit; an **extended trade** continues fighting for longer. Separately, an exchange can cost both players considerable health or be **one-sided**, with little or no damage received in return. Duration, return damage and the decision to commit for a kill are different questions. “One-sided” does not mean killing someone from full health.
+
+Ramy describes auto–Q then backing off when blind is unavailable, using repeated short trades before committing once the opponent is low enough. [Short trades before the all-in, 04:00](transcripts/F26kgKnSaHI.md#p-3297ec7037e404ecea0ca5664eb1e62853f72615d0ee9d18b08d4f6098e052ff) · Uploaded 2026-03-11 · https://www.youtube.com/watch?v=F26kgKnSaHI&t=240s. In another game, he describes an auto–Q delivered for free. [Damage without a return hit, 01:00](transcripts/j9HVq5mQE_Y.md#p-be9112d1dda03591b4d5106e78fd0a507c2e03314a6174990e67a8a29f25e058) · Uploaded 2026-08-07 · https://www.youtube.com/watch?v=j9HVq5mQE_Y&t=60s. Whether either exchange is valuable also depends on [sustain and the next reset](#sustain).
+
+<a id="sustain"></a>
+
+## Sustain / the value of a trade
+
+Sustain is the ability to recover resources and remain effective. Judge a trade by what both players can do afterwards, not only who lost more HP immediately. Potions, healing and access to a [recall](#recall-action) or Teleport can reverse the apparent advantage.
+
+Against Darius, Ramy first judges an exchange acceptable because Darius lost more health, then changes his assessment because only Darius has potions. [Reconsidering the trade, 09:30](transcripts/ACfHOTFX0ZA.md#p-edf9163d63065055a6b1032000f3a6f12523bdcaec998ae853bedffa822de2c0) · Uploaded 2026-09-16 · https://www.youtube.com/watch?v=ACfHOTFX0ZA&t=570s. In another lane, he questions short trades while he has no potion and the opponent does, then considers pushing. [Trading versus obtaining a reset, 07:30](transcripts/MghML1o54zw.md#p-d12053ed413a7b27f72b00596655b872652480b4fbd43f08e86ab17c182f5714) · Uploaded 2026-02-15 · https://www.youtube.com/watch?v=MghML1o54zw&t=450s.
+
+He also avoids exchanging health when the opponent is about to base and return with TP, unless the exchange can become a kill. [Trading into the opponent’s reset, 02:00](transcripts/cgg5XDj4H5k.md#p-844a4b14dedf6826426527d9aab50a980631dc3bed7c40c3e4ba724a1991f4f2) · Uploaded 2026-09-10 · https://www.youtube.com/watch?v=cgg5XDj4H5k&t=120s. This is a reason to consider recovery, not a rule to never trade against Teleport. Historical item choices and healing values are not current-patch recommendations.
+
+<a id="shadowing"></a>
+
+## Shadowing / covering a teammate
+
+Shadowing means positioning close enough to support a teammate’s likely next action without necessarily committing immediately. Ramy explicitly says he can shadow Tristana, and elsewhere that Taliyah wants to shadow him. [Shadowing Tristana, 15:30](transcripts/x9i6jBai9D8.md#p-1d9c34bf6fc07aa1f83a9249507e4e0670d1e2244f13a644a279eac40a77bf8d) · Uploaded 2026-03-01 · https://www.youtube.com/watch?v=x9i6jBai9D8&t=930s; [Taliyah shadowing him, 18:58](transcripts/bJvJnIzkc-8.md#p-2d26e8f552321793b11561888278bb7221b1ad911ec81fa109ddc1e2fd1722f7) · Uploaded 2026-03-31 · https://www.youtube.com/watch?v=bJvJnIzkc-8&t=1139s. Keep the next passage in the second example: he mentions Yi’s missing Flash, considers whether a TP could help, and decides that entering the fight would also get him killed. [The reason and the next decision, 19:28](transcripts/bJvJnIzkc-8.md#p-cff81b7ab23979d24f22006dd707ebf65985049a4409f1394152002758966364) · Uploaded 2026-03-31 · https://www.youtube.com/watch?v=bJvJnIzkc-8&t=1169s.
+
+Those brief statements establish the term, not an exact route, safe distance or claim that the supporting player stayed unseen. **Hover** can describe related positioning, but hovering a side of the lane, a champion in selection or a tooltip is not automatically shadowing an ally. Likewise, an item passive called Shadow is a different meaning. See [priority](#priority), [team timing](#team-timing) and [weakside](#weakside).
 
 <a id="priority"></a>
 
@@ -135,13 +175,37 @@ Lane priority is the practical ability to act or move before the opposing laner,
 
 He criticises an attempt at Grubs when neither top nor mid can help: one laner is in base and he needs to recall. [An objective attempt without lane support, 08:30](transcripts/j9HVq5mQE_Y.md#p-d65575956b66ca391979b406c94a1741cb48a130033ab2a388a6671494829ce5) · Uploaded 2026-08-07 · https://www.youtube.com/watch?v=j9HVq5mQE_Y&t=510s. Before Baron, he connects mid priority with getting control of the area to place shrooms. [Priority before setup, 28:59](transcripts/9j8ZvwND_uQ.md#p-cdf940aa1e86120d9871e93c1d0be5501b1e7b77a90c24ba484fd55450172459) · Uploaded 2026-08-09 · https://www.youtube.com/watch?v=9j8ZvwND_uQ&t=1740s.
 
+Before assuming there is priority, check who can actually leave: their wave, health, resources, recall needs and whether moving is safe. A pushed wave alone is insufficient when the relevant player is unavailable. Compare [lane control](#lane-control), which can include holding a freeze, with [tempo](#tempo), which concerns readiness for the next action.
+
 <a id="reset-and-tempo"></a>
 
 ## Reset / recall timer / tempo
 
-In this lane-and-map context, a **reset** means recalling to restore resources and spend gold. A **recall timer** is a window to do that at an acceptable cost in missed minions or map pressure. **Tempo** is being ready to make the next useful move sooner: an extra camp or wave can be less valuable than returning in time for a fight. Not every reset is a [cheater recall](#cheater-recall).
+<a id="recall-action"></a>
 
-Ramy declines extra Krugs because drake is approaching, choosing to recall and return to the map on time. [Protecting the next objective timing, 15:30](transcripts/g2SSwQrSJgM.md#p-d24421343fb208e8ae067f35f4c9ffe012d63762e0aa8bbfb424cecb694ddf1e) · Uploaded 2026-08-20 · https://www.youtube.com/watch?v=g2SSwQrSJgM&t=930s. Elsewhere he times his recall to leave base alongside Tristana. [Matching a teammate’s timing, 21:30](transcripts/TXoUtYWYOf8.md#p-f85ab67a302ee5afc32c10887efeea5dea5e382fe45341698c105ef1c3b43b12) · Uploaded 2026-08-24 · https://www.youtube.com/watch?v=TXoUtYWYOf8&t=1290s. In other contexts, “reset” can refer to a kill-triggered ability refresh or an objective returning to its starting state; read the surrounding sentence.
+In this lane-and-map context, a **reset** is the action of recalling to recover resources and spend gold.
+
+<a id="recall-window"></a>
+
+A **recall timer** or **recall window** is an opportunity to do that at an acceptable cost in missed minions or map pressure. A [cheater recall](#cheater-recall) is a particular early-lane use of such a window, not a synonym for every good reset.
+
+<a id="tempo"></a>
+
+**Tempo** concerns readiness to make the next useful move relative to an opponent or alongside teammates. A reset can improve your readiness afterwards, while still costing time now. An extra camp or wave may be worth less than returning in time for a fight. Being earlier than an opponent and being ready with your allies are related but different checks.
+
+Ramy declines extra Krugs because drake is approaching, choosing to recall and return to the map on time. [Protecting the next objective timing, 15:30](transcripts/g2SSwQrSJgM.md#p-d24421343fb208e8ae067f35f4c9ffe012d63762e0aa8bbfb424cecb694ddf1e) · Uploaded 2026-08-20 · https://www.youtube.com/watch?v=g2SSwQrSJgM&t=930s. Elsewhere he considers recalling to leave base alongside Tristana, before weighing an item purchase instead. [Matching a teammate’s timing, 21:30](transcripts/TXoUtYWYOf8.md#p-f85ab67a302ee5afc32c10887efeea5dea5e382fe45341698c105ef1c3b43b12) · Uploaded 2026-08-24 · https://www.youtube.com/watch?v=TXoUtYWYOf8&t=1290s. In other contexts, “reset” can refer to a kill-triggered ability refresh or an objective returning to its starting state; read the surrounding sentence.
+
+The Tristana example is a trade-off, not a command to synchronise every recall: Ramy next considers accepting a timing offset to finish an item. Read both passages together. [Considering the item instead, 22:00](transcripts/TXoUtYWYOf8.md#p-2499e4f71819a448675fa63e2ac063e246a0c7e55cebe6a0601e493a0a2cb9fd) · Uploaded 2026-08-24 · https://www.youtube.com/watch?v=TXoUtYWYOf8&t=1320s. **Lethal Tempo** is a rune name and must not be tagged as map tempo simply because the word matches. “Reset” can also concern a wave, an ability or another game object; the glossary meaning here is specifically a recall.
+
+<a id="team-timing"></a>
+
+## Team timing / syncing pressure / overstay
+
+Before taking one more wave or camp, consider what allies and opponents can do while you are occupied. **Syncing pressure** is editorial shorthand here for being able to act in compatible windows with teammates. It is a concept label for these examples, not a claim that Ramy says that exact phrase. Staying longer can cost the next setup or leave allies fighting without you; it can also be a deliberate trade-off for an item.
+
+Ramy sees that his team wants to fight and that taking red buff would separate him from that play. He also considers which team has a large wave to answer. [The cost of another camp, 24:54](transcripts/_aAZMW255RU.md#p-4a3f1326131d8f13201437beae52c6c0ce9e0e572f1b4bcf1d3d527dbce6f9ac) · Uploaded 2026-09-14 · https://www.youtube.com/watch?v=_aAZMW255RU&t=1495s. His decision to skip Krugs before drake makes the same timing cost explicit. [Returning for the next objective, 15:30](transcripts/g2SSwQrSJgM.md#p-d24421343fb208e8ae067f35f4c9ffe012d63762e0aa8bbfb424cecb694ddf1e) · Uploaded 2026-08-20 · https://www.youtube.com/watch?v=g2SSwQrSJgM&t=930s.
+
+An **overstay** spends additional time on the map at the cost of a better next action or reset. The consequence matters more than a fixed recall rule. Keep the item qualification in [Accepting a timing offset, 22:00](transcripts/TXoUtYWYOf8.md#p-2499e4f71819a448675fa63e2ac063e246a0c7e55cebe6a0601e493a0a2cb9fd) · Uploaded 2026-08-24 · https://www.youtube.com/watch?v=TXoUtYWYOf8&t=1320s, and connect the decision to [tempo](#tempo), [priority](#priority) and [shroom setup](#shroom-setup). This does not require identical recall times for all five players.
 
 <a id="weakside"></a>
 
@@ -150,6 +214,8 @@ Ramy declines extra Krugs because drake is approaching, choosing to recall and r
 Weakside is the part of the map receiving less allied support while the team puts resources or attention elsewhere. It does not necessarily mean the lane matchup is losing in isolation. Ramy uses the term when enemy jungle pressure limits his opportunities while his own team is playing towards the other side.
 
 He describes being unable to take a lane opportunity because the enemy jungler is playing top, and contrasts his weakside position with his bot lane’s strongside position. [Uneven jungle support, 03:00](transcripts/FFjfusfvyqs.md#p-d2ee79653d455c1f5604dc0a87bb4d54fec4b2ea3ae7310276f7e756c07b674b) · Uploaded 2026-03-29 · https://www.youtube.com/watch?v=FFjfusfvyqs&t=180s. The implication is to judge what can be taken safely with the support available, not to assume a duel stays a duel.
+
+The label is situational. Ramy later explains that avoiding the top gank lets Nunu help bot, while Evelynn and Twisted Fate still limit how far he can walk up. [Support elsewhere and threats nearby, 07:00](transcripts/FFjfusfvyqs.md#p-e0ebebb27a8509b51139ad3c7b42cd97690a410278fcece39003c52af36d9177) · Uploaded 2026-03-29 · https://www.youtube.com/watch?v=FFjfusfvyqs&t=420s. **Weak side**, **weak-side** and **weakside** are lookup variants; preserve the transcript’s actual spelling. The same applies to strongside. Do not classify a lane as weakside merely because it loses a duel.
 
 <a id="shroom-setup"></a>
 

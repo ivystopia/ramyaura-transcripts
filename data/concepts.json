@@ -1,0 +1,335 @@
+{
+  "schema_version": 1,
+  "editorial_basis": "Definitions and interpretation of existing published RamyAura passages; separate from transcript wording.",
+  "review_scope": "Curated examples only; incomplete across the corpus. New daily uploads are not automatically annotated.",
+  "concepts": [
+    {
+      "id": "tempo",
+      "label": "Map tempo",
+      "aliases": [
+        "tempo",
+        "on tempo",
+        "off tempo"
+      ],
+      "glossary_anchor": "tempo",
+      "definition": "Relative readiness for the next useful action, including readiness alongside allies.",
+      "related": [
+        "recall",
+        "recall-window",
+        "priority",
+        "team-timing"
+      ]
+    },
+    {
+      "id": "recall",
+      "label": "Recall / reset action",
+      "aliases": [
+        "recall",
+        "reset",
+        "base"
+      ],
+      "glossary_anchor": "recall-action",
+      "definition": "The lane/map action of returning to base to recover resources and spend gold. Other kinds of resets are separate senses.",
+      "related": [
+        "tempo",
+        "recall-window",
+        "sustain"
+      ]
+    },
+    {
+      "id": "recall-window",
+      "label": "Recall window",
+      "aliases": [
+        "recall window",
+        "recall timer"
+      ],
+      "glossary_anchor": "recall-window",
+      "definition": "An opportunity to recall at an acceptable cost in farm or pressure.",
+      "related": [
+        "recall",
+        "cheater-recall",
+        "crash"
+      ]
+    },
+    {
+      "id": "priority",
+      "label": "Lane priority",
+      "aliases": [
+        "priority",
+        "prio"
+      ],
+      "glossary_anchor": "priority",
+      "definition": "The practical ability to act or move before the opposing laner in the current situation.",
+      "related": [
+        "tempo",
+        "lane-control",
+        "team-timing"
+      ]
+    },
+    {
+      "id": "lane-control",
+      "label": "Lane control",
+      "aliases": [
+        "lane control",
+        "wave control"
+      ],
+      "glossary_anchor": "lane-control",
+      "definition": "Influence over the wave state; holding a freeze and choosing to push are different uses of that control.",
+      "related": [
+        "priority",
+        "slow-push",
+        "crash",
+        "bounce"
+      ]
+    },
+    {
+      "id": "short-trade",
+      "label": "Short trade",
+      "aliases": [
+        "short trade",
+        "short trades"
+      ],
+      "glossary_anchor": "trade-and-all-in",
+      "definition": "An exchange with a planned early disengagement; duration alone does not establish the damage cost.",
+      "related": [
+        "one-sided-trade",
+        "all-in",
+        "sustain",
+        "spacing"
+      ]
+    },
+    {
+      "id": "one-sided-trade",
+      "label": "One-sided trade",
+      "aliases": [
+        "one-sided trade",
+        "one-way trade",
+        "free trade"
+      ],
+      "glossary_anchor": "trade-and-all-in",
+      "definition": "Damage delivered with little or no return damage; not necessarily a full-health kill.",
+      "related": [
+        "short-trade",
+        "all-in",
+        "sustain"
+      ]
+    },
+    {
+      "id": "all-in",
+      "label": "All-in",
+      "aliases": [
+        "all in",
+        "all-in"
+      ],
+      "glossary_anchor": "trade-and-all-in",
+      "definition": "Committing to finish the opponent, with available cooldowns and summoners affecting the decision.",
+      "related": [
+        "short-trade",
+        "spacing",
+        "sustain"
+      ]
+    },
+    {
+      "id": "sustain",
+      "label": "Sustain and trade value",
+      "aliases": [
+        "sustain",
+        "resource trade",
+        "attrition"
+      ],
+      "glossary_anchor": "sustain",
+      "definition": "Recovery and the next reset affect whether a damage exchange leaves a useful advantage. These are editorial lookup labels.",
+      "related": [
+        "recall",
+        "short-trade",
+        "all-in"
+      ]
+    },
+    {
+      "id": "shadowing",
+      "label": "Shadowing an ally",
+      "aliases": [
+        "shadowing",
+        "shadow",
+        "hover",
+        "hovering",
+        "covering"
+      ],
+      "glossary_anchor": "shadowing",
+      "definition": "Positioning to support an ally’s likely action. Interface hover, lane-side positioning and item-passive names are different senses.",
+      "related": [
+        "priority",
+        "team-timing",
+        "weakside"
+      ]
+    },
+    {
+      "id": "team-timing",
+      "label": "Team timing",
+      "aliases": [
+        "team timing",
+        "syncing pressure",
+        "synchronising pressure",
+        "synchronizing pressure"
+      ],
+      "glossary_anchor": "team-timing",
+      "definition": "Editorial label for acting during compatible windows with teammates; not a claim that Ramy uses each alias.",
+      "related": [
+        "tempo",
+        "shadowing",
+        "overstay"
+      ]
+    },
+    {
+      "id": "overstay",
+      "label": "Overstay",
+      "aliases": [
+        "overstay",
+        "overstaying"
+      ],
+      "glossary_anchor": "team-timing",
+      "definition": "Spending extra time on the map at the cost of a better next action or reset. The examples include decisions to avoid that cost.",
+      "related": [
+        "tempo",
+        "recall",
+        "team-timing"
+      ]
+    },
+    {
+      "id": "spacing",
+      "label": "Spacing",
+      "aliases": [
+        "spacing",
+        "tethering"
+      ],
+      "glossary_anchor": "spacing",
+      "definition": "Managing distance relative to available threats and tools. Tethering is an editorial lookup alias.",
+      "related": [
+        "short-trade",
+        "all-in"
+      ]
+    },
+    {
+      "id": "weakside",
+      "label": "Weakside",
+      "aliases": [
+        "weakside",
+        "weak side",
+        "weak-side"
+      ],
+      "glossary_anchor": "weakside",
+      "definition": "The side with less allied support in the situation; not simply a losing duel.",
+      "related": [
+        "strongside",
+        "shadowing",
+        "priority"
+      ]
+    },
+    {
+      "id": "strongside",
+      "label": "Strongside",
+      "aliases": [
+        "strongside",
+        "strong side",
+        "strong-side"
+      ],
+      "glossary_anchor": "weakside",
+      "definition": "The side receiving greater allied support in the situation.",
+      "related": [
+        "weakside",
+        "team-timing"
+      ]
+    },
+    {
+      "id": "slow-push",
+      "label": "Slow push",
+      "aliases": [
+        "slow push",
+        "slow pushing",
+        "stacking a wave"
+      ],
+      "glossary_anchor": "slow-push",
+      "definition": "Allowing the wave to build while it advances rather than clearing it immediately.",
+      "related": [
+        "lane-control",
+        "crash",
+        "cheater-recall"
+      ]
+    },
+    {
+      "id": "crash",
+      "label": "Crash",
+      "aliases": [
+        "crash"
+      ],
+      "glossary_anchor": "crash",
+      "definition": "A completed crash puts surviving minions under the enemy turret. Shoving is the pushing action and does not guarantee the crash.",
+      "related": [
+        "slow-push",
+        "bounce",
+        "recall-window",
+        "fast-push"
+      ]
+    },
+    {
+      "id": "bounce",
+      "label": "Bounce",
+      "aliases": [
+        "bounce",
+        "return wave"
+      ],
+      "glossary_anchor": "bounce",
+      "definition": "The wave begins pushing back after a crash.",
+      "related": [
+        "crash",
+        "lane-control",
+        "cheater-recall"
+      ]
+    },
+    {
+      "id": "cheater-recall",
+      "label": "Cheater recall",
+      "aliases": [
+        "cheater recall"
+      ],
+      "glossary_anchor": "cheater-recall",
+      "definition": "An early recall made affordable by the wave state; specific purchase and wave timing depend on the game.",
+      "related": [
+        "recall",
+        "recall-window",
+        "crash",
+        "bounce"
+      ]
+    },
+    {
+      "id": "lethal-tempo",
+      "label": "Lethal Tempo rune",
+      "aliases": [
+        "lethal tempo"
+      ],
+      "glossary_anchor": "tempo",
+      "definition": "A rune name in the recordings; its shared word does not make it map-tempo evidence.",
+      "related": [
+        "tempo"
+      ]
+    },
+    {
+      "id": "fast-push",
+      "label": "Fast push / shove",
+      "aliases": [
+        "fast push",
+        "fast pushing",
+        "shove",
+        "shoving"
+      ],
+      "glossary_anchor": "crash",
+      "definition": "Clearing the enemy wave quickly. This pushing action does not guarantee that surviving minions complete a crash.",
+      "related": [
+        "crash",
+        "slow-push",
+        "lane-control"
+      ]
+    }
+  ],
+  "editorial_author": "assistant"
+}

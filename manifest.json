@@ -35,9 +35,13 @@
       "sha256": "e831679e981200e839fe58d83b5761a3a7609ade8d29b6f937770e57e390ba5f",
       "bytes": 6524
     },
+    "CONCEPTS.md": {
+      "sha256": "62831471638d01597df08ad268042b837e6ab4c118da396166c76c9e11d3aa73",
+      "bytes": 6651
+    },
     "GLOSSARY.md": {
-      "sha256": "55c4d3ff29de343065a4c3b2b019a3ce9d22419bb269d52102db295ceaf0e189",
-      "bytes": 21170
+      "sha256": "f0405a4a10d536cae73fbc785babb68f1092101f13ef4903931ebda0f83e8205",
+      "bytes": 31592
     },
     "MATCHUPS.md": {
       "sha256": "6623a0ebea0055fcda10c49d8861fb70d241520966d8bbc83fcf6c76c2ee653a",
@@ -48,16 +52,24 @@
       "bytes": 1132
     },
     "README.md": {
-      "sha256": "f5b00c1f6c2361b1e913e51a483a2712b21c1a265cb362cddfa322698934b977",
-      "bytes": 6202
+      "sha256": "050e2b8806a21fc7a03c0cb70b18deb7a2955c98fdc90ca8745f3ddcbb3e07f1",
+      "bytes": 6503
     },
     "SCHEMA.md": {
-      "sha256": "dcb4baa3de91f21a51fef29fe8af006f68c8aeeb5d2b7b6471f23d48bd0e0d50",
-      "bytes": 6458
+      "sha256": "ebeaf4d6d20a8ffd38239d1bfae90a8df45d3137ec1379c10b67fe4691695858",
+      "bytes": 9403
     },
     "TRANSCRIPTS.md": {
       "sha256": "7d74998604adcfc4d9495116c64b6037d0341943addc7747046e3c563b35b571",
       "bytes": 19158
+    },
+    "data/concept-annotations.jsonl": {
+      "sha256": "2075924fae0e264a6216ef7735cb66eb6eb55c55e866ee9cba692b0be589db80",
+      "bytes": 57052
+    },
+    "data/concepts.json": {
+      "sha256": "61b71d99c809d887c3d7016bbeba89767fbecb939f1dacce5aa474f97b26b3dc",
+      "bytes": 8701
     },
     "data/corpus.jsonl": {
       "sha256": "1ad2264a83ea0fff31c6ecfcb1fc001f0379299119068665f465f53f847d4bdb",
@@ -75,13 +87,21 @@
       "sha256": "3e957f7978c16c59df100cace4e1089b83d72c00074573afab3708a3884fefe1",
       "bytes": 132055
     },
+    "scripts/concept_search.py": {
+      "sha256": "0a7287cfd3b0a35fda69cd66376e69569b08aa07b2750b262c20d9b77aedd31d",
+      "bytes": 10008
+    },
     "scripts/daily_update.py": {
       "sha256": "a72c2d5e30d598aef7c6a1a65b42e2530f202357c6a550e53b69f1897091b72c",
       "bytes": 35332
     },
     "scripts/validate.py": {
-      "sha256": "c6b8e836520e9ea0e005d3a8c41f1382abb340b6162921b0372eacbcdc110d05",
-      "bytes": 9019
+      "sha256": "5ae8059f6ef4d764bde9c514c71470b3aecb66c5be5b47569ab7e6e1ba889568",
+      "bytes": 9528
+    },
+    "tests/test_concepts.py": {
+      "sha256": "f200aee97264975ef8f1a88e670fab2eeeb4d54ea34016fbaaf3ef81c5b987fd",
+      "bytes": 6299
     },
     "transcripts/-QWz9z2FnyA.md": {
       "sha256": "7723a811f659be288ae03442e58f9427106ae16f0ba4e4a6a356c89387211ef9",
