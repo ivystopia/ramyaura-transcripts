@@ -496,6 +496,7 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 ## General guides and matchups awaiting review
 
+- 2026-09-29 — [I FINALLY FACED THE CHAMP I'VE BEEN BANNING ALL YEAR](transcripts/-QCM7ZLOu1Q.md) — matchup awaiting review.
 - 2026-09-28 — [YUNG FLAPPY IS TAKING OVER THE SERVER!!](transcripts/gsNNd8zQKYc.md) — matchup awaiting review.
 - 2026-09-27 — [DAY 2 ON THE NA SUPERSERVER. (Teemo Unranked to Challenger)](transcripts/z0vw9Une2WM.md) — matchup awaiting review.
 - 2026-09-20 — [This Item Combo is BROKEN on Teemo!!](transcripts/o2-PqVfzv88.md) — matchup awaiting review.

@@ -1,7 +1,8 @@
 # All transcripts
 
-167 regular uploads, newest publication first. Dates are upload dates; recording patches remain unknown. [Browse by matchup](MATCHUPS.md).
+168 regular uploads, newest publication first. Dates are upload dates; recording patches remain unknown. [Browse by matchup](MATCHUPS.md).
 
+- 2026-09-29 — [I FINALLY FACED THE CHAMP I'VE BEEN BANNING ALL YEAR](transcripts/-QCM7ZLOu1Q.md) — Matchup awaiting review.
 - 2026-09-28 — [YUNG FLAPPY IS TAKING OVER THE SERVER!!](transcripts/gsNNd8zQKYc.md) — Matchup awaiting review.
 - 2026-09-27 — [DAY 2 ON THE NA SUPERSERVER. (Teemo Unranked to Challenger)](transcripts/z0vw9Une2WM.md) — Matchup awaiting review.
 - 2026-09-26 — [FULL ON-HIT TEEMO IS THE WAY (CRAZY DPS)](transcripts/Dp8YMVaNc3o.md) — Yone (Top).

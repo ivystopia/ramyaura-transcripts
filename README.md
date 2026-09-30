@@ -1,6 +1,6 @@
 # RamyAura transcripts
 
-Searchable, timestamped transcripts of **167 regular YouTube uploads by RamyAura**, covering **75.63 hours** of Teemo gameplay and discussion. Shared free of charge with RamyAura's permission; his agreement to sharing is conditional on it being free.
+Searchable, timestamped transcripts of **168 regular YouTube uploads by RamyAura**, covering **76.26 hours** of Teemo gameplay and discussion. Shared free of charge with RamyAura's permission; his agreement to sharing is conditional on it being free.
 
 **[Browse by matchup](MATCHUPS.md)** · **[Browse all videos](TRANSCRIPTS.md)** · **[Gameplay glossary](GLOSSARY.md)** · **[Download the complete repository](https://github.com/ivystopia/ramyaura-transcripts/archive/refs/heads/main.zip)**
 
@@ -10,14 +10,14 @@ Original creator: **RamyAura** — https://www.youtube.com/channel/UChk2Zu5h5yJ9
 
 Choose an opponent in [MATCHUPS.md](MATCHUPS.md), or a video in [TRANSCRIPTS.md](TRANSCRIPTS.md). Each transcript has its original title, publication date, recorded opponent and role where established, and links to the relevant moments on YouTube. For uploads containing multiple games, the matchup index links into the appropriate game.
 
-The collection contains 166 videos with detected speech and one guide presented as on-screen text. The latter has a separately labelled OCR transcript. Livestreams and Shorts are outside this snapshot. Collection last updated on **2026-09-29**, including regular uploads published through **2026-09-28**. New regular uploads are checked daily at 06:00 Europe/London; see [Automation](AUTOMATION.md).
+The collection contains 167 videos with detected speech and one guide presented as on-screen text. The latter has a separately labelled OCR transcript. Livestreams and Shorts are outside this snapshot. Collection last updated on **2026-09-30**, including regular uploads published through **2026-09-29**. New regular uploads are checked daily at 06:00 Europe/London; see [Automation](AUTOMATION.md).
 
 The [gameplay glossary](GLOSSARY.md) explains **19 recurring terms**, starting with [level one cheese](GLOSSARY.md#level-one-cheese), then XP denial, wave control, cheater recalls, trading and sustain, shadowing, priority, team timing and shroom setup. Each entry links to examples of Ramy using the concept. Editorial explanations stay separate from transcript wording, and patch-sensitive interactions such as the Dusk and Dawn trick are explicitly qualified.
 
 ## For search and future AI use
 
-- [data/corpus.jsonl](data/corpus.jsonl): 8,217 passage records, including the explicit empty speech record for the visual guide. `text` is the corrected reading; `text_original` preserves the original machine transcript. Records also retain review flags, correction provenance, approximate timestamps and source hashes.
-- [data/sources.jsonl](data/sources.jsonl): 167 video records with public source metadata, upload dates and 167 recorded matchup intervals across 64 opponents. Join it to the corpus using `video_id`.
+- [data/corpus.jsonl](data/corpus.jsonl): 8,221 passage records, including the explicit empty speech record for the visual guide. `text` is the corrected reading; `text_original` preserves the original machine transcript. Records also retain review flags, correction provenance, approximate timestamps and source hashes.
+- [data/sources.jsonl](data/sources.jsonl): 168 video records with public source metadata, upload dates and 167 recorded matchup intervals across 64 opponents. Join it to the corpus using `video_id`.
 - [data/visual-captions.jsonl](data/visual-captions.jsonl): 190 OCR caption groups from the on-screen guide, kept separate from speech.
 - [data/visual-caption-checks.jsonl](data/visual-caption-checks.jsonl): six separately attributed assistant checks of visible wording and markers. These are not human review or verification of game mechanics.
 - [CONCEPTS.md](CONCEPTS.md): curated concept search, aliases, sense distinctions and contextual decision examples. The separate editorial annotations reference existing Ramy passages; they do not change transcript wording or automatically cover new daily uploads.
@@ -28,7 +28,7 @@ The large JSONL file is intended for downloading or cloning; GitHub's preview ma
 
 ## Accuracy and patch context
 
-The spoken material is transcribed with OpenAI `gpt-transcribe`. Daily additions apply conservative spelling rules and carry an explicit automated-review flag; ambiguous names and matchups require further review. The reading layer includes **1,662 traceable terminology corrections across 1,189 passages**, including champion names, player names, items and the cheater recall concept. Original GPT wording and the exact correction spans are retained so readers can inspect those decisions. 43 detected terminology questions remain unresolved and are flagged; that count is not a claim that no other errors remain.
+The spoken material is transcribed with OpenAI `gpt-transcribe`. Daily additions apply conservative spelling rules and carry an explicit automated-review flag; ambiguous names and matchups require further review. The reading layer includes **1,667 traceable terminology corrections across 1,190 passages**, including champion names, player names, items and the cheater recall concept. Original GPT wording and the exact correction spans are retained so readers can inspect those decisions. 51 detected terminology questions remain unresolved and are flagged; that count is not a claim that no other errors remain.
 
 **These are machine transcripts, not a fully proofread or creator-approved script.** Speakers have not been reliably separated, so another speaker's dialogue should not automatically be attributed to RamyAura. A small, explicitly scoped human wording check is preserved separately from the surrounding machine text and from editorial gameplay interpretation.
 
