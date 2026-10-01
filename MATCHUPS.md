@@ -87,6 +87,7 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 ## Darius
 
+- 2026-09-30 · **Top** · [NA HIGH ELO, YUNG FLAPPY IS COMING](transcripts/-uJxm7N9IFk.md#p-02d605044eb815020abb9580dc6dc524216f4e31a7e014a0eb0e2fb670696b70) · video 00:00–45:55.
 - 2026-09-16 · **Top** · [Rank 1 Darius RaiderGO Could Not Handle My Teemo!!](transcripts/ACfHOTFX0ZA.md#p-852dbea3d9ad65f5e2975c6f0a2ff3786834e7aac51936e9be81d632119dca08) · video 00:00–36:33.
 - 2026-08-22 · **Lane unspecified** · [Rank 1 Darius RaiderGO Gets the Teemo Top Experience... (INSANE FLASH PREDICT)](transcripts/YAZEYclWYqc.md#p-ada7500d528223d9551f8089ed70d1e90d4516a81e54f79ee94cc7a64928c6d0) · video 00:00–28:09.
 - 2026-08-18 · **Top** · [THE MOST PERFECT TEEMO VS DARIUS GAME EVER](transcripts/iZ-48pMef8g.md#p-d6903119b8f1158bd541c2a9f771e400bcc429b0ff7d8cf34eda5e74944d1a0e) · video 00:00–36:54.
