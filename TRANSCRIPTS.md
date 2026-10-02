@@ -1,7 +1,8 @@
 # All transcripts
 
-169 regular uploads, newest publication first. Dates are upload dates; recording patches remain unknown. [Browse by matchup](MATCHUPS.md).
+170 regular uploads, newest publication first. Dates are upload dates; recording patches remain unknown. [Browse by matchup](MATCHUPS.md).
 
+- 2026-10-01 — [I found the NA MONSTERSSS... (is he Vegan?)](transcripts/NTUjuKadtkU.md) — Matchup awaiting review.
 - 2026-09-30 — [NA HIGH ELO, YUNG FLAPPY IS COMING](transcripts/-uJxm7N9IFk.md) — Darius (Top).
 - 2026-09-29 — [I FINALLY FACED THE CHAMP I'VE BEEN BANNING ALL YEAR](transcripts/-QCM7ZLOu1Q.md) — Matchup awaiting review.
 - 2026-09-28 — [YUNG FLAPPY IS TAKING OVER THE SERVER!!](transcripts/gsNNd8zQKYc.md) — Matchup awaiting review.
