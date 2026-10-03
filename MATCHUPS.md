@@ -111,6 +111,7 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 ## Fiora
 
+- 2026-10-02 · **Top** · [I LOVE PLAYING WITH THIS CHAMPION ON MY TEAM!!](transcripts/0eA2DYi7muo.md#p-740c35e58fa2619b898dd6e33cd3a64a6d8e668781431ef5bc96e130057c10d9) · video 00:00–27:18.
 - 2026-04-06 · **Top** · [MONSTER SSS WAS WATCHING SO I HAD TO COMPLETELY 1V9 THE GAME!!!](transcripts/cp61N5kqJfk.md#p-919341c89c212ee76490ef210696d79bbb890fb9bd57d9f911fd1c99cb31100e) · video 00:00–33:55.
 
 <a id="matchup-fizz"></a>
