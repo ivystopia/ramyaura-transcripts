@@ -2,24 +2,24 @@
   "schema_version": 2,
   "publication_created_at": "2026-09-17T16:10:50.729606+00:00",
   "counts": {
-    "videos": 172,
-    "passage_records": 8233,
-    "nonempty_spoken_passages": 8232,
-    "videos_with_spoken_text": 171,
-    "audio_hours": 78.68118539,
-    "terminology_corrections": 1671,
-    "corrected_passages": 1193,
+    "videos": 173,
+    "passage_records": 8237,
+    "nonempty_spoken_passages": 8236,
+    "videos_with_spoken_text": 172,
+    "audio_hours": 79.18958012,
+    "terminology_corrections": 1672,
+    "corrected_passages": 1194,
     "known_unresolved_terminology_candidates": 58,
     "visual_caption_groups": 190,
     "assistant_visual_checks": 6,
-    "matchup_encounters": 170,
+    "matchup_encounters": 171,
     "opponents": 65
   },
   "upload_date_range": [
     "2025-06-17",
-    "2026-10-03"
+    "2026-10-04"
   ],
-  "source_snapshot": "Regular uploads checked 2026-10-04; automated daily additions, excluding livestreams and Shorts.",
+  "source_snapshot": "Regular uploads checked 2026-10-05; automated daily additions, excluding livestreams and Shorts.",
   "text_preservation": "Corrected and original passage text copied byte-for-byte as UTF-8 strings. Every correction sequence was replayed and checked during export.",
   "publication_transform": "Allowlisted public metadata; local paths, API request identifiers, private review correspondence, personal reviewer identity, and media excluded. Source hashes and public evidence URLs retained.",
   "files": {
@@ -44,15 +44,15 @@
       "bytes": 31592
     },
     "MATCHUPS.md": {
-      "sha256": "2999b8dfbcc35c951d4e0cbf8e4ce5dab642310e95d455fd0c087a0833fc36b6",
-      "bytes": 39253
+      "sha256": "aa5387817a24018f9208394d5c2f3745139624334341dc55b30a6000d990f48a",
+      "bytes": 39445
     },
     "NOTICE.md": {
       "sha256": "569c4918cc50ed33e7d26b0677f0d4d68989d7a599e52d12b426b718e5c36291",
       "bytes": 1132
     },
     "README.md": {
-      "sha256": "ab80a3a96cb569b98dba8a329e2c5f71263c1f4bf5ea8dc69536ad0d4244680c",
+      "sha256": "d719b11a5db2de926efb8e0aa08b67ceee7581a2f3882917da78f4f9a98f5846",
       "bytes": 6503
     },
     "SCHEMA.md": {
@@ -60,8 +60,8 @@
       "bytes": 9403
     },
     "TRANSCRIPTS.md": {
-      "sha256": "5d3bbf1fe67c863ce4149ee8c590e5e0692f90316ba9704c54d3e03e10e2e758",
-      "bytes": 19839
+      "sha256": "d0fa221bdf096876d506d72ebb53132cb7cb3f42c57325c241ddfafb3a56e3ca",
+      "bytes": 19949
     },
     "data/concept-annotations.jsonl": {
       "sha256": "2075924fae0e264a6216ef7735cb66eb6eb55c55e866ee9cba692b0be589db80",
@@ -72,12 +72,12 @@
       "bytes": 8701
     },
     "data/corpus.jsonl": {
-      "sha256": "8809ced235eddd788726ad5a4b88e083f8182ff6f9781c97a3a1bcab3b46d2c8",
-      "bytes": 16983702
+      "sha256": "6ec38e292cb69f14dbcb57db733e01148d823db5af82e4d75382cc11988fb807",
+      "bytes": 17016295
     },
     "data/sources.jsonl": {
-      "sha256": "c99153ef55e0a5b171be873d169228138a57bef760682a70ae2ea86f472ad3a2",
-      "bytes": 292190
+      "sha256": "99ecd34bbc3297b06bceedcae1fd2cb3cf7d78579541f504a625ec7876b4c2c0",
+      "bytes": 294060
     },
     "data/visual-caption-checks.jsonl": {
       "sha256": "bcfc86a95b04ea729dba5fba78475c77ff89c312b296e968c932117a1a5d92a6",
@@ -230,6 +230,10 @@
     "transcripts/9j8ZvwND_uQ.md": {
       "sha256": "48941909708693429b62ecfd75730b2b38d801875ca911f54ad5a45cfebc9553",
       "bytes": 26724
+    },
+    "transcripts/9z58FYmaYkE.md": {
+      "sha256": "abe49ace9ad16b13d46b895f4ce2e68c15e2c1be431cdd9f1038bb580238a053",
+      "bytes": 14748
     },
     "transcripts/ACfHOTFX0ZA.md": {
       "sha256": "467a3ab56741a14f8e09f71fe59e3c34360c35200bcf0ffcc037426034df505b",
@@ -792,7 +796,7 @@
       "bytes": 18397
     }
   },
-  "publication_updated_at": "2026-10-04T05:01:34.057718+00:00",
+  "publication_updated_at": "2026-10-05T05:01:46.834692+00:00",
   "input_batches": {
     "regular-uploads": {
       "export_manifest_sha256": "5164a2e9017682944c23916b8ea8dae18125189d562fcdd29143bd944cae5dfa",
@@ -845,6 +849,10 @@
     "uploads-2026-10-04-b4134327": {
       "export_manifest_sha256": "efc7c2b774716bd95e3219c6adedf4b2ba29fb935a613235a86ced992fe9a858",
       "reading_manifest_sha256": "89d2d39a054c503d35c0370e0ab19df3471b02cfe820af3bd52ed12291a76a10"
+    },
+    "uploads-2026-10-05-dba8b414": {
+      "export_manifest_sha256": "52091ba602eaba6d21af488e47cfdfc0a3c600110f24d12c2c559edd2404e01a",
+      "reading_manifest_sha256": "79957fd9781e8c75e08ff8b37b3ac4d48a8b10af062a862f0fa3913d94f6ccb4"
     }
   },
   "baseline_input_sha256": {

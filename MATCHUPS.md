@@ -457,6 +457,7 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 ## Warwick
 
+- 2026-10-04 · **Top** · [100CS LEAD AT 12 MINUTES??? (FLAME HORIZON)](transcripts/9z58FYmaYkE.md#p-2c262f548822ac690866ff8ff7cdc07b742f663d5e5e4c3fbe810930baf42cea) · video 00:00–30:30.
 - 2026-07-21 · **Top** · [TEEMO VS ONE OF THE BEST WARWICKS ON THE SERVER](transcripts/RutzYrhPnTs.md#p-8d8b4f7b2889fd207820b8fa38a97c67de71f6eed304dc2d4f9650407b1bb654) · video 00:00–18:39.
 - 2026-05-12 · **Lane unspecified** · [100 CS LEAD AT 14 MINS???](transcripts/6NOjldBpcMw.md#p-921183d5a1ca1c24f41ffe920582b83eb8818610e1d71ede5a9d7cb383a321f7) · video 00:00–20:41.
 
