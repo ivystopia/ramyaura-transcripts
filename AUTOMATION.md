@@ -1,6 +1,6 @@
 # Daily updates
 
-The maintainer’s PC checks RamyAura’s regular YouTube uploads at **06:00 Europe/London**. The schedule follows UK daylight-saving changes. If the PC is off or suspended, a missed run is caught up when the user service becomes available; the job does not wake or power on the PC. Livestreams and Shorts are excluded.
+The maintainer’s PC checks RamyAura’s regular YouTube uploads using a **Codex scheduled task at 06:00 Europe/London**. The task continues the existing **RamyAI chat** and reports its result there; it does not create a new chat each day. The PC’s time zone is Europe/London, so the schedule follows UK daylight-saving changes. Codex may add a small scheduling delay. The PC must be awake and the Codex desktop app must be running; the task does not wake or power on the PC. Livestreams and Shorts are excluded. See the official scheduling documentation: https://learn.chatgpt.com/codex/automations
 
 ## What happens
 
@@ -15,7 +15,7 @@ The maintainer’s PC checks RamyAura’s regular YouTube uploads at **06:00 Eur
 
 Original audio, transcripts, API responses, captions, extracted images, source metadata, video checksums and the spending ledger are retained. The local `data/automation/video-cleanup.json` journal records deletion intent and completion so cleanup can resume safely after an interruption. Historical audits describe the files checked at publication time; after cleanup, a fresh full media audit or local video playback requires downloading the video again. Text validation and normal daily updates do not require the deleted videos. Audio and text still consume some additional space over time; the free-space reserve continues to apply.
 
-The workflow keeps the original **$30 cumulative transcription ceiling**, including earlier runs, and a **20 GiB free-space reserve**. It does not buy credit or enable top-ups. Exhaustion stops paid work and triggers a notification; continuing requires an explicit budget decision. Local search, validation and publication do not make model calls.
+The workflow keeps the original **$30 cumulative transcription ceiling**, including earlier runs, and a **20 GiB free-space reserve**. It does not buy credit or enable top-ups. Exhaustion stops paid work and triggers a notification; continuing requires an explicit budget decision. Codex runs through the maintainer’s existing ChatGPT sign-in; its orchestration is not configured to use the transcription API key. The Python runner’s local search, validation and publication do not make model calls.
 
 If OpenAI rejects transcription because credits or API quota are exhausted, the failure alert explicitly tells the maintainer to check the API balance and project spending limit. Reaching the local cumulative spending cap produces a separate, explicit alert. Both use KDE Connect, retain saved progress and leave paid transcription stopped. A temporary rate limit is not described as exhausted credit. The last-run record includes whether KDE Connect accepted the alert; if the phone is unreachable, the failed notification is also logged.
 
@@ -34,15 +34,14 @@ python scripts/daily_update.py --archive /path/to/processing-archive
 # Execute a resumable update within the existing cumulative budget.
 python scripts/daily_update.py --archive /path/to/processing-archive --execute
 
-# Inspect the installed schedule and recent output.
-systemctl --user status ramyaura-daily.timer ramyaura-daily.service
-journalctl --user -u ramyaura-daily.service -n 80 --no-pager
-
-# Run manually or pause the schedule.
-systemctl --user start ramyaura-daily.service
-systemctl --user disable --now ramyaura-daily.timer
+# Inspect the most recent outcome in the processing archive.
+cat /path/to/processing-archive/data/automation/last-run.json
 ```
 
-The timer uses `OnCalendar=*-*-* 06:00:00 Europe/London`, `Persistent=true` and no randomized delay. The processing archive’s `data/automation/last-run.json` records the last outcome, `active.json` records unfinished work, and `repository/` is the dedicated publication checkout. A separate lock prevents overlapping invocations. Successful additions and errors are reported through KDE Connect; no-change runs are quiet. Inspect the journal and saved state if the phone is unreachable.
+In Codex, open **Scheduled** to inspect or pause **RamyAura daily update**, and open the existing **RamyAI chat** to see each run’s report. Every scheduled run reports its check time and outcome there, including checks that find no new uploads. Successful additions and errors also use KDE Connect; checks with no new uploads do not send a phone notification. Insufficient-credit alerts direct the maintainer to this same chat. If a problem requires human verification or a budget decision, the task stops the dependent work and alerts the phone.
+
+The local scheduled-task configuration is `automations/ramyaura-daily-update/automation.toml` under the maintainer’s Codex home directory. It uses `kind = "heartbeat"`, targets the existing RamyAI thread and repeats with `FREQ=DAILY;BYHOUR=6;BYMINUTE=0;BYSECOND=0`. The old `ramyaura-daily.timer` is disabled to avoid duplicate automatic runs. Its service and saved journal remain available for historical inspection, but the Codex task invokes the Python runner directly.
+
+The processing archive’s `data/automation/last-run.json` records the last runner outcome, `active.json` records unfinished work, and `repository/` is the dedicated publication checkout. A separate lock prevents overlapping invocations. Inspect these records and the same-chat report if the phone is unreachable. A manual invocation of the executing command above uses the same checkpoints, spending checks and cleanup logic as a scheduled run.
 
 A separate personal checkout is not modified by the scheduled job. Pull from GitHub there when you want the newly published files. Do not remove the cost ledger or source checkpoints to resolve an error; that would lose the information needed for safe cache reuse and spending enforcement.
