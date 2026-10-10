@@ -364,6 +364,7 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 ## Singed
 
+- 2026-10-09 · **Top** · [Singed is UNPLAYABLE into Teemo!!](transcripts/DQpQYfrrbHk.md#p-0752144a635c85c1c5742f1b589546488ec9a447df131b732ddbaabbbd261de6) · video 00:00–24:28.
 - 2026-07-23 · **Top** · [Rank 1 Singed GASSY crashed out after this game...](transcripts/4zG2tGpBdl8.md#p-1fe642235f07c2608fab47174920f3c965deebc6e88dbd36dcd96a5e3678edc1) · video 00:00–27:56.
 - 2026-06-14 · **Lane unspecified** · [I HATE PLAYING VS THIS CHAMPION!!](transcripts/uxw9yDJMzvw.md#p-eff9a0a7e4bc4fba8798b04bbf10dcfe833f30de93091ebf23142456a0e7362f) · video 00:00–25:41.
 
