@@ -1,7 +1,8 @@
 # All transcripts
 
-174 regular uploads, newest publication first. Dates are upload dates; recording patches remain unknown. [Browse by matchup](MATCHUPS.md).
+175 regular uploads, newest publication first. Dates are upload dates; recording patches remain unknown. [Browse by matchup](MATCHUPS.md).
 
+- 2026-10-10 — [SHOWING G2 JANKOS WHAT MY TEEMO CAN DO!!](transcripts/33BHm2xumrI.md) — Jayce (Top).
 - 2026-10-09 — [Singed is UNPLAYABLE into Teemo!!](transcripts/DQpQYfrrbHk.md) — Singed (Top).
 - 2026-10-04 — [100CS LEAD AT 12 MINUTES??? (FLAME HORIZON)](transcripts/9z58FYmaYkE.md) — Warwick (Top).
 - 2026-10-03 — [YUNG FLAPPY CANNOT BE STOPPED!! (30 K+A)](transcripts/nNDmmJGPNyg.md) — Corki (Top).

@@ -195,6 +195,7 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 ## Jayce
 
+- 2026-10-10 · **Top** · [SHOWING G2 JANKOS WHAT MY TEEMO CAN DO!!](transcripts/33BHm2xumrI.md#p-decbf2b9af27c53edc213b686f95359f932308e254036529701b5c7646a4d5fd) · video 00:00–25:47.
 - 2026-03-05 · **Top** · [TEEMO JUNGLE IS SO OP (+ game vs @Agurinlol )](transcripts/RP0IuAQqdrE.md#p-a54391c0902ff3c285b50e219aeb68c51dd635b9febb7070228a9281fca8c821) · video 17:28–34:41.
 
 <a id="matchup-karma"></a>
