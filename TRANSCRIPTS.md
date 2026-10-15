@@ -1,7 +1,8 @@
 # All transcripts
 
-176 regular uploads, newest publication first. Dates are upload dates; recording patches remain unknown. [Browse by matchup](MATCHUPS.md).
+177 regular uploads, newest publication first. Dates are upload dates; recording patches remain unknown. [Browse by matchup](MATCHUPS.md).
 
+- 2026-10-14 — [Teemo + Zilean is the FUNNIEST Combo in League](transcripts/CG-DUTCpttw.md) — Fiora (Top).
 - 2026-10-12 — [SHROOM TEEMO IS THE WAY](transcripts/LsLZ2iEi-IE.md) — Jayce (Top).
 - 2026-10-10 — [SHOWING G2 JANKOS WHAT MY TEEMO CAN DO!!](transcripts/33BHm2xumrI.md) — Jayce (Top).
 - 2026-10-09 — [Singed is UNPLAYABLE into Teemo!!](transcripts/DQpQYfrrbHk.md) — Singed (Top).
