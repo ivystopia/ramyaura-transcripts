@@ -2,24 +2,24 @@
   "schema_version": 2,
   "publication_created_at": "2026-09-17T16:10:50.729606+00:00",
   "counts": {
-    "videos": 178,
-    "passage_records": 8247,
-    "nonempty_spoken_passages": 8246,
-    "videos_with_spoken_text": 177,
-    "audio_hours": 81.48265373,
-    "terminology_corrections": 1683,
-    "corrected_passages": 1196,
-    "known_unresolved_terminology_candidates": 97,
+    "videos": 179,
+    "passage_records": 8251,
+    "nonempty_spoken_passages": 8250,
+    "videos_with_spoken_text": 178,
+    "audio_hours": 82.13556512,
+    "terminology_corrections": 1684,
+    "corrected_passages": 1197,
+    "known_unresolved_terminology_candidates": 99,
     "visual_caption_groups": 190,
     "assistant_visual_checks": 6,
-    "matchup_encounters": 176,
-    "opponents": 65
+    "matchup_encounters": 177,
+    "opponents": 66
   },
   "upload_date_range": [
     "2025-06-17",
-    "2026-10-16"
+    "2026-10-17"
   ],
-  "source_snapshot": "Regular uploads checked 2026-10-17; automated daily additions, excluding livestreams and Shorts.",
+  "source_snapshot": "Regular uploads checked 2026-10-18; automated daily additions, excluding livestreams and Shorts.",
   "text_preservation": "Corrected and original passage text copied byte-for-byte as UTF-8 strings. Every correction sequence was replayed and checked during export.",
   "publication_transform": "Allowlisted public metadata; local paths, API request identifiers, private review correspondence, personal reviewer identity, and media excluded. Source hashes and public evidence URLs retained.",
   "files": {
@@ -44,15 +44,15 @@
       "bytes": 31592
     },
     "MATCHUPS.md": {
-      "sha256": "d880049bf736e41fd4e0d60f5d2074a8ef2918c41e879134353457fc46b09b6a",
-      "bytes": 40375
+      "sha256": "1b82b514a635ca57960c6ca966f7ec5e57861f3fd768eec63fab61552b0ff5ea",
+      "bytes": 40647
     },
     "NOTICE.md": {
       "sha256": "569c4918cc50ed33e7d26b0677f0d4d68989d7a599e52d12b426b718e5c36291",
       "bytes": 1132
     },
     "README.md": {
-      "sha256": "1c41904d0452a8649afa4690f47d703fbb5951a15b3f11257da54f09f3d1f4c3",
+      "sha256": "f1a1775afd9090d94a60023b21004a77d97edebbb6f8f8a2bf1306ea560d5f0b",
       "bytes": 6503
     },
     "SCHEMA.md": {
@@ -60,8 +60,8 @@
       "bytes": 9403
     },
     "TRANSCRIPTS.md": {
-      "sha256": "ec9def17906143a3f97c4cc492f2eb20e5ac1ba1677a42f9eec845ae650dbf49",
-      "bytes": 20459
+      "sha256": "87bf319130adf8da4b87ee2d2ff43e350e7ceee38d11e29f7d023cc6aa44ec91",
+      "bytes": 20581
     },
     "data/concept-annotations.jsonl": {
       "sha256": "2075924fae0e264a6216ef7735cb66eb6eb55c55e866ee9cba692b0be589db80",
@@ -72,12 +72,12 @@
       "bytes": 8701
     },
     "data/corpus.jsonl": {
-      "sha256": "9d17b718c9f7f8b5f9a7d526852397e9d7f31db9ca326ad67390c636aecabc01",
-      "bytes": 17144825
+      "sha256": "3d96faedd467e8fc615e677119169623ab18ccf943d5a58aa3d7b4a0c57d63e5",
+      "bytes": 17201111
     },
     "data/sources.jsonl": {
-      "sha256": "e5a0f8069d50321a62b020457d5329aed91208bb7c0d3ae548d8f213d7ffe879",
-      "bytes": 303052
+      "sha256": "7d5b5e9688c6297a8322c5933d835dd7e988651bd48fb7848128867777f160d4",
+      "bytes": 304869
     },
     "data/visual-caption-checks.jsonl": {
       "sha256": "bcfc86a95b04ea729dba5fba78475c77ff89c312b296e968c932117a1a5d92a6",
@@ -715,6 +715,10 @@
       "sha256": "aa316da9a32459765e08e38f936ddbd8352afe9147eb5ec0151cd93d87c72570",
       "bytes": 19773
     },
+    "transcripts/oK9mxRHI60M.md": {
+      "sha256": "fdb4b9b65a174205ca0cca783c05e7f24afbd7b2e6e8203a04bd5b13d23c1824",
+      "bytes": 26785
+    },
     "transcripts/p7XuHeW_Hf8.md": {
       "sha256": "5bb1a9862dab28470fafd5109e8108009cdf932907d6373ac609148490bab077",
       "bytes": 19134
@@ -816,7 +820,7 @@
       "bytes": 18397
     }
   },
-  "publication_updated_at": "2026-10-17T05:01:32.516237+00:00",
+  "publication_updated_at": "2026-10-18T05:05:23.918792+00:00",
   "input_batches": {
     "regular-uploads": {
       "export_manifest_sha256": "5164a2e9017682944c23916b8ea8dae18125189d562fcdd29143bd944cae5dfa",
@@ -893,6 +897,10 @@
     "uploads-2026-10-17-a9553aff": {
       "export_manifest_sha256": "6b0dae1a064e81285e987ea216fe14fc48cc4953ccea2d5c665a8694e5261b49",
       "reading_manifest_sha256": "efa83e38af2049eb259d95b84c4fdf015e30e44764fb856ac8ebe2d81a924ede"
+    },
+    "uploads-2026-10-18-c10407ed": {
+      "export_manifest_sha256": "23a521529e88c630108e881f5d1ca02fef66a1216296e6b9a1f824292412e4d6",
+      "reading_manifest_sha256": "2f6fba5ed9b9912e62eeff0b01b52b1c8ad1b8e23a3656e8df2872332e094ad0"
     }
   },
   "baseline_input_sha256": {
