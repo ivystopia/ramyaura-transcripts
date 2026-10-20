@@ -1,7 +1,8 @@
 # All transcripts
 
-179 regular uploads, newest publication first. Dates are upload dates; recording patches remain unknown. [Browse by matchup](MATCHUPS.md).
+180 regular uploads, newest publication first. Dates are upload dates; recording patches remain unknown. [Browse by matchup](MATCHUPS.md).
 
+- 2026-10-19 — [We are BACK above 2000LP!!](transcripts/IazLNw8xfdw.md) — Pantheon (Top).
 - 2026-10-17 — [How to Win When Your Team is Perma Throwing (EDUCATIONAL)](transcripts/oK9mxRHI60M.md) — Locke (Top).
 - 2026-10-16 — [Is Deathfire Touch the New BEST Teemo Rune?](transcripts/NuyuD4qmIwc.md) — Sett (Top).
 - 2026-10-14 — [Teemo + Zilean is the FUNNIEST Combo in League](transcripts/CG-DUTCpttw.md) — Fiora (Top).

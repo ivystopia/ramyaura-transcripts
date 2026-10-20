@@ -297,6 +297,7 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 ## Pantheon
 
+- 2026-10-19 · **Top** · [We are BACK above 2000LP!!](transcripts/IazLNw8xfdw.md#p-02526d9236fefc92c291898ff1ad6271b69087dfdd04e4575530183a43ac6683) · video 00:00–19:09.
 - 2026-07-04 · **Lane unspecified** · [IGNORE TOXIC BOTLANE = WIN GAME](transcripts/AejAFJg8DgE.md#p-8776bc59a166a03015242c43bae499eabf0d498e8fb57016cdd458095221f19c) · video 00:00–31:08.
 - 2026-04-22 · **Top** · [SPEARSHOT GETS THE TEEMO TOP EXPERIENCE...](transcripts/CyF6Y9Rtw0I.md#p-00943fb0ddc6c04916374b4ff67977f49df50cc9f440bdd97dcfc623406285ac) · video 00:00–24:03.
 
