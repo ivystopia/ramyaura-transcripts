@@ -2,24 +2,24 @@
   "schema_version": 2,
   "publication_created_at": "2026-09-17T16:10:50.729606+00:00",
   "counts": {
-    "videos": 180,
-    "passage_records": 8252,
-    "nonempty_spoken_passages": 8251,
-    "videos_with_spoken_text": 179,
-    "audio_hours": 82.4549765,
+    "videos": 181,
+    "passage_records": 8256,
+    "nonempty_spoken_passages": 8255,
+    "videos_with_spoken_text": 180,
+    "audio_hours": 82.980549,
     "terminology_corrections": 1684,
     "corrected_passages": 1197,
-    "known_unresolved_terminology_candidates": 101,
+    "known_unresolved_terminology_candidates": 108,
     "visual_caption_groups": 190,
     "assistant_visual_checks": 6,
-    "matchup_encounters": 178,
+    "matchup_encounters": 179,
     "opponents": 66
   },
   "upload_date_range": [
     "2025-06-17",
-    "2026-10-19"
+    "2026-10-26"
   ],
-  "source_snapshot": "Regular uploads checked 2026-10-20; automated daily additions, excluding livestreams and Shorts.",
+  "source_snapshot": "Regular uploads checked 2026-10-27; automated daily additions, excluding livestreams and Shorts.",
   "text_preservation": "Corrected and original passage text copied byte-for-byte as UTF-8 strings. Every correction sequence was replayed and checked during export.",
   "publication_transform": "Allowlisted public metadata; local paths, API request identifiers, private review correspondence, personal reviewer identity, and media excluded. Source hashes and public evidence URLs retained.",
   "files": {
@@ -44,15 +44,15 @@
       "bytes": 31592
     },
     "MATCHUPS.md": {
-      "sha256": "a45c11999b957f6fdb2a395aa2f68f428890d5f7106dbc839e044e23e77fa791",
-      "bytes": 40822
+      "sha256": "85b886210b3486ab8f863f52dedba43ff263a7fde7e87f3bacb453db923e65a9",
+      "bytes": 41019
     },
     "NOTICE.md": {
       "sha256": "569c4918cc50ed33e7d26b0677f0d4d68989d7a599e52d12b426b718e5c36291",
       "bytes": 1132
     },
     "README.md": {
-      "sha256": "8a595f25e4a7567939e45ef71d6bc4f80cf361dbffd0aa4b643d753ffe54e0e4",
+      "sha256": "010a2cf67a90eee9d0fd544324c97ffa2853b7ab88259add1dad18319709e950",
       "bytes": 6504
     },
     "SCHEMA.md": {
@@ -60,8 +60,8 @@
       "bytes": 9403
     },
     "TRANSCRIPTS.md": {
-      "sha256": "6f3c39b7bf8e42ad40c1e4cf672ffae02e38b99705c9cd4ad91d3a80fcbbf163",
-      "bytes": 20675
+      "sha256": "03087f3a5a0dadc8eb4a712aae5d5aba692d83d3ea353f0878e0c55de4f760da",
+      "bytes": 20787
     },
     "data/concept-annotations.jsonl": {
       "sha256": "2075924fae0e264a6216ef7735cb66eb6eb55c55e866ee9cba692b0be589db80",
@@ -72,12 +72,12 @@
       "bytes": 8701
     },
     "data/corpus.jsonl": {
-      "sha256": "57392f79f181dfce144bbda095b27cd21a5a26d2aa4b8faae29478891b3f68ee",
-      "bytes": 17223012
+      "sha256": "3b674022eb6776715379667f50d37f86ebc3227d32243dccde8feb8cad521149",
+      "bytes": 17258954
     },
     "data/sources.jsonl": {
-      "sha256": "957d3d393a4ace823962e4cca42ae68c507cb5f52205b4bbb6bff979bd952c72",
-      "bytes": 306669
+      "sha256": "c09565b623ff93ddd4463bb2b2ee0b055e69630331b04c58656952cc68ac20c0",
+      "bytes": 308498
     },
     "data/visual-caption-checks.jsonl": {
       "sha256": "bcfc86a95b04ea729dba5fba78475c77ff89c312b296e968c932117a1a5d92a6",
@@ -495,6 +495,10 @@
       "sha256": "f8735e62ba63ad9eca7e144116ee92e2150ab7a098d3e14e04bef3b606a06985",
       "bytes": 21064
     },
+    "transcripts/U8i6wlJBtz4.md": {
+      "sha256": "5e3e4476a53b75a770d9a8968206461d7b3331b8b5f866722ec0a5ff101ea7e9",
+      "bytes": 16522
+    },
     "transcripts/V-Ux4XkofuM.md": {
       "sha256": "0ee5caa21bc04e92ca8fb59dfbe727e760e2abad46a7a9502b11797b959229fa",
       "bytes": 17525
@@ -824,7 +828,7 @@
       "bytes": 18397
     }
   },
-  "publication_updated_at": "2026-10-20T05:25:32.751363+00:00",
+  "publication_updated_at": "2026-10-27T05:58:29.213426+00:00",
   "input_batches": {
     "regular-uploads": {
       "export_manifest_sha256": "5164a2e9017682944c23916b8ea8dae18125189d562fcdd29143bd944cae5dfa",
@@ -909,6 +913,10 @@
     "uploads-2026-10-20-e94ebd5b": {
       "export_manifest_sha256": "7b38b0cf95ddb6dcd49ac1f56d31f5ac16d28fb4bc5a6f0c1f4b34ee80a2d77d",
       "reading_manifest_sha256": "f5ebcf6791fb976dc47d8469dbf7420786268a43d026ff27e5b4c3dcdf3943d9"
+    },
+    "uploads-2026-10-27-489cd13c": {
+      "export_manifest_sha256": "742ef3392ac6834f485a190080fa15564db3349c5cbccf55d16adaaa0570880b",
+      "reading_manifest_sha256": "353d4f3ed7f5695aec12feac176793a5e4a16593746d889b6a28893e9065c6f8"
     }
   },
   "baseline_input_sha256": {

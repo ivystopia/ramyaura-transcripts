@@ -350,6 +350,7 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 ## Sett
 
+- 2026-10-26 · **Top** · [TEEMO VS THE BEST SETT IN THE WORLD (ft. Geishu)](transcripts/U8i6wlJBtz4.md#p-42d39bd6642b897106013d39d9c733e817e5473303bfe60b683bf8f4036fc8e8) · video 00:00–31:32.
 - 2026-10-16 · **Top** · [Is Deathfire Touch the New BEST Teemo Rune?](transcripts/NuyuD4qmIwc.md#p-3692a41f3fb9c482a820cccf4754635044f876b91358e583e61c43b4d59b81ef) · video 00:00–29:34.
 - 2026-08-04 · **Top** · [RANK 1 SETT AND RANK 1 TALON COULDN'T BELIEVE THEIR EYES!!](transcripts/GmI89SsM-lU.md#p-bb4e8185db5c53ecad5bb0e4da0b98e102d3a266cef8de3de0ccf49b8b66b0f6) · video 00:00–36:07.
 - 2026-02-10 · **Lane unspecified** · [RANK 1 TEEMO VS RANK 1 SETT (ft @Geishuu)](transcripts/lKF7_8MfeFs.md#p-545030480ea59b692c7e89f376e443e2639099a1e6866edf3dae1f31a4342e7f) · video 00:00–14:21.
