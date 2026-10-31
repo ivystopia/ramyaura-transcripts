@@ -5,6 +5,7 @@ import re
 import shutil
 from collections import defaultdict
 from datetime import date
+from hashlib import sha256
 from html import escape
 from math import ceil
 from pathlib import Path
@@ -105,6 +106,7 @@ def render_transcript(template, source, item, passages, captions, frame_notes):
 
 
 def build(destination):
+    edition = sha256((ROOT / 'manifest.json').read_bytes()).hexdigest()[:16]
     sources = records('sources.jsonl')
     passages = records('corpus.jsonl')
     by_key = {row['chunk_key']: row for row in passages}
@@ -120,7 +122,7 @@ def build(destination):
     frame_notes = defaultdict(list)
     for row in records('visual-caption-checks.jsonl'):
         frame_notes[row['video_id']].append(row)
-    template = Template((ROOT / 'site/transcript.html').read_text())
+    template = Template((ROOT / 'site/transcript.html').read_text().replace('{{edition}}', edition))
     reader = destination / 'transcripts'
     reader.mkdir(parents=True, exist_ok=True)
     catalog = []
@@ -162,11 +164,12 @@ def build(destination):
     destination.mkdir(parents=True, exist_ok=True)
     for filename in ('style.css', 'library.js'):
         shutil.copyfile(ROOT / 'site' / filename, destination / filename)
-    home = (ROOT / 'site/index.html').read_text()
+    home = (ROOT / 'site/index.html').read_text().replace('{{edition}}', edition)
     opponents = {e['name'] for s in catalog for e in s['encounters']}
     home = home.replace('{{videos}}', str(len(catalog))).replace('{{opponents}}', str(len(opponents)))
     (destination / 'index.html').write_text(home)
-    study = re.sub(r'\{\{ref:([a-f0-9]{64})\}\}', reference, (ROOT / 'site/study.html').read_text())
+    study = (ROOT / 'site/study.html').read_text().replace('{{edition}}', edition)
+    study = re.sub(r'\{\{ref:([a-f0-9]{64})\}\}', reference, study)
     if '{{' in study:
         raise ValueError('Unresolved study reference')
     (destination / 'study.html').write_text(study)

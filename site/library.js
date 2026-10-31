@@ -6,6 +6,8 @@ const results = document.getElementById('results');
 const label = document.getElementById('results-label');
 const more = document.getElementById('more');
 const clear = document.getElementById('clear');
+// Load the catalog and passages from the same publication as this script.
+const editionQuery = new URL(document.currentScript.src).search;
 const pageSize = 12;
 let catalog = [];
 let videos = new Map();
@@ -70,7 +72,7 @@ function entry(video, encounter, passage, at, length) {
 }
 
 async function loadJSON(name) {
-  const response = await fetch('./' + name + '.json');
+  const response = await fetch('./' + name + '.json' + editionQuery);
   if (!response.ok) throw new Error('Could not load ' + name);
   return response.json();
 }

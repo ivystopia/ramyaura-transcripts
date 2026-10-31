@@ -92,8 +92,8 @@
       "bytes": 132055
     },
     "scripts/build_pages.py": {
-      "sha256": "ff9ef22fd8c1e25eafe71b858682adf5bc55415fd6944b158fa3689203dee32e",
-      "bytes": 8749
+      "sha256": "b07b7efa4c128b304e740d9a6c95505ab0183ef0776f3c27fe2aa22940560012",
+      "bytes": 8967
     },
     "scripts/concept_search.py": {
       "sha256": "0a7287cfd3b0a35fda69cd66376e69569b08aa07b2750b262c20d9b77aedd31d",
@@ -108,24 +108,24 @@
       "bytes": 9698
     },
     "site/index.html": {
-      "sha256": "774a199a9e1f3ef96a1d9ffb38a3ce80d9996331de45d04397fedf7d439ed50a",
-      "bytes": 2828
+      "sha256": "79a77c616e83aa1f48e3b757acfeba6fd20d09f93b039277598e56d21d4b5e57",
+      "bytes": 2856
     },
     "site/library.js": {
-      "sha256": "b33e30efcdca03f7ccd7883ab2619379a9bf619ded70b9cd6832daf8328cd1f4",
-      "bytes": 6250
+      "sha256": "35e6061a5ab1c71cdd171dfe69759ff1314f7ac0960d06fdcc02b51c259b0b69",
+      "bytes": 6405
     },
     "site/study.html": {
-      "sha256": "7c151524ea0a9291137e7dd42cf401f7c714e4799571b06e6b21dece6df0d385",
-      "bytes": 5737
+      "sha256": "47f5d542d8ac959d643a02318a0715e6fef2e9e33cea2d920409984c3d4a6254",
+      "bytes": 5751
     },
     "site/style.css": {
       "sha256": "e2c2cb012200a304b8e61f73e77c766dbd1beeef58da27c090e4caf542e19ff8",
       "bytes": 6778
     },
     "site/transcript.html": {
-      "sha256": "cbc6e7747f30269b808b0127d778dd29a7350fce62a931d6cbe3da20b87a7a79",
-      "bytes": 1102
+      "sha256": "62766c8d1c07993b6bbc2521ce62d8a5540c6192aa2f6cfe3c31a19834eaebec",
+      "bytes": 1116
     },
     "tests/test_concepts.py": {
       "sha256": "f200aee97264975ef8f1a88e670fab2eeeb4d54ea34016fbaaf3ef81c5b987fd",
