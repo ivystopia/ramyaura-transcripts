@@ -2,7 +2,7 @@
 
 Searchable, timestamped transcripts of **181 regular YouTube uploads by RamyAura**, covering **82.98 hours** of Teemo gameplay and discussion. Shared free of charge with RamyAura's permission; his agreement to sharing is conditional on it being free.
 
-**[Browse by matchup](MATCHUPS.md)** · **[Browse all videos](TRANSCRIPTS.md)** · **[Gameplay glossary](GLOSSARY.md)** · **[Download the complete repository](https://github.com/ivystopia/ramyaura-transcripts/archive/refs/heads/main.zip)**
+**[Search the matchup library](https://ivystopia.github.io/ramyaura-transcripts/)** · **[Browse by matchup](MATCHUPS.md)** · **[Browse all videos](TRANSCRIPTS.md)** · **[Gameplay glossary](GLOSSARY.md)** · **[Download the complete repository](https://github.com/ivystopia/ramyaura-transcripts/archive/refs/heads/main.zip)**
 
 Original creator: **RamyAura** — https://www.youtube.com/channel/UChk2Zu5h5yJ9BBD4VS-_chQ · https://www.twitch.tv/ramyaura
 

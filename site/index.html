@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Matchup library · RamyAura Field Notes</title>
+  <meta name="description" content="Find a Teemo matchup, search RamyAura’s transcripts and watch the original game.">
+  <link rel="stylesheet" href="./style.css"><script src="./library.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#library">Skip to search</a>
+<header class="mast"><div class="wrap mast-inner"><a class="brand" href="./"><strong>RamyAura</strong> Field Notes</a><nav aria-label="Main"><a aria-current="page" href="./">Library</a><a href="./study.html">Study guide</a></nav></div></header>
+<main class="wrap">
+  <section class="intro"><div><p class="kicker">Teemo / Transcript archive</p><h1>Matchup library</h1><p>Find a game, search the commentary and watch the play.</p></div>
+    <dl class="stats"><div><dt>Videos</dt><dd>{{videos}}</dd></div><div><dt>Opponents</dt><dd>{{opponents}}</dd></div></dl></section>
+  <div class="layout">
+    <section id="library" aria-label="Browse and search">
+      <form id="filters" role="search"><div><label for="opponent">Opponent</label><select id="opponent" name="opponent"><option value="">All opponents</option></select></div>
+        <div><label for="query">Search spoken words</label><input id="query" type="search" name="q" placeholder="e.g. freeze, recall, blind" autocomplete="off"></div>
+      </form>
+      <div class="results-head"><h2 id="results-label" aria-live="polite">Loading recordings…</h2><button id="clear" type="button" hidden>Clear filters</button></div>
+      <div id="results"></div><button id="more" class="more" type="button" hidden>Show more</button>
+      <noscript>Browse the <a href="https://github.com/ivystopia/ramyaura-transcripts/blob/main/MATCHUPS.md">matchup index on GitHub</a> or open the study guide.</noscript>
+    </section>
+    <aside class="margin"><p class="kicker">From the study guide</p><h2>Hold the freeze?</h2>
+      <p>Darius has left for mid. You can shove the wave now, but what does that give him when he comes back?</p>
+      <a class="arrow" href="./study.html#freeze">Make your call →</a>
+      <hr><h3>Reading the archive</h3><p>Times mark approximate passage starts. Some passages span several minutes. Dates are upload dates. Recording patches are unknown.</p>
+      <a href="https://github.com/ivystopia/ramyaura-transcripts/blob/main/GLOSSARY.md">Gameplay glossary ↗</a>
+    </aside>
+  </div>
+</main>
+<footer><div class="wrap">A free community archive of <a href="https://www.youtube.com/channel/UChk2Zu5h5yJ9BBD4VS-_chQ">RamyAura’s videos</a>. <a href="https://github.com/ivystopia/ramyaura-transcripts">Transcripts and corrections ↗</a></div></footer>
+</body></html>

@@ -23,6 +23,10 @@
   "text_preservation": "Corrected and original passage text copied byte-for-byte as UTF-8 strings. Every correction sequence was replayed and checked during export.",
   "publication_transform": "Allowlisted public metadata; local paths, API request identifiers, private review correspondence, personal reviewer identity, and media excluded. Source hashes and public evidence URLs retained.",
   "files": {
+    ".github/workflows/pages.yml": {
+      "sha256": "c22607bc98136cf99aaff24b3ce15cd6b7ee2bccad1e97fa5ade9be114521104",
+      "bytes": 821
+    },
     ".gitignore": {
       "sha256": "9e1d47fda03417af3e1b33c8d732e2c45471dd4d0b1e6acac5f05f1b8e37b900",
       "bytes": 111
@@ -52,8 +56,8 @@
       "bytes": 1132
     },
     "README.md": {
-      "sha256": "010a2cf67a90eee9d0fd544324c97ffa2853b7ab88259add1dad18319709e950",
-      "bytes": 6504
+      "sha256": "b8276897e380d6a8851aeccf212362e31f38efdf9925655039faead2f3eae4f5",
+      "bytes": 6591
     },
     "SCHEMA.md": {
       "sha256": "ebeaf4d6d20a8ffd38239d1bfae90a8df45d3137ec1379c10b67fe4691695858",
@@ -87,6 +91,10 @@
       "sha256": "3e957f7978c16c59df100cace4e1089b83d72c00074573afab3708a3884fefe1",
       "bytes": 132055
     },
+    "scripts/build_pages.py": {
+      "sha256": "0a994d074942e070a1dba60c82181c73852f3b622dd0e186cb324c4a1e96b343",
+      "bytes": 3284
+    },
     "scripts/concept_search.py": {
       "sha256": "0a7287cfd3b0a35fda69cd66376e69569b08aa07b2750b262c20d9b77aedd31d",
       "bytes": 10008
@@ -96,8 +104,24 @@
       "bytes": 35332
     },
     "scripts/validate.py": {
-      "sha256": "5ae8059f6ef4d764bde9c514c71470b3aecb66c5be5b47569ab7e6e1ba889568",
-      "bytes": 9528
+      "sha256": "0c460be7b0b9250b351a721617d3a53309cca6649bbefb5cad44dbb8f6b3d54a",
+      "bytes": 9674
+    },
+    "site/index.html": {
+      "sha256": "c36fcf0c709f7470e0f9412d5c1fa34649d2373e29a26c579801a25e906c8c93",
+      "bytes": 2800
+    },
+    "site/library.js": {
+      "sha256": "e0bafe773574ed431f7fc8c200fd3a59ac19146b2d3c1c7282fa0703d6834ab3",
+      "bytes": 6330
+    },
+    "site/study.html": {
+      "sha256": "00e3d1923e7146295b6975fd045e1e18dc07762be495d350e3bb8a7614d4ebd6",
+      "bytes": 5725
+    },
+    "site/style.css": {
+      "sha256": "f83397b1f3f0c9caa6dcb87be99eadfde7ea2bf6ac4e9e806d83d3d9c366386f",
+      "bytes": 5433
     },
     "tests/test_concepts.py": {
       "sha256": "f200aee97264975ef8f1a88e670fab2eeeb4d54ea34016fbaaf3ef81c5b987fd",

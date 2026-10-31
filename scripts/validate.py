@@ -14,6 +14,7 @@ from concept_search import CHANNEL_ID, validate as validate_concepts
 
 
 ROOT = Path(__file__).resolve().parents[1]
+SITE_FILES = {"site/index.html", "site/study.html", "site/style.css", "site/library.js", ".github/workflows/pages.yml"}
 
 
 def sha(data):
@@ -115,7 +116,7 @@ def main(update_manifest=False):
     for path in files:
         relative = path.relative_to(ROOT).as_posix()
         require(not path.is_symlink(), f"Symlink in publication: {relative}")
-        require(path.suffix in {".md", ".jsonl", ".json", ".py"} or relative == ".gitignore", f"Unexpected publication file: {relative}")
+        require(path.suffix in {".md", ".jsonl", ".json", ".py"} or relative == ".gitignore" or relative in SITE_FILES, f"Unexpected publication file: {relative}")
         data = path.read_bytes()
         require(len(data) < 50 * 1024 * 1024, f"Oversized file: {relative}")
         content = data.decode("utf-8")
