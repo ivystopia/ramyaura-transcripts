@@ -37,6 +37,7 @@ button { cursor: pointer; font: inherit; color: var(--green); }
 .entry h3 a { color: var(--ink); text-decoration: none; }
 .entry h3 a:hover { text-decoration: underline; }
 .entry .links, .ref { font-size: .88rem; }
+.entry .meta { margin-bottom: .35rem; }
 .entry p { margin: .4rem 0; }
 .links { display: flex; flex-wrap: wrap; gap: .35rem 1.3rem; }
 mark { color: var(--ink); background: var(--accent); }

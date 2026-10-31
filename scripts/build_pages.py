@@ -16,6 +16,20 @@ def records(name):
         return [json.loads(line) for line in stream if line.strip()]
 
 
+def recording_label(source):
+    opponents = [encounter['name'] for encounter in source['encounters']]
+    if len(opponents) == 1:
+        return 'Teemo vs. ' + opponents[0]
+    if opponents:
+        return 'Games against ' + ' / '.join(opponents)
+    return {'guide': 'Teemo strategy guide', 'visual_guide': 'Teemo visual guide',
+            'unclassified': 'Matchup awaiting review'}.get(source['kind'], 'Teemo recording')
+
+
+def in_encounter(passage, encounter):
+    return passage['start_seconds'] >= encounter['start'] and passage['end_seconds'] <= encounter['end'] + .001
+
+
 def build(destination):
     sources = records('sources.jsonl')
     passages = records('corpus.jsonl')
@@ -32,12 +46,14 @@ def build(destination):
         video = source['video_id']
         encounters = []
         for encounter in source['encounters']:
-            first = next(row for row in grouped[video] if row['start_seconds'] >= encounter['start']
-                         and row['end_seconds'] <= encounter['end'] + .001)
+            first = next(row for row in grouped[video] if in_encounter(row, encounter))
             encounters.append(dict(name=encounter['name'], role=encounter['role'], start=encounter['start'],
                                    end=encounter['end'], first=first['chunk_key']))
-        catalog.append(dict(id=video, title=source['title'], date=source['upload_date'],
-                            kind=source['kind'], encounters=encounters))
+        item = dict(id=video, title=recording_label(source), date=source['upload_date'],
+                    kind=source['kind'], encounters=encounters)
+        if source['kind'] in {'guide', 'visual_guide'}:
+            item['note'] = source['context']
+        catalog.append(item)
         for row in grouped[video]:
             search.append(dict(id=video, key=row['chunk_key'], start=row['start_seconds'],
                                end=row['end_seconds'], text=row['text']))
@@ -46,9 +62,15 @@ def build(destination):
         row = by_key[match[1]]
         source = by_id[row['video_id']]
         seconds = int(row['start_seconds'])
-        title = escape(source['title'])
+        encounter = next((e for e in source['encounters'] if in_encounter(row, e)), None)
+        if encounter:
+            label = 'Teemo vs. ' + encounter['name']
+            if encounter['role'] != 'Lane unspecified':
+                label += ' · ' + encounter['role']
+        else:
+            label = 'Matchup unassigned' if source['encounters'] else recording_label(source)
         transcript = REPO + source['transcript_path'] + '#p-' + row['chunk_key']
-        return (f'<p class="ref">{title} · {source["upload_date"]}<br>'
+        return (f'<p class="ref">{escape(label)} · {source["upload_date"]}<br>'
                 f'<a href="{source["url"]}&amp;t={seconds}s">Watch from {seconds//60}:{seconds%60:02d}</a>'
                 f' · <a href="{transcript}">Read passage</a></p>')
 

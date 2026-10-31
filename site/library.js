@@ -47,18 +47,23 @@ function excerpt(text, at, length) {
 
 function entry(video, encounter, passage, at, length) {
   const node = element('article', undefined, 'entry');
-  let matchup = encounter ? [encounter.name, encounter.role].join(' · ') : '';
-  if (!matchup && !passage) matchup = video.encounters.map(e => e.name).join(' / ');
-  if (!matchup) matchup = video.kind === 'unclassified' ? 'Matchup awaiting review' : 'Full recording';
   const time = passage ? passage.start : (encounter?.start ?? 0);
   const key = passage?.key ?? encounter?.first;
   const transcript = repo + video.id + '.md' + (key ? '#p-' + key : '');
-  const meta = element('div', video.date + '  /  ' + matchup, 'meta');
-  if (passage) meta.append(' · Passage ' + timestamp(passage.start) + '–' + timestamp(passage.end));
-  const title = element('h3');
-  title.append(link(video.title, transcript));
-  node.append(meta, title);
-  if (passage) node.append(excerpt(passage.text, at, length));
+  const matchup = encounter ? 'Teemo vs. ' + encounter.name : video.title;
+  const details = [video.date];
+  if (encounter && encounter.role !== 'Lane unspecified') details.push(encounter.role);
+  if (passage) {
+    node.append(excerpt(passage.text, at, length));
+    details.unshift(!encounter && video.encounters.length ? 'Matchup unassigned' : matchup);
+    details.push('Passage ' + timestamp(passage.start) + '–' + timestamp(passage.end));
+  } else {
+    const heading = element('h3');
+    heading.append(link(matchup, transcript));
+    node.append(heading);
+    if (video.note) node.append(element('p', video.note));
+  }
+  node.append(element('div', details.join(' · '), 'meta'));
   const links = element('div', undefined, 'links');
   links.append(link('Watch from ' + timestamp(time), 'https://www.youtube.com/watch?v=' + video.id + '&t=' + Math.floor(time) + 's'),
                link(passage ? 'Read full passage' : 'Read transcript', transcript));
