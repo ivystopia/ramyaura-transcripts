@@ -36,8 +36,8 @@
       "bytes": 166
     },
     "AUTOMATION.md": {
-      "sha256": "7d6b7f63d93aaf707ec62b066717bfe3be80895d22de023856291fad464a21fc",
-      "bytes": 7969
+      "sha256": "4ea94a7e87f9b6ed1c9cb7fb54125b4a23b4ca8a994ef6dd1e137ddc0acb9430",
+      "bytes": 8585
     },
     "CONCEPTS.md": {
       "sha256": "62831471638d01597df08ad268042b837e6ab4c118da396166c76c9e11d3aa73",
@@ -100,8 +100,8 @@
       "bytes": 10008
     },
     "scripts/daily_update.py": {
-      "sha256": "6e3bcf27b1d3573b3a3d6d85821bf991384a32df1a595dbace7ee001a4c1c68c",
-      "bytes": 37889
+      "sha256": "f307ac2ccdcedda2aa6f51ff683277fb449d024cc302f00be2717d05423a494f",
+      "bytes": 39013
     },
     "scripts/validate.py": {
       "sha256": "537e933c9b0387f2f9678e893ea263d195683727cf90de69b4cf5ededc984f16",
@@ -136,8 +136,8 @@
       "bytes": 1631
     },
     "tests/test_reader.py": {
-      "sha256": "d62e113e2aa6e9bca64c4fd54ded1ad0127e7ec4dff39d82d37b9389ca3c6284",
-      "bytes": 1557
+      "sha256": "fa686e6b490f8cff2ddca56f131b5d818a6e2dd9b7af8a6650ab14b316a7453f",
+      "bytes": 2700
     },
     "transcripts/-QCM7ZLOu1Q.md": {
       "sha256": "e92bf313e4af7a0ad0076b1302dc3a0578e9c17ee28ed601cc3ff78fd9264d0b",

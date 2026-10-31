@@ -324,6 +324,16 @@ def merge_publication(repo, fresh, batch, archive):
     return c
 
 
+def check_staged_publication(staged):
+    command([sys.executable, staged / 'scripts/validate.py', '--update-manifest'])
+    command([sys.executable, staged / 'scripts/validate.py'])
+    try:
+        command([sys.executable, '-m', 'unittest', 'discover', '-s', 'tests'], cwd=staged)
+        command([sys.executable, staged / 'scripts/build_pages.py', staged.parent / 'reader-preview'])
+    except (RuntimeError, subprocess.TimeoutExpired) as exc:
+        raise RuntimeError('The staged reader failed its tests or Pages build. Nothing was published; saved transcripts can be reused.') from exc
+
+
 def resume_push(repo, state, journal):
     commit = state['commit']
     require(not git(repo, 'status', '--porcelain'), 'Managed checkout has unexpected changes')
@@ -336,7 +346,19 @@ def resume_push(repo, state, journal):
     require(git(repo, 'ls-remote', 'origin', 'refs/heads/main').split()[0] == commit, 'Remote publication verification failed')
     state.update(phase='complete', completed_at=utc())
     write(journal, state)
-    return {'state': 'published', 'commit': commit, 'new_videos': state['videos']}
+    result = {'state': 'published', 'commit': commit, 'new_videos': state['videos'],
+              'published_videos': state['counts']['videos']}
+    # Only this batch's disposable staging directory is eligible. Older snapshots stay in place.
+    staged = Path(state['staged'])
+    stage = staged.parent
+    if (staged.name == 'publication' and stage.parent == journal.parent
+            and stage.name.startswith('staging-' + state['batch'] + '-') and stage.is_dir()
+            and stage.resolve() == stage):
+        try:
+            shutil.rmtree(stage)
+        except OSError as exc:
+            result['staging_cleanup_warning'] = f'Published, but staging cleanup failed: {exc.strerror}'
+    return result
 
 
 def video_cleanup_plan(archive, sources):
@@ -514,7 +536,7 @@ def run(archive, execute=False):
         require(report['status'] == 'passed', 'Archive audit failed; nothing published')
         bundle.export_bundle(config, batch_name=plan['name'])
         reading = prepare_reading(archive, plan['name'])
-        stage = Path(tempfile.mkdtemp(prefix=plan['name'] + '-', dir=directory))
+        stage = Path(tempfile.mkdtemp(prefix='staging-' + plan['name'] + '-', dir=directory))
         inputs = stage / 'inputs'
         for folder in ['data/reading/regular-uploads', 'data/exports/regular-uploads', 'data/library']:
             (inputs / folder).mkdir(parents=True, exist_ok=True)
@@ -533,8 +555,7 @@ def run(archive, execute=False):
         staged = stage / 'publication'
         shutil.copytree(repo, staged, ignore=shutil.ignore_patterns('.git', '__pycache__'))
         c = merge_publication(staged, fresh, plan['name'], archive)
-        command([sys.executable, staged / 'scripts/validate.py', '--update-manifest'])
-        command([sys.executable, staged / 'scripts/validate.py'])
+        check_staged_publication(staged)
         files = {str(p.relative_to(staged)): sha(p) for p in staged.rglob('*') if p.is_file() and '__pycache__' not in p.parts and (not (repo/p.relative_to(staged)).exists() or sha(repo/p.relative_to(staged)) != sha(p))}
         allowed = {'README.md', 'TRANSCRIPTS.md', 'MATCHUPS.md', 'manifest.json', 'data/corpus.jsonl', 'data/sources.jsonl'} | {s['transcript_path'] for s in rows(fresh/'data/sources.jsonl')}
         require(set(files) <= allowed, 'Publication attempted to change an unrelated file')
