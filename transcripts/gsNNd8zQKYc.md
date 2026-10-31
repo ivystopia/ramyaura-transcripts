@@ -10,6 +10,12 @@ Machine transcript with automatic spelling corrections; wording has not been edi
 
 **Coarse timing:** timestamps identify the submitted audio chunks, which may cover several minutes or a whole small audio file, not individual sentences. Sentence-level timestamps are unavailable for this upload.
 
+## Recorded matchups
+
+- **Sett · Top** · [Watch 00:00–17:42](https://www.youtube.com/watch?v=gsNNd8zQKYc&t=0s) · [First full passage](#p-c50e7f8da9dc002a8ea6828eb86dd8ca4a297e106cc2805624a0d2a07bd85efa). The first chapter names Sett top. Ramy plays around Sett’s Ignite and level-one damage.
+- **Renekton · Top** · [Watch 17:42–31:46](https://www.youtube.com/watch?v=gsNNd8zQKYc&t=1062s) · [First full passage](#p-76eb30c1fd122d25b223939448213f8fa6074c322f6e6ce14cc8b0c95a719ff0). The second chapter names Renekton top. Ramy discusses beating him before level six.
+- **Malzahar · Top** · [Watch 31:46–43:07](https://www.youtube.com/watch?v=gsNNd8zQKYc&t=1906s) · [First full passage](#p-87bce6d18dc2b80b4ca886e1c5d4b6fa0e20869b1a67f0ba808480c9438ec7df). The third chapter names Malzahar top. Ramy describes the lane and killing his voidlings.
+
 ## Transcript
 
 <a id="p-c50e7f8da9dc002a8ea6828eb86dd8ca4a297e106cc2805624a0d2a07bd85efa"></a>

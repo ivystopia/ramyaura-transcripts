@@ -12,7 +12,8 @@ Machine transcript with automatic spelling corrections; wording has not been edi
 
 ## Recorded matchups
 
-- [Darius · Top · 00:00–45:55](#p-02d605044eb815020abb9580dc6dc524216f4e31a7e014a0eb0e2fb670696b70). Opponent named in the saved video description.
+- **Darius · Top** · [Watch 00:00–19:44](https://www.youtube.com/watch?v=-uJxm7N9IFk&t=0s) · [First full passage](#p-02d605044eb815020abb9580dc6dc524216f4e31a7e014a0eb0e2fb670696b70). The opening chapter names Darius top. Ramy plays around his Exhaust and pull.
+- **Sylas · Jungle** · [Watch 19:44–45:55](https://www.youtube.com/watch?v=-uJxm7N9IFk&t=1184s) · [First full passage](#p-c1fdd6b17fc8f9649eecc416f82a292956bef1f3754a33b091be4c93f8dacae2). The second chapter switches to Teemo jungle. While planning his first clear, Ramy identifies Sylas as the opposing jungler.
 
 ## Transcript
 

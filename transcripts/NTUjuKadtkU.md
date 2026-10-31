@@ -10,6 +10,11 @@ Machine transcript with automatic spelling corrections; wording has not been edi
 
 **Coarse timing:** timestamps identify the submitted audio chunks, which may cover several minutes or a whole small audio file, not individual sentences. Sentence-level timestamps are unavailable for this upload.
 
+## Recorded matchups
+
+- **Master Yi · Top** · [Watch 00:00–28:02](https://www.youtube.com/watch?v=NTUjuKadtkU&t=0s) · [First full passage](#p-be288eb3168012188fd53449c2d984a16f72834e1ea5b7a4db0d8d87d9bd9f85). Ramy identifies Yi top with Ignite and Hail of Blades and plans the opening waves.
+- **Cho'Gath · Top** · [Watch 28:02–46:32](https://www.youtube.com/watch?v=NTUjuKadtkU&t=1682s) · [First full passage](#p-d19ec3c928f52f6121d3bc728e73d0fb4909efb01fadb936b306fe82df30466c). Ramy confirms Cho’Gath top as the second game begins.
+
 ## Transcript
 
 <a id="p-be288eb3168012188fd53449c2d984a16f72834e1ea5b7a4db0d8d87d9bd9f85"></a>

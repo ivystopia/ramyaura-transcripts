@@ -13,17 +13,17 @@
 - 2026-10-04 — [100CS LEAD AT 12 MINUTES??? (FLAME HORIZON)](transcripts/9z58FYmaYkE.md) — Warwick (Top).
 - 2026-10-03 — [YUNG FLAPPY CANNOT BE STOPPED!! (30 K+A)](transcripts/nNDmmJGPNyg.md) — Corki (Top).
 - 2026-10-02 — [I LOVE PLAYING WITH THIS CHAMPION ON MY TEAM!!](transcripts/0eA2DYi7muo.md) — Fiora (Top).
-- 2026-10-01 — [I found the NA MONSTERSSS... (is he Vegan?)](transcripts/NTUjuKadtkU.md) — Matchup awaiting review.
-- 2026-09-30 — [NA HIGH ELO, YUNG FLAPPY IS COMING](transcripts/-uJxm7N9IFk.md) — Darius (Top).
-- 2026-09-29 — [I FINALLY FACED THE CHAMP I'VE BEEN BANNING ALL YEAR](transcripts/-QCM7ZLOu1Q.md) — Matchup awaiting review.
-- 2026-09-28 — [YUNG FLAPPY IS TAKING OVER THE SERVER!!](transcripts/gsNNd8zQKYc.md) — Matchup awaiting review.
-- 2026-09-27 — [DAY 2 ON THE NA SUPERSERVER. (Teemo Unranked to Challenger)](transcripts/z0vw9Une2WM.md) — Matchup awaiting review.
+- 2026-10-01 — [I found the NA MONSTERSSS... (is he Vegan?)](transcripts/NTUjuKadtkU.md) — Master Yi (Top); Cho'Gath (Top).
+- 2026-09-30 — [NA HIGH ELO, YUNG FLAPPY IS COMING](transcripts/-uJxm7N9IFk.md) — Darius (Top); Sylas (Jungle).
+- 2026-09-29 — [I FINALLY FACED THE CHAMP I'VE BEEN BANNING ALL YEAR](transcripts/-QCM7ZLOu1Q.md) — Jayce (Top); Darius (Top).
+- 2026-09-28 — [YUNG FLAPPY IS TAKING OVER THE SERVER!!](transcripts/gsNNd8zQKYc.md) — Sett (Top); Renekton (Top); Malzahar (Top).
+- 2026-09-27 — [DAY 2 ON THE NA SUPERSERVER. (Teemo Unranked to Challenger)](transcripts/z0vw9Une2WM.md) — Fiora (Top); Illaoi (Top).
 - 2026-09-26 — [FULL ON-HIT TEEMO IS THE WAY (CRAZY DPS)](transcripts/Dp8YMVaNc3o.md) — Yone (Top).
 - 2026-09-25 — [NA UNRANKED TO CHALLENGER STARTS NOW!!!](transcripts/QBSdvlBi4l8.md) — Akali (Top).
 - 2026-09-23 — [Riot Keep Sending Me Their TOUGHEST Battles...](transcripts/VmGVaa-kf1s.md) — Gnar (Top).
 - 2026-09-22 — [When They Pick FULL AD into TEEMO...](transcripts/JnHGvoS972g.md) — Irelia (Top).
 - 2026-09-21 — [Teemo is the BEST Antiheal Abuser in the Game!!](transcripts/JB52UgLJTlI.md) — Dr. Mundo (Top).
-- 2026-09-20 — [This Item Combo is BROKEN on Teemo!!](transcripts/o2-PqVfzv88.md) — Matchup awaiting review.
+- 2026-09-20 — [This Item Combo is BROKEN on Teemo!!](transcripts/o2-PqVfzv88.md) — Olaf (Top).
 - 2026-09-19 — [Cho'Gath is UNPLAYABLE into Teemo!!](transcripts/_YglXds6JpY.md) — Cho'Gath (Top).
 - 2026-09-18 — [When Teemo Gets Filled Jungle...](transcripts/S_Oc4qOyOxk.md) — Tryndamere (Jungle); Shen (Top).
 - 2026-09-17 — [Rank 1 Garen Stood No Chance vs My Teemo!!](transcripts/zVoOvrr0bh8.md) — Garen (Top); Jax (Top).
@@ -42,7 +42,7 @@
 - 2026-08-26 — [Late Game Shrooms are the KEY to Carrying on Teemo!!](transcripts/JBxGmWGvZXM.md) — Sion (Top).
 - 2026-08-25 — [10K GOLD DOWN? NO PROBLEM FOR TEEMO! (vs LEC Toplaner)](transcripts/-QWz9z2FnyA.md) — Twisted Fate (Top).
 - 2026-08-24 — [Kayle is UNPLAYABLE into Teemo!!](transcripts/TXoUtYWYOf8.md) — Kayle (Top).
-- 2026-08-22 — [Rank 1 Darius RaiderGO Gets the Teemo Top Experience... (INSANE FLASH PREDICT)](transcripts/YAZEYclWYqc.md) — Darius (Lane unspecified).
+- 2026-08-22 — [Rank 1 Darius RaiderGO Gets the Teemo Top Experience... (INSANE FLASH PREDICT)](transcripts/YAZEYclWYqc.md) — Darius.
 - 2026-08-21 — [I made this Quinn get banned... (SHE WAS MAD)](transcripts/7PO0YSNkweg.md) — Quinn (Top).
 - 2026-08-20 — [Garen is UNPLAYABLE into Teemo!!](transcripts/g2SSwQrSJgM.md) — Garen (Top).
 - 2026-08-18 — [THE MOST PERFECT TEEMO VS DARIUS GAME EVER](transcripts/iZ-48pMef8g.md) — Darius (Top).
@@ -66,7 +66,7 @@
 - 2026-07-30 — [THEY THOUGHT A LEVEL 1 GANK COULD STOP MY TEEMO...](transcripts/x00QafAT-Ko.md) — Olaf (Top).
 - 2026-07-29 — [TEEMO VS THE BEST TOPLANER IN EUROPE (ft. RaiderGO)](transcripts/JvQk3pO9aeU.md) — Jax (Top).
 - 2026-07-28 — [10000 GAMES OF TEEMO LOOKS LIKE THIS...](transcripts/4S8OfAPXReo.md) — Ambessa (Top).
-- 2026-07-27 — [THIS IS HOW YOU MAKE COMEBACKS ON TEEMO!!](transcripts/zeKH9_VTkeE.md) — Yone (Lane unspecified).
+- 2026-07-27 — [THIS IS HOW YOU MAKE COMEBACKS ON TEEMO!!](transcripts/zeKH9_VTkeE.md) — Yone.
 - 2026-07-26 — [BLOODLETTER'S IS THE MOST BROKEN ITEM ON TEEMO!!](transcripts/Ptg28_bWNLg.md) — Sion (Top).
 - 2026-07-25 — [LEC Toplaner could not handle my Teemo! (FULL CHALLENGER LOBBY)](transcripts/I7PRkUs0LZc.md) — Gnar (Top).
 - 2026-07-24 — [I WENT 6 LEVELS UP VS MY WORST MATCHUP (NEW RECORD)](transcripts/uqFnbWGvFLo.md) — Cassiopeia (Top).
@@ -76,67 +76,67 @@
 - 2026-07-20 — [YASUO THOUGHT BRINGING EXHAUST WOULD COUNTER TEEMO...](transcripts/tltE3iZsiDI.md) — Yasuo (Top).
 - 2026-07-19 — [MAKING THE MORDEKAISER MATCHUP LOOK EASY!!!](transcripts/VghySI8ajbU.md) — Mordekaiser (Top).
 - 2026-07-17 — [HE THOUGHT HE COUNTERPICKED ME, BUT LITTLE DID HE KNOW...](transcripts/L1yqDmPSQp8.md) — Swain (Top).
-- 2026-07-16 — [CHALLENGER TRUNDLE COULD NOT STOP ME FROM 1V9ING!!](transcripts/KDZyTyWo5mI.md) — Trundle (Lane unspecified).
+- 2026-07-16 — [CHALLENGER TRUNDLE COULD NOT STOP ME FROM 1V9ING!!](transcripts/KDZyTyWo5mI.md) — Trundle.
 - 2026-07-15 — [ZED THOUGHT HE WAS THE ONLY ASSASSIN IN THIS LANE...](transcripts/CwR_nUHM7mc.md) — Zed (Top).
 - 2026-07-14 — [THEY STOLE MY PENTA???](transcripts/Y7cOivHxryc.md) — Karma (Top).
-- 2026-07-12 — [100 CS LEAD AT 18 MINS???](transcripts/85tr4Vmwcz8.md) — Vi (Lane unspecified).
-- 2026-07-11 — [NEITHER OF MY COUNTERS COULD STOP ME THIS GAME...](transcripts/RhWTYKmc9xU.md) — Gangplank (Lane unspecified).
-- 2026-07-10 — [THIS MATCHUP IS NOT OKAY!!](transcripts/2k7YaMIigr4.md) — Sion (Lane unspecified).
-- 2026-07-09 — [THIS GAME LOOKED OVER, BUT WE HAD TEEMO...](transcripts/YCnaS3x2xGM.md) — Aatrox (Lane unspecified).
-- 2026-07-08 — [DOES TEEMO NEED BUFFS??](transcripts/QOWT48xPQRA.md) — Irelia (Lane unspecified).
-- 2026-07-07 — [THIS IS HOW YOU COMPLETELY TAKE OVER GAMES AS TEEMO!!](transcripts/rzGYPsy_yU8.md) — Poppy (Lane unspecified).
-- 2026-07-06 — [HOW TO DESTROY EASY MATCHUPS AS TEEMO](transcripts/bWYmdpxyGBU.md) — Nasus (Lane unspecified).
-- 2026-07-05 — [I SHOWED DRAGDAR THE POWER OF TEEMO TOP...](transcripts/9efC7zHUkD4.md) — Ambessa (Lane unspecified).
-- 2026-07-04 — [IGNORE TOXIC BOTLANE = WIN GAME](transcripts/AejAFJg8DgE.md) — Pantheon (Lane unspecified).
-- 2026-07-03 — [I TRIED IPAV'S BUILD IN RANKED AND IT WAS BROKEN...](transcripts/a6xihzOUskQ.md) — Olaf (Lane unspecified).
-- 2026-07-02 — [LEC TOPLANER GETS THE TEEMO TOP EXPERIENCE...](transcripts/WVEviT8Mbl0.md) — Ryze (Lane unspecified).
-- 2026-07-01 — [10 CS PER MINUTE TEEMO VS GRAGAS](transcripts/ZluenfxNyKk.md) — Gragas (Lane unspecified).
-- 2026-06-30 — [HOW TO CARRY ON TEEMO VS TOUGH MATCHUPS](transcripts/GIzSQNHQmjA.md) — Gangplank (Lane unspecified).
+- 2026-07-12 — [100 CS LEAD AT 18 MINS???](transcripts/85tr4Vmwcz8.md) — Vi.
+- 2026-07-11 — [NEITHER OF MY COUNTERS COULD STOP ME THIS GAME...](transcripts/RhWTYKmc9xU.md) — Gangplank.
+- 2026-07-10 — [THIS MATCHUP IS NOT OKAY!!](transcripts/2k7YaMIigr4.md) — Sion.
+- 2026-07-09 — [THIS GAME LOOKED OVER, BUT WE HAD TEEMO...](transcripts/YCnaS3x2xGM.md) — Aatrox.
+- 2026-07-08 — [DOES TEEMO NEED BUFFS??](transcripts/QOWT48xPQRA.md) — Irelia.
+- 2026-07-07 — [THIS IS HOW YOU COMPLETELY TAKE OVER GAMES AS TEEMO!!](transcripts/rzGYPsy_yU8.md) — Poppy.
+- 2026-07-06 — [HOW TO DESTROY EASY MATCHUPS AS TEEMO](transcripts/bWYmdpxyGBU.md) — Nasus.
+- 2026-07-05 — [I SHOWED DRAGDAR THE POWER OF TEEMO TOP...](transcripts/9efC7zHUkD4.md) — Ambessa.
+- 2026-07-04 — [IGNORE TOXIC BOTLANE = WIN GAME](transcripts/AejAFJg8DgE.md) — Pantheon.
+- 2026-07-03 — [I TRIED IPAV'S BUILD IN RANKED AND IT WAS BROKEN...](transcripts/a6xihzOUskQ.md) — Olaf.
+- 2026-07-02 — [LEC TOPLANER GETS THE TEEMO TOP EXPERIENCE...](transcripts/WVEviT8Mbl0.md) — Ryze.
+- 2026-07-01 — [10 CS PER MINUTE TEEMO VS GRAGAS](transcripts/ZluenfxNyKk.md) — Gragas.
+- 2026-06-30 — [HOW TO CARRY ON TEEMO VS TOUGH MATCHUPS](transcripts/GIzSQNHQmjA.md) — Gangplank.
 - 2026-06-29 — [HE COULDN'T EVEN TOUCH THE WAVE (LEVEL 1 CHEESE)](transcripts/w1i16ucTPh0.md) — Zilean (Top).
-- 2026-06-28 — [THIS IS WHAT 10000 HOURS OF TEEMO LOOKS LIKE...](transcripts/CGftuzochZE.md) — Zaahen (Lane unspecified).
-- 2026-06-27 — [TOWER DIVING AN AMBESSA??](transcripts/XeDjTsrNKTI.md) — Ambessa (Lane unspecified).
-- 2026-06-26 — [THIS LEVEL 1 TRICK IS SO OP VS VAYNE!!](transcripts/Kmnwm0--OY4.md) — Vayne (Lane unspecified).
-- 2026-06-25 — [DARIUS STOOD NO CHANCE VS THE RANK 1 TEEMO](transcripts/hTY31z2zQbM.md) — Darius (Lane unspecified).
-- 2026-06-22 — [THIS IS HOW YOU BEAT KENNEN AS TEEMO!! (Level 1 Cheese)](transcripts/V-Ux4XkofuM.md) — Kennen (Lane unspecified).
-- 2026-06-19 — [DODGING EVERY BARREL VS GANGPLANK](transcripts/iiXQdU4LnDM.md) — Gangplank (Lane unspecified).
-- 2026-06-18 — [QUADRA KILL WITH STATIKK SHIV??](transcripts/p7XuHeW_Hf8.md) — Sion (Lane unspecified).
-- 2026-06-16 — [HOW TO PLAY WEAKSIDE PERFECTLY AS TEEMO](transcripts/YPj_ZzRBaZM.md) — Garen (Lane unspecified).
-- 2026-06-14 — [I HATE PLAYING VS THIS CHAMPION!!](transcripts/uxw9yDJMzvw.md) — Singed (Lane unspecified).
-- 2026-06-12 — [THIS NEW SION BUILD IS SO ANNOYING!!](transcripts/-kGQCJmiabc.md) — Sion (Lane unspecified).
-- 2026-06-10 — [SHROOMS ARE OP IN THIS MATCHUP!!](transcripts/3wjwQrMW1Ms.md) — Gragas (Lane unspecified).
-- 2026-06-09 — [TEEMO VS FULL CHALLENGER LOBBY](transcripts/SULBrVIR3XQ.md) — Vayne (Lane unspecified).
+- 2026-06-28 — [THIS IS WHAT 10000 HOURS OF TEEMO LOOKS LIKE...](transcripts/CGftuzochZE.md) — Zaahen.
+- 2026-06-27 — [TOWER DIVING AN AMBESSA??](transcripts/XeDjTsrNKTI.md) — Ambessa.
+- 2026-06-26 — [THIS LEVEL 1 TRICK IS SO OP VS VAYNE!!](transcripts/Kmnwm0--OY4.md) — Vayne.
+- 2026-06-25 — [DARIUS STOOD NO CHANCE VS THE RANK 1 TEEMO](transcripts/hTY31z2zQbM.md) — Darius.
+- 2026-06-22 — [THIS IS HOW YOU BEAT KENNEN AS TEEMO!! (Level 1 Cheese)](transcripts/V-Ux4XkofuM.md) — Kennen.
+- 2026-06-19 — [DODGING EVERY BARREL VS GANGPLANK](transcripts/iiXQdU4LnDM.md) — Gangplank.
+- 2026-06-18 — [QUADRA KILL WITH STATIKK SHIV??](transcripts/p7XuHeW_Hf8.md) — Sion.
+- 2026-06-16 — [HOW TO PLAY WEAKSIDE PERFECTLY AS TEEMO](transcripts/YPj_ZzRBaZM.md) — Garen.
+- 2026-06-14 — [I HATE PLAYING VS THIS CHAMPION!!](transcripts/uxw9yDJMzvw.md) — Singed.
+- 2026-06-12 — [THIS NEW SION BUILD IS SO ANNOYING!!](transcripts/-kGQCJmiabc.md) — Sion.
+- 2026-06-10 — [SHROOMS ARE OP IN THIS MATCHUP!!](transcripts/3wjwQrMW1Ms.md) — Gragas.
+- 2026-06-09 — [TEEMO VS FULL CHALLENGER LOBBY](transcripts/SULBrVIR3XQ.md) — Vayne.
 - 2026-06-08 — [10 CS PER MINUTE TEEMO VS OLAF](transcripts/jGFElxZETYA.md) — Olaf (Top).
-- 2026-06-07 — [TEEMO HAS CRAZY SYNERGY WITH THIS SUPPORT CHAMP...](transcripts/FXGiDx9XcXM.md) — Gangplank (Lane unspecified).
-- 2026-05-28 — [TAKING OVER THE ENTIRE ENEMY JUNGLE (12 CS PER MINUTE)](transcripts/R4Gkoa47Fqs.md) — Sion (Lane unspecified).
-- 2026-05-27 — [LEVEL 1 CHEESE WORKS EVEN IN CHALLENGER!!](transcripts/qPXrKfzo78w.md) — Ryze (Lane unspecified).
-- 2026-05-26 — [DARIUS BM'ED ME AFTER KILLING ME, SO I HAD TO GET REVENGE](transcripts/nR8s34QANqQ.md) — Darius (Lane unspecified).
-- 2026-05-25 — [THIS IS MY FAVOURITE TEEMO MATCHUP!](transcripts/P8o3NuQj208.md) — Riven (Lane unspecified).
-- 2026-05-24 — [0/8 BOTLANE? NO PROBLEM FOR TEEMO!](transcripts/-uXjerowSog.md) — Olaf (Lane unspecified).
+- 2026-06-07 — [TEEMO HAS CRAZY SYNERGY WITH THIS SUPPORT CHAMP...](transcripts/FXGiDx9XcXM.md) — Gangplank.
+- 2026-05-28 — [TAKING OVER THE ENTIRE ENEMY JUNGLE (12 CS PER MINUTE)](transcripts/R4Gkoa47Fqs.md) — Sion.
+- 2026-05-27 — [LEVEL 1 CHEESE WORKS EVEN IN CHALLENGER!!](transcripts/qPXrKfzo78w.md) — Ryze.
+- 2026-05-26 — [DARIUS BM'ED ME AFTER KILLING ME, SO I HAD TO GET REVENGE](transcripts/nR8s34QANqQ.md) — Darius.
+- 2026-05-25 — [THIS IS MY FAVOURITE TEEMO MATCHUP!](transcripts/P8o3NuQj208.md) — Riven.
+- 2026-05-24 — [0/8 BOTLANE? NO PROBLEM FOR TEEMO!](transcripts/-uXjerowSog.md) — Olaf.
 - 2026-05-23 — [I MADE HER QUIT LANE AFTER JUST 4 LEVELS...](transcripts/kNYKHOyG2ao.md) — Vayne (Top).
-- 2026-05-22 — [5 MILLION MASTERY TEEMO LOOKS LIKE THIS...](transcripts/KhFQgJwrCsA.md) — Jax (Lane unspecified).
-- 2026-05-21 — [THIS IS WHY YOU NEVER FF ON TEEMO...](transcripts/j4sSxOFuHGs.md) — Olaf (Lane unspecified).
-- 2026-05-20 — [RANK 1 TEEMO VS PHANTASM. WHO CAN CARRY HARDER?](transcripts/Pbs7kCX6-Xw.md) — Gangplank (Lane unspecified).
-- 2026-05-19 — [TEEMO LEVEL 1 CHEESE IS JUST FREE LP!!](transcripts/4qJnHDztx-E.md) — Gnar (Lane unspecified).
-- 2026-05-18 — [10000 HOURS OF TEEMO LOOKS LIKE THIS...](transcripts/hFLrJz01Vsg.md) — Darius (Lane unspecified).
+- 2026-05-22 — [5 MILLION MASTERY TEEMO LOOKS LIKE THIS...](transcripts/KhFQgJwrCsA.md) — Jax.
+- 2026-05-21 — [THIS IS WHY YOU NEVER FF ON TEEMO...](transcripts/j4sSxOFuHGs.md) — Olaf.
+- 2026-05-20 — [RANK 1 TEEMO VS PHANTASM. WHO CAN CARRY HARDER?](transcripts/Pbs7kCX6-Xw.md) — Gangplank.
+- 2026-05-19 — [TEEMO LEVEL 1 CHEESE IS JUST FREE LP!!](transcripts/4qJnHDztx-E.md) — Gnar.
+- 2026-05-18 — [10000 HOURS OF TEEMO LOOKS LIKE THIS...](transcripts/hFLrJz01Vsg.md) — Darius.
 - 2026-05-17 — [TEEMO VS HIS WORST COUNTER](transcripts/jJKGOBe_E8A.md) — Anivia (Top).
 - 2026-05-16 — [LEVEL 1 CHEESE = 🤑🤑🤑](transcripts/IzyUTsN9Ksk.md) — Lissandra (Top).
-- 2026-05-14 — [DOES STATIKK SHIV HELP WITH THIS MATCHUP??](transcripts/65k54pveEmY.md) — Gangplank (Lane unspecified).
-- 2026-05-13 — [BULLYING URGOT WITH MY TEEMO!!](transcripts/isHk2-IC-2k.md) — Urgot (Lane unspecified).
-- 2026-05-12 — [100 CS LEAD AT 14 MINS???](transcripts/6NOjldBpcMw.md) — Warwick (Lane unspecified).
-- 2026-05-11 — [THIS LEVEL 1 TRICK ALWAYS WORKS VS URGOT...](transcripts/9_CUTeAOfwU.md) — Urgot (Lane unspecified).
-- 2026-05-10 — [MAKING YONE RAGE WITH MY TEEMO!!](transcripts/ApevFxy9mB8.md) — Yone (Lane unspecified).
-- 2026-05-04 — [Garen is UNPLAYABLE into Teemo!!](transcripts/t08SBVArj5A.md) — Garen (Lane unspecified).
-- 2026-05-03 — [IS THE NEW STATIKK SHIV THE ANSWER TO THIS MATCHUP??](transcripts/rIQLnFtuTqs.md) — Sion (Lane unspecified).
-- 2026-05-02 — [THE NEW DUSK &amp; DAWN IS SO OP ON TEEMO!](transcripts/JQ0cvJoIf2E.md) — Shen (Lane unspecified).
-- 2026-05-01 — [NEW STATIKK SHIV DOES INSANE DAMAGE IN TEAMFIGHTS!](transcripts/5IBwIAIv8cM.md) — Olaf (Lane unspecified).
-- 2026-04-30 — [FIRST TEEMO GAME WITH THE NEW ITEMS + BUFFS!!](transcripts/GoNaFBI15BM.md) — Gnar (Lane unspecified).
+- 2026-05-14 — [DOES STATIKK SHIV HELP WITH THIS MATCHUP??](transcripts/65k54pveEmY.md) — Gangplank.
+- 2026-05-13 — [BULLYING URGOT WITH MY TEEMO!!](transcripts/isHk2-IC-2k.md) — Urgot.
+- 2026-05-12 — [100 CS LEAD AT 14 MINS???](transcripts/6NOjldBpcMw.md) — Warwick.
+- 2026-05-11 — [THIS LEVEL 1 TRICK ALWAYS WORKS VS URGOT...](transcripts/9_CUTeAOfwU.md) — Urgot.
+- 2026-05-10 — [MAKING YONE RAGE WITH MY TEEMO!!](transcripts/ApevFxy9mB8.md) — Yone.
+- 2026-05-04 — [Garen is UNPLAYABLE into Teemo!!](transcripts/t08SBVArj5A.md) — Garen.
+- 2026-05-03 — [IS THE NEW STATIKK SHIV THE ANSWER TO THIS MATCHUP??](transcripts/rIQLnFtuTqs.md) — Sion.
+- 2026-05-02 — [THE NEW DUSK &amp; DAWN IS SO OP ON TEEMO!](transcripts/JQ0cvJoIf2E.md) — Shen.
+- 2026-05-01 — [NEW STATIKK SHIV DOES INSANE DAMAGE IN TEAMFIGHTS!](transcripts/5IBwIAIv8cM.md) — Olaf.
+- 2026-04-30 — [FIRST TEEMO GAME WITH THE NEW ITEMS + BUFFS!!](transcripts/GoNaFBI15BM.md) — Gnar.
 - 2026-04-29 — [THE #1 TRICK TO WIN ANY LOST GAME](transcripts/FXBmJzuX-kA.md) — Naafiri (Top).
-- 2026-04-28 — [Dr. Mundo is UNPLAYABLE into Teemo](transcripts/5RjcrkTLdC8.md) — Dr. Mundo (Lane unspecified).
+- 2026-04-28 — [Dr. Mundo is UNPLAYABLE into Teemo](transcripts/5RjcrkTLdC8.md) — Dr. Mundo.
 - 2026-04-27 — [Is Teemo Botlane playable in CHALLENGER? (ft. TFBlade, Quante)](transcripts/IGC1-b-TVLE.md) — Mel (ADC).
 - 2026-04-26 — [Is this the WORST Teemo Matchup there is?](transcripts/Bny_MWyfu3M.md) — Annie (Top).
-- 2026-04-25 — [CHALLENGER AATROX CANNOT HIT A Q ON TEEMO!!](transcripts/QyayAb_vE_U.md) — Aatrox (Lane unspecified).
+- 2026-04-25 — [CHALLENGER AATROX CANNOT HIT A Q ON TEEMO!!](transcripts/QyayAb_vE_U.md) — Aatrox.
 - 2026-04-24 — [THEY THOUGHT THIS GAME WAS OVER... BUT WE HAD TEEMO!](transcripts/J3tc4XfDRTw.md) — Yone (Top).
-- 2026-04-23 — [THIS RUMBLE COULD NOT HANDLE MY TEEMO](transcripts/at3BFFWjylo.md) — Rumble (Lane unspecified).
+- 2026-04-23 — [THIS RUMBLE COULD NOT HANDLE MY TEEMO](transcripts/at3BFFWjylo.md) — Rumble.
 - 2026-04-22 — [SPEARSHOT GETS THE TEEMO TOP EXPERIENCE...](transcripts/CyF6Y9Rtw0I.md) — Pantheon (Top).
 - 2026-04-21 — [IS AERY THE ANSWER TO THIS MATCHUP??](transcripts/Zk_h8kknVeU.md) — Malphite (Top).
 - 2026-04-20 — [HE KNOWS ABOUT THE LEVEL 1 CHEESE??](transcripts/HPYj7iuCwt0.md) — Gnar (Top).
@@ -147,14 +147,14 @@
 - 2026-04-15 — [I MADE DRUTUTT LOSE HIS MIND VS MY TEEMO (HE WENT AFK)](transcripts/dFbSv13QXUc.md) — Vayne (Top).
 - 2026-04-14 — [TEEMO TOP VS THE RANK 1 TOPLANER IN EUW (ft. RaiderGO)](transcripts/QObiBDlZKq0.md) — Darius (Top).
 - 2026-04-13 — [BEATING RANGED TOP WITH RANGED TOP!](transcripts/KRvMggzmRGE.md) — Quinn (Top).
-- 2026-04-12 — [MAKING CHALLENGER JAX LOOK LIKE IRON WITH MY TEEMO...](transcripts/W7FhdaAw8c4.md) — Jax (Lane unspecified).
+- 2026-04-12 — [MAKING CHALLENGER JAX LOOK LIKE IRON WITH MY TEEMO...](transcripts/W7FhdaAw8c4.md) — Jax.
 - 2026-04-11 — [HOW TO TRACK THE ENEMY JUNGLER ALL GAME AS TEEMO!!](transcripts/rA_NJihhFC8.md) — Camille (Top).
 - 2026-04-10 — [EVERY LEC PLAYER IS GETTING DESTROYED BY MY TEEMO!!](transcripts/0rQMv9nw3kk.md) — Shyvana (Top).
 - 2026-04-09 — [THIS CROCODILE STOOD NO CHANCE VS DUSK &amp; DAWN TEEMO](transcripts/CBxqEicq8_c.md) — Renekton (Top).
 - 2026-04-08 — [DUSK &amp; DAWN IS THE MOST BROKEN ITEM ON TEEMO](transcripts/AZXtpfIWOYw.md) — Shyvana (Top).
 - 2026-04-07 — [WORLDS FINALIST GETS THE TEEMO TOP EXPERIENCE...](transcripts/TGolg24kEU0.md) — Yorick (Top).
 - 2026-04-06 — [MONSTER SSS WAS WATCHING SO I HAD TO COMPLETELY 1V9 THE GAME!!!](transcripts/cp61N5kqJfk.md) — Fiora (Top).
-- 2026-04-05 — [THIS DARIUS COULD NOT EVEN BREATHE VS MY TEEMO](transcripts/fqtOAL4mxwQ.md) — Darius (Lane unspecified).
+- 2026-04-05 — [THIS DARIUS COULD NOT EVEN BREATHE VS MY TEEMO](transcripts/fqtOAL4mxwQ.md) — Darius.
 - 2026-04-04 — [LEC TOPLANER GETS THE TEEMO TOP EXPERIENCE...](transcripts/_BQd619wjA4.md) — Shyvana (Top).
 - 2026-04-03 — [I IMPRESSED SPEAR SHOT WITH MY TEEMO AND HIT 1600LP!](transcripts/CInnb6rXOh8.md) — Viktor (Top).
 - 2026-03-31 — [I SHOWED MONSTER SSS THE POWER OF TEEMO TOPLANE...](transcripts/bJvJnIzkc-8.md) — Master Yi (Top).
@@ -165,21 +165,21 @@
 - 2026-03-11 — [TEEMO WITH DUSK &amp; DAWN CAN 1V9 ANY GAME](transcripts/F26kgKnSaHI.md) — Quinn (Top); Mordekaiser (Top).
 - 2026-03-08 — [SHROOMING THE ENTIRE MAP IN CHALLENGER (ft Rekkles)](transcripts/9C7opI3Ixp8.md) — Aatrox (Top).
 - 2026-03-05 — [TEEMO JUNGLE IS SO OP (+ game vs @Agurinlol )](transcripts/RP0IuAQqdrE.md) — Fizz (Jungle); Jayce (Top).
-- 2026-03-03 — [NASUS IS UNPLAYABLE INTO TEEMO](transcripts/PNacCG7Q4x4.md) — Nasus (Lane unspecified).
-- 2026-03-01 — [RANK 1 TEEMO VS 1800 LP AKALI](transcripts/x9i6jBai9D8.md) — Akali (Lane unspecified).
+- 2026-03-03 — [NASUS IS UNPLAYABLE INTO TEEMO](transcripts/PNacCG7Q4x4.md) — Nasus.
+- 2026-03-01 — [RANK 1 TEEMO VS 1800 LP AKALI](transcripts/x9i6jBai9D8.md) — Akali.
 - 2026-02-23 — [MAGES ARE NO MATCH FOR MY TEEMO](transcripts/3icGbxZnbiM.md) — Ryze (Top).
 - 2026-02-15 — [THEY THOUGHT THEY COULD COUNTERPICK ME TWICE IN A ROW](transcripts/MghML1o54zw.md) — Ryze (Top); Sion (Top).
-- 2026-02-13 — [DUSK &amp; DAWN IS SO OP ON TEEMO](transcripts/Q69SqQ0mB8U.md) — Irelia (Top).
-- 2026-02-10 — [RANK 1 TEEMO VS RANK 1 SETT (ft @Geishuu)](transcripts/lKF7_8MfeFs.md) — Sett (Lane unspecified).
+- 2026-02-13 — [DUSK &amp; DAWN IS SO OP ON TEEMO](transcripts/Q69SqQ0mB8U.md) — Irelia (Top); Vayne (Top).
+- 2026-02-10 — [RANK 1 TEEMO VS RANK 1 SETT (ft @Geishuu)](transcripts/lKF7_8MfeFs.md) — Sett.
 - 2026-02-06 — [The ULTIMATE Teemo Level 1 Cheese Guide (FREE LP)](transcripts/gyWGLQYigsE.md) — General guide.
 - 2026-01-31 — [Is Teemo the best Anti-Tank Champ in the game?](transcripts/1Nq3wWmeqjc.md) — Ornn (Top).
-- 2026-01-24 — [HOW A CHALLENGER TEEMO CONSISTENTLY BEATS RIVEN](transcripts/ykUqr-0jMRo.md) — Riven (Lane unspecified).
+- 2026-01-24 — [HOW A CHALLENGER TEEMO CONSISTENTLY BEATS RIVEN](transcripts/ykUqr-0jMRo.md) — Riven.
 - 2026-01-17 — [I WENT ON DISCORD WITH MY TEAM AND 1V9ED THE GAME](transcripts/jBIU1GBMQPE.md) — Sion (Top).
-- 2025-11-07 — [BIG SHROOMS TEEMO | Challenger peak Teemo vs Aatrox](transcripts/HHpPnu8uFfY.md) — Aatrox (Lane unspecified).
-- 2025-11-02 — [Making Ambessa players suffer with my Teemo! (educational-ish)](transcripts/lPQbLheGI7k.md) — Ambessa (Lane unspecified).
+- 2025-11-07 — [BIG SHROOMS TEEMO | Challenger peak Teemo vs Aatrox](transcripts/HHpPnu8uFfY.md) — Aatrox.
+- 2025-11-02 — [Making Ambessa players suffer with my Teemo! (educational-ish)](transcripts/lPQbLheGI7k.md) — Ambessa.
 - 2025-08-25 — [WE MADE NEMESIS BAN TEEMO AFTER THIS](transcripts/h1vlNhOBIjs.md) — Illaoi (Mid).
-- 2025-08-22 — [EVERY Ability That Reveals Teemo Passive](transcripts/5dJ8ObaWENo.md) — General guide.
+- 2025-08-22 — [EVERY Ability That Reveals Teemo Passive](transcripts/5dJ8ObaWENo.md) — On-screen guide.
 - 2025-08-19 — [BAUS, WELCOME TO THE TEEMO PENITENTIARY](transcripts/flUxN3deS6Q.md) — Cho'Gath (Top).
-- 2025-06-22 — [JANKOS LOVED MY TEEMO AFTER I DID THIS - Rank 1 Teemo vs Ambessa](transcripts/KLRwxkVm99c.md) — Ambessa (Lane unspecified).
-- 2025-06-19 — [THIS IS WHY YOU DON'T PICK MUNDO INTO MY TEEMO - Rank 1 Teemo vs Dr. Mundo](transcripts/y-RqY2eGXAo.md) — Dr. Mundo (Lane unspecified).
-- 2025-06-17 — [How the RANK 1 TEEMO EUW DESTROYS SHEN ONE TRICKS](transcripts/gjgrfQKPCxU.md) — Shen (Lane unspecified).
+- 2025-06-22 — [JANKOS LOVED MY TEEMO AFTER I DID THIS - Rank 1 Teemo vs Ambessa](transcripts/KLRwxkVm99c.md) — Ambessa.
+- 2025-06-19 — [THIS IS WHY YOU DON'T PICK MUNDO INTO MY TEEMO - Rank 1 Teemo vs Dr. Mundo](transcripts/y-RqY2eGXAo.md) — Dr. Mundo.
+- 2025-06-17 — [How the RANK 1 TEEMO EUW DESTROYS SHEN ONE TRICKS](transcripts/gjgrfQKPCxU.md) — Shen.

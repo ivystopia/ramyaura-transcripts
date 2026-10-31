@@ -1,28 +1,28 @@
 # Browse by matchup
 
-Recorded opponents and roles, with links into the relevant transcript. These are source classifications, not matchup difficulty rankings or current-patch recommendations. Multi-game uploads use conservative passage boundaries; transition passages remain in the full transcript.
+Recorded opponents and roles, with links to the first full transcript passage in each game. Game times follow the creator’s chapters where available or use conservative passage boundaries. Passages that span two games remain in the full transcript.
 
 [All transcripts](TRANSCRIPTS.md) · [Dataset notes](README.md)
 
-[Aatrox](#matchup-aatrox) · [Akali](#matchup-akali) · [Alistar](#matchup-alistar) · [Ambessa](#matchup-ambessa) · [Anivia](#matchup-anivia) · [Annie](#matchup-annie) · [Aurelion Sol](#matchup-aurelion-sol) · [Camille](#matchup-camille) · [Cassiopeia](#matchup-cassiopeia) · [Cho'Gath](#matchup-cho-gath) · [Corki](#matchup-corki) · [Darius](#matchup-darius) · [Dr. Mundo](#matchup-dr-mundo) · [Fiora](#matchup-fiora) · [Fizz](#matchup-fizz) · [Gangplank](#matchup-gangplank) · [Garen](#matchup-garen) · [Gnar](#matchup-gnar) · [Gragas](#matchup-gragas) · [Illaoi](#matchup-illaoi) · [Irelia](#matchup-irelia) · [Jax](#matchup-jax) · [Jayce](#matchup-jayce) · [Karma](#matchup-karma) · [Kayle](#matchup-kayle) · [Kennen](#matchup-kennen) · [Lissandra](#matchup-lissandra) · [Locke](#matchup-locke) · [Malphite](#matchup-malphite) · [Master Yi](#matchup-master-yi) · [Mel](#matchup-mel) · [Mordekaiser](#matchup-mordekaiser) · [Naafiri](#matchup-naafiri) · [Nasus](#matchup-nasus) · [Olaf](#matchup-olaf) · [Ornn](#matchup-ornn) · [Pantheon](#matchup-pantheon) · [Poppy](#matchup-poppy) · [Quinn](#matchup-quinn) · [Renekton](#matchup-renekton) · [Riven](#matchup-riven) · [Rumble](#matchup-rumble) · [Ryze](#matchup-ryze) · [Sett](#matchup-sett) · [Shen](#matchup-shen) · [Shyvana](#matchup-shyvana) · [Singed](#matchup-singed) · [Sion](#matchup-sion) · [Swain](#matchup-swain) · [Syndra](#matchup-syndra) · [Trundle](#matchup-trundle) · [Tryndamere](#matchup-tryndamere) · [Twisted Fate](#matchup-twisted-fate) · [Urgot](#matchup-urgot) · [Varus](#matchup-varus) · [Vayne](#matchup-vayne) · [Vi](#matchup-vi) · [Viktor](#matchup-viktor) · [Volibear](#matchup-volibear) · [Warwick](#matchup-warwick) · [Yasuo](#matchup-yasuo) · [Yone](#matchup-yone) · [Yorick](#matchup-yorick) · [Zaahen](#matchup-zaahen) · [Zed](#matchup-zed) · [Zilean](#matchup-zilean)
+[Aatrox](#matchup-aatrox) · [Akali](#matchup-akali) · [Alistar](#matchup-alistar) · [Ambessa](#matchup-ambessa) · [Anivia](#matchup-anivia) · [Annie](#matchup-annie) · [Aurelion Sol](#matchup-aurelion-sol) · [Camille](#matchup-camille) · [Cassiopeia](#matchup-cassiopeia) · [Cho'Gath](#matchup-cho-gath) · [Corki](#matchup-corki) · [Darius](#matchup-darius) · [Dr. Mundo](#matchup-dr-mundo) · [Fiora](#matchup-fiora) · [Fizz](#matchup-fizz) · [Gangplank](#matchup-gangplank) · [Garen](#matchup-garen) · [Gnar](#matchup-gnar) · [Gragas](#matchup-gragas) · [Illaoi](#matchup-illaoi) · [Irelia](#matchup-irelia) · [Jax](#matchup-jax) · [Jayce](#matchup-jayce) · [Karma](#matchup-karma) · [Kayle](#matchup-kayle) · [Kennen](#matchup-kennen) · [Lissandra](#matchup-lissandra) · [Locke](#matchup-locke) · [Malphite](#matchup-malphite) · [Malzahar](#matchup-malzahar) · [Master Yi](#matchup-master-yi) · [Mel](#matchup-mel) · [Mordekaiser](#matchup-mordekaiser) · [Naafiri](#matchup-naafiri) · [Nasus](#matchup-nasus) · [Olaf](#matchup-olaf) · [Ornn](#matchup-ornn) · [Pantheon](#matchup-pantheon) · [Poppy](#matchup-poppy) · [Quinn](#matchup-quinn) · [Renekton](#matchup-renekton) · [Riven](#matchup-riven) · [Rumble](#matchup-rumble) · [Ryze](#matchup-ryze) · [Sett](#matchup-sett) · [Shen](#matchup-shen) · [Shyvana](#matchup-shyvana) · [Singed](#matchup-singed) · [Sion](#matchup-sion) · [Swain](#matchup-swain) · [Sylas](#matchup-sylas) · [Syndra](#matchup-syndra) · [Trundle](#matchup-trundle) · [Tryndamere](#matchup-tryndamere) · [Twisted Fate](#matchup-twisted-fate) · [Urgot](#matchup-urgot) · [Varus](#matchup-varus) · [Vayne](#matchup-vayne) · [Vi](#matchup-vi) · [Viktor](#matchup-viktor) · [Volibear](#matchup-volibear) · [Warwick](#matchup-warwick) · [Yasuo](#matchup-yasuo) · [Yone](#matchup-yone) · [Yorick](#matchup-yorick) · [Zaahen](#matchup-zaahen) · [Zed](#matchup-zed) · [Zilean](#matchup-zilean)
 
 
 <a id="matchup-aatrox"></a>
 
 ## Aatrox
 
-- 2026-07-09 · **Lane unspecified** · [THIS GAME LOOKED OVER, BUT WE HAD TEEMO...](transcripts/YCnaS3x2xGM.md#p-dc2827c1feecffc43db372c8bb86fbab5dd8abbcb7257843da72d9f20f0e668c) · video 00:00–32:47.
-- 2026-04-25 · **Lane unspecified** · [CHALLENGER AATROX CANNOT HIT A Q ON TEEMO!!](transcripts/QyayAb_vE_U.md#p-767e721822b10a6fc23008db5e917ef1a846e8c117c97439193fb21af1dd0d07) · video 00:00–22:45.
+- 2026-07-09 · [THIS GAME LOOKED OVER, BUT WE HAD TEEMO...](transcripts/YCnaS3x2xGM.md#p-dc2827c1feecffc43db372c8bb86fbab5dd8abbcb7257843da72d9f20f0e668c) · video 00:00–32:47.
+- 2026-04-25 · [CHALLENGER AATROX CANNOT HIT A Q ON TEEMO!!](transcripts/QyayAb_vE_U.md#p-767e721822b10a6fc23008db5e917ef1a846e8c117c97439193fb21af1dd0d07) · video 00:00–22:45.
 - 2026-03-18 · **Top** · [TEEMO WITH ELDER DOES SO MUCH DAMAGE](transcripts/MlpGo5JKR-o.md#p-a9f918acc1b8bb72f9ec196e2ef1739b7a3b19236e14ac8786925fc0fc5358e2) · video 00:00–29:23.
 - 2026-03-08 · **Top** · [SHROOMING THE ENTIRE MAP IN CHALLENGER (ft Rekkles)](transcripts/9C7opI3Ixp8.md#p-8859c473dee9b689740be7d67fb23ab3c31db8d9138b9a2b1b0bf530bc42338d) · video 00:00–26:32.
-- 2025-11-07 · **Lane unspecified** · [BIG SHROOMS TEEMO | Challenger peak Teemo vs Aatrox](transcripts/HHpPnu8uFfY.md#p-00316aab54bafe5ab6a9f876417ae3a4fe2487ae7a1d8f7702d41b8a869d7e88) · video 00:00–26:33.
+- 2025-11-07 · [BIG SHROOMS TEEMO | Challenger peak Teemo vs Aatrox](transcripts/HHpPnu8uFfY.md#p-00316aab54bafe5ab6a9f876417ae3a4fe2487ae7a1d8f7702d41b8a869d7e88) · video 00:00–26:33.
 
 <a id="matchup-akali"></a>
 
 ## Akali
 
 - 2026-09-25 · **Top** · [NA UNRANKED TO CHALLENGER STARTS NOW!!!](transcripts/QBSdvlBi4l8.md#p-fe416e7d1c791b34a4e871b7743c09ca29485ac1c4255959d068aa7f455a8e69) · video 00:00–29:56.
-- 2026-03-01 · **Lane unspecified** · [RANK 1 TEEMO VS 1800 LP AKALI](transcripts/x9i6jBai9D8.md#p-859aff6a911e915d757facb620d94988156c88b1d1da3842d7bd01a83d4e8355) · video 00:00–19:56.
+- 2026-03-01 · [RANK 1 TEEMO VS 1800 LP AKALI](transcripts/x9i6jBai9D8.md#p-859aff6a911e915d757facb620d94988156c88b1d1da3842d7bd01a83d4e8355) · video 00:00–19:56.
 
 <a id="matchup-alistar"></a>
 
@@ -38,10 +38,10 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 - 2026-08-14 · **Top** · [This is How the Rank 1 Teemo Makes Comebacks](transcripts/JXP1J4iXLfQ.md#p-e58304a05b86231a8134fc1a34aa681a9494be235bc603c5604c61f16d89d0ea) · video 00:00–26:40.
 - 2026-08-11 · **Top** · [AMBESSA THOUGHT BRINGING IGNITE WOULD COUNTER TEEMO...](transcripts/X7qo1LwKMQ0.md#p-54a907a0dc55d297424fff1acf7ed47f5217df45e9d6fe358ee980db45b184a8) · video 00:00–28:28.
 - 2026-07-28 · **Top** · [10000 GAMES OF TEEMO LOOKS LIKE THIS...](transcripts/4S8OfAPXReo.md#p-75c99dbf8720a7f5cfb22b8830781de73ea4dd7eb60989dbdc5d295bab1c88b8) · video 00:00–35:28.
-- 2026-07-05 · **Lane unspecified** · [I SHOWED DRAGDAR THE POWER OF TEEMO TOP...](transcripts/9efC7zHUkD4.md#p-4c8d1cd3b8431da58e015cf09a2a23e9886f0928665e308def3e951ee6c38ce8) · video 00:00–24:20.
-- 2026-06-27 · **Lane unspecified** · [TOWER DIVING AN AMBESSA??](transcripts/XeDjTsrNKTI.md#p-58e5095bf1c70f6dc0ca8cb2832399e6ed1ebf9d17d04dd54aadcc8ea5e9810d) · video 00:00–27:11.
-- 2025-11-02 · **Lane unspecified** · [Making Ambessa players suffer with my Teemo! (educational-ish)](transcripts/lPQbLheGI7k.md#p-bcf78448f3dd00c01a3057960e4b57274f026891f010a07742765d476b335037) · video 00:00–25:35.
-- 2025-06-22 · **Lane unspecified** · [JANKOS LOVED MY TEEMO AFTER I DID THIS - Rank 1 Teemo vs Ambessa](transcripts/KLRwxkVm99c.md#p-0be6b9c361bf3d1ae8ad3e7727e8b16c5e558f90173ba621c41e2745548a62d9) · video 00:00–26:07.
+- 2026-07-05 · [I SHOWED DRAGDAR THE POWER OF TEEMO TOP...](transcripts/9efC7zHUkD4.md#p-4c8d1cd3b8431da58e015cf09a2a23e9886f0928665e308def3e951ee6c38ce8) · video 00:00–24:20.
+- 2026-06-27 · [TOWER DIVING AN AMBESSA??](transcripts/XeDjTsrNKTI.md#p-58e5095bf1c70f6dc0ca8cb2832399e6ed1ebf9d17d04dd54aadcc8ea5e9810d) · video 00:00–27:11.
+- 2025-11-02 · [Making Ambessa players suffer with my Teemo! (educational-ish)](transcripts/lPQbLheGI7k.md#p-bcf78448f3dd00c01a3057960e4b57274f026891f010a07742765d476b335037) · video 00:00–25:35.
+- 2025-06-22 · [JANKOS LOVED MY TEEMO AFTER I DID THIS - Rank 1 Teemo vs Ambessa](transcripts/KLRwxkVm99c.md#p-0be6b9c361bf3d1ae8ad3e7727e8b16c5e558f90173ba621c41e2745548a62d9) · video 00:00–26:07.
 
 <a id="matchup-anivia"></a>
 
@@ -80,6 +80,7 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 ## Cho'Gath
 
+- 2026-10-01 · **Top** · [I found the NA MONSTERSSS... (is he Vegan?)](transcripts/NTUjuKadtkU.md#p-d19ec3c928f52f6121d3bc728e73d0fb4909efb01fadb936b306fe82df30466c) · video 28:02–46:32.
 - 2026-09-19 · **Top** · [Cho'Gath is UNPLAYABLE into Teemo!!](transcripts/_YglXds6JpY.md#p-5e2d84f7b8bc25f668b3ffe11f0977b5f29313e55b0a621b44edeb06db38c37a) · video 00:00–30:04.
 - 2025-08-19 · **Top** · [BAUS, WELCOME TO THE TEEMO PENITENTIARY](transcripts/flUxN3deS6Q.md#p-d500b91349c4e3afaad9c494ea3f8431582d9a9d88d6a1c25a299e03fda9c698) · video 00:00–26:59.
 
@@ -93,16 +94,17 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 ## Darius
 
-- 2026-09-30 · **Top** · [NA HIGH ELO, YUNG FLAPPY IS COMING](transcripts/-uJxm7N9IFk.md#p-02d605044eb815020abb9580dc6dc524216f4e31a7e014a0eb0e2fb670696b70) · video 00:00–45:55.
+- 2026-09-30 · **Top** · [NA HIGH ELO, YUNG FLAPPY IS COMING](transcripts/-uJxm7N9IFk.md#p-02d605044eb815020abb9580dc6dc524216f4e31a7e014a0eb0e2fb670696b70) · video 00:00–19:44.
+- 2026-09-29 · **Top** · [I FINALLY FACED THE CHAMP I'VE BEEN BANNING ALL YEAR](transcripts/-QCM7ZLOu1Q.md#p-ff248900231b6bf94ccc30222b7c77dc74b36de4533430d700c3aed002fb8823) · video 19:24–37:24.
 - 2026-09-16 · **Top** · [Rank 1 Darius RaiderGO Could Not Handle My Teemo!!](transcripts/ACfHOTFX0ZA.md#p-852dbea3d9ad65f5e2975c6f0a2ff3786834e7aac51936e9be81d632119dca08) · video 00:00–36:33.
-- 2026-08-22 · **Lane unspecified** · [Rank 1 Darius RaiderGO Gets the Teemo Top Experience... (INSANE FLASH PREDICT)](transcripts/YAZEYclWYqc.md#p-ada7500d528223d9551f8089ed70d1e90d4516a81e54f79ee94cc7a64928c6d0) · video 00:00–28:09.
+- 2026-08-22 · [Rank 1 Darius RaiderGO Gets the Teemo Top Experience... (INSANE FLASH PREDICT)](transcripts/YAZEYclWYqc.md#p-ada7500d528223d9551f8089ed70d1e90d4516a81e54f79ee94cc7a64928c6d0) · video 00:00–28:09.
 - 2026-08-18 · **Top** · [THE MOST PERFECT TEEMO VS DARIUS GAME EVER](transcripts/iZ-48pMef8g.md#p-d6903119b8f1158bd541c2a9f771e400bcc429b0ff7d8cf34eda5e74944d1a0e) · video 00:00–36:54.
-- 2026-06-25 · **Lane unspecified** · [DARIUS STOOD NO CHANCE VS THE RANK 1 TEEMO](transcripts/hTY31z2zQbM.md#p-cb2099e9795950655d471860f677fd1c5394b0b49597945fba8288598ec72163) · video 00:00–32:12.
-- 2026-05-26 · **Lane unspecified** · [DARIUS BM'ED ME AFTER KILLING ME, SO I HAD TO GET REVENGE](transcripts/nR8s34QANqQ.md#p-b18176eecd8a05c9df5c96f9dba4843ec73424985ff687a48cf32a3e146d26b4) · video 00:00–26:01.
-- 2026-05-18 · **Lane unspecified** · [10000 HOURS OF TEEMO LOOKS LIKE THIS...](transcripts/hFLrJz01Vsg.md#p-2edb60588ba1988bb8a1223c016d5011c9d0d9b74272aa96dc9364184b5c7199) · video 00:00–30:27.
+- 2026-06-25 · [DARIUS STOOD NO CHANCE VS THE RANK 1 TEEMO](transcripts/hTY31z2zQbM.md#p-cb2099e9795950655d471860f677fd1c5394b0b49597945fba8288598ec72163) · video 00:00–32:12.
+- 2026-05-26 · [DARIUS BM'ED ME AFTER KILLING ME, SO I HAD TO GET REVENGE](transcripts/nR8s34QANqQ.md#p-b18176eecd8a05c9df5c96f9dba4843ec73424985ff687a48cf32a3e146d26b4) · video 00:00–26:01.
+- 2026-05-18 · [10000 HOURS OF TEEMO LOOKS LIKE THIS...](transcripts/hFLrJz01Vsg.md#p-2edb60588ba1988bb8a1223c016d5011c9d0d9b74272aa96dc9364184b5c7199) · video 00:00–30:27.
 - 2026-04-16 · **Top** · [HOW I HIT CHALLENGER PLAYING TEEMO ONLY!](transcripts/px-oKmnCDE0.md#p-8b6437872c0361195cef3ffb27147237d8f917d9b3ff715dee33940a26afa082) · video 00:00–28:35.
 - 2026-04-14 · **Top** · [TEEMO TOP VS THE RANK 1 TOPLANER IN EUW (ft. RaiderGO)](transcripts/QObiBDlZKq0.md#p-01902637fbb9a2e670195cdfe43cb5afa0ec8c7acb64ce36d3f410e07bbe3b49) · video 00:00–34:49.
-- 2026-04-05 · **Lane unspecified** · [THIS DARIUS COULD NOT EVEN BREATHE VS MY TEEMO](transcripts/fqtOAL4mxwQ.md#p-319531ac32979f5dc0c4bf7d3b2cf07d9285c1d0673bfd2cfbe757191e88a7fd) · video 00:00–20:39.
+- 2026-04-05 · [THIS DARIUS COULD NOT EVEN BREATHE VS MY TEEMO](transcripts/fqtOAL4mxwQ.md#p-319531ac32979f5dc0c4bf7d3b2cf07d9285c1d0673bfd2cfbe757191e88a7fd) · video 00:00–20:39.
 
 <a id="matchup-dr-mundo"></a>
 
@@ -110,8 +112,8 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 - 2026-09-21 · **Top** · [Teemo is the BEST Antiheal Abuser in the Game!!](transcripts/JB52UgLJTlI.md#p-5bbbce480616b81b0a883d7b680ac17112d9dc25b7d1068dfc214f68c0cac5f7) · video 00:00–34:48.
 - 2026-08-10 · **Top** · [THIS GAME LOOKED COMPLETELY OVER...](transcripts/jS5UIdQKDU8.md#p-0e38714961d28fb6bedebae49140b5d34ad007c6b801ff57f55454913747a6f7) · video 00:00–38:43.
-- 2026-04-28 · **Lane unspecified** · [Dr. Mundo is UNPLAYABLE into Teemo](transcripts/5RjcrkTLdC8.md#p-0a8d69ff786460ddd848ee0d0997459e6aaa50547af77b1b5bb4e48cbd0fdf74) · video 00:00–23:20.
-- 2025-06-19 · **Lane unspecified** · [THIS IS WHY YOU DON'T PICK MUNDO INTO MY TEEMO - Rank 1 Teemo vs Dr. Mundo](transcripts/y-RqY2eGXAo.md#p-06de3ecafb3e2d8ca00345fc480104fda8b0405fc3e8b4f3cc1d0d72d97dd6e5) · video 00:00–30:21.
+- 2026-04-28 · [Dr. Mundo is UNPLAYABLE into Teemo](transcripts/5RjcrkTLdC8.md#p-0a8d69ff786460ddd848ee0d0997459e6aaa50547af77b1b5bb4e48cbd0fdf74) · video 00:00–23:20.
+- 2025-06-19 · [THIS IS WHY YOU DON'T PICK MUNDO INTO MY TEEMO - Rank 1 Teemo vs Dr. Mundo](transcripts/y-RqY2eGXAo.md#p-06de3ecafb3e2d8ca00345fc480104fda8b0405fc3e8b4f3cc1d0d72d97dd6e5) · video 00:00–30:21.
 
 <a id="matchup-fiora"></a>
 
@@ -119,6 +121,7 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 - 2026-10-14 · **Top** · [Teemo + Zilean is the FUNNIEST Combo in League](transcripts/CG-DUTCpttw.md#p-514a14d658aee8fd72d1660ac459d5b88eed7374bdb84b522b9f550ce7429291) · video 00:00–23:02.
 - 2026-10-02 · **Top** · [I LOVE PLAYING WITH THIS CHAMPION ON MY TEAM!!](transcripts/0eA2DYi7muo.md#p-740c35e58fa2619b898dd6e33cd3a64a6d8e668781431ef5bc96e130057c10d9) · video 00:00–27:18.
+- 2026-09-27 · **Top** · [DAY 2 ON THE NA SUPERSERVER. (Teemo Unranked to Challenger)](transcripts/z0vw9Une2WM.md#p-e2d86fec85f5474e5c5221040ee3756b01190745c4462dde118b2ba5bbe1aa13) · video 00:00–15:46.
 - 2026-04-06 · **Top** · [MONSTER SSS WAS WATCHING SO I HAD TO COMPLETELY 1V9 THE GAME!!!](transcripts/cp61N5kqJfk.md#p-919341c89c212ee76490ef210696d79bbb890fb9bd57d9f911fd1c99cb31100e) · video 00:00–33:55.
 
 <a id="matchup-fizz"></a>
@@ -131,12 +134,12 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 ## Gangplank
 
-- 2026-07-11 · **Lane unspecified** · [NEITHER OF MY COUNTERS COULD STOP ME THIS GAME...](transcripts/RhWTYKmc9xU.md#p-4e853c25cb38ac17c0e599f94d82a6467dee5788641952ed84f90672fa009fc8) · video 00:00–31:07.
-- 2026-06-30 · **Lane unspecified** · [HOW TO CARRY ON TEEMO VS TOUGH MATCHUPS](transcripts/GIzSQNHQmjA.md#p-f8e3462edf961e23d1fc598fc670094fe8505b8d96a3b8fb6622d92191cd531c) · video 00:00–24:47.
-- 2026-06-19 · **Lane unspecified** · [DODGING EVERY BARREL VS GANGPLANK](transcripts/iiXQdU4LnDM.md#p-74571053a1cdddf621c214e9c37c10de64e59014b0f6d5180eeadf97dc35676e) · video 00:00–24:50.
-- 2026-06-07 · **Lane unspecified** · [TEEMO HAS CRAZY SYNERGY WITH THIS SUPPORT CHAMP...](transcripts/FXGiDx9XcXM.md#p-566166758279dc6aeea3a964939001ccd9cc477a31514110a39cb96c75f878b9) · video 00:00–29:49.
-- 2026-05-20 · **Lane unspecified** · [RANK 1 TEEMO VS PHANTASM. WHO CAN CARRY HARDER?](transcripts/Pbs7kCX6-Xw.md#p-322cb6e2f2dc28f6e8c9a66e6f00839f53909f5a654693760175cd12f382df51) · video 00:00–24:03.
-- 2026-05-14 · **Lane unspecified** · [DOES STATIKK SHIV HELP WITH THIS MATCHUP??](transcripts/65k54pveEmY.md#p-5c8fbe0c7ea6595453f68065c00d868d754dbb9e9504a84e1385e0137eb07e20) · video 00:00–19:51.
+- 2026-07-11 · [NEITHER OF MY COUNTERS COULD STOP ME THIS GAME...](transcripts/RhWTYKmc9xU.md#p-4e853c25cb38ac17c0e599f94d82a6467dee5788641952ed84f90672fa009fc8) · video 00:00–31:07.
+- 2026-06-30 · [HOW TO CARRY ON TEEMO VS TOUGH MATCHUPS](transcripts/GIzSQNHQmjA.md#p-f8e3462edf961e23d1fc598fc670094fe8505b8d96a3b8fb6622d92191cd531c) · video 00:00–24:47.
+- 2026-06-19 · [DODGING EVERY BARREL VS GANGPLANK](transcripts/iiXQdU4LnDM.md#p-74571053a1cdddf621c214e9c37c10de64e59014b0f6d5180eeadf97dc35676e) · video 00:00–24:50.
+- 2026-06-07 · [TEEMO HAS CRAZY SYNERGY WITH THIS SUPPORT CHAMP...](transcripts/FXGiDx9XcXM.md#p-566166758279dc6aeea3a964939001ccd9cc477a31514110a39cb96c75f878b9) · video 00:00–29:49.
+- 2026-05-20 · [RANK 1 TEEMO VS PHANTASM. WHO CAN CARRY HARDER?](transcripts/Pbs7kCX6-Xw.md#p-322cb6e2f2dc28f6e8c9a66e6f00839f53909f5a654693760175cd12f382df51) · video 00:00–24:03.
+- 2026-05-14 · [DOES STATIKK SHIV HELP WITH THIS MATCHUP??](transcripts/65k54pveEmY.md#p-5c8fbe0c7ea6595453f68065c00d868d754dbb9e9504a84e1385e0137eb07e20) · video 00:00–19:51.
 
 <a id="matchup-garen"></a>
 
@@ -144,8 +147,8 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 - 2026-09-17 · **Top** · [Rank 1 Garen Stood No Chance vs My Teemo!!](transcripts/zVoOvrr0bh8.md#p-fcde5e9e3f4826ac75b952d143f8f998143366d4f691a5156b2e9c82d111b1a3) · video 00:00–19:01.
 - 2026-08-20 · **Top** · [Garen is UNPLAYABLE into Teemo!!](transcripts/g2SSwQrSJgM.md#p-d4162d04327290f1afc19bc15c14c153103f3c3851b125a38634b0c3a43205e4) · video 00:00–18:25.
-- 2026-06-16 · **Lane unspecified** · [HOW TO PLAY WEAKSIDE PERFECTLY AS TEEMO](transcripts/YPj_ZzRBaZM.md#p-81e31ca9f233105ddc091a4ad661f909e1a436bbd24d0f7f4d0732f48d62f723) · video 00:00–26:49.
-- 2026-05-04 · **Lane unspecified** · [Garen is UNPLAYABLE into Teemo!!](transcripts/t08SBVArj5A.md#p-89bbe720ec3db923497d80f2aa5ab08e3de84229782e9ca08c092f79ae939b76) · video 00:00–17:02.
+- 2026-06-16 · [HOW TO PLAY WEAKSIDE PERFECTLY AS TEEMO](transcripts/YPj_ZzRBaZM.md#p-81e31ca9f233105ddc091a4ad661f909e1a436bbd24d0f7f4d0732f48d62f723) · video 00:00–26:49.
+- 2026-05-04 · [Garen is UNPLAYABLE into Teemo!!](transcripts/t08SBVArj5A.md#p-89bbe720ec3db923497d80f2aa5ab08e3de84229782e9ca08c092f79ae939b76) · video 00:00–17:02.
 - 2026-04-17 · **Top** · [THIS IS THE FREEST MATCHUP FOR TEEMO!!](transcripts/NFPNrXWaBqI.md#p-2413ca9a0e89331e96a8671fc75e755e658e7887b77d5827f77dc357a4209e90) · video 00:00–26:56.
 
 <a id="matchup-gnar"></a>
@@ -154,8 +157,8 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 - 2026-09-23 · **Top** · [Riot Keep Sending Me Their TOUGHEST Battles...](transcripts/VmGVaa-kf1s.md#p-2a12948028e2c56598d1b4cd7aa6e582d1ec2c30db46e57fd81a77b18fe739c8) · video 00:00–22:15.
 - 2026-07-25 · **Top** · [LEC Toplaner could not handle my Teemo! (FULL CHALLENGER LOBBY)](transcripts/I7PRkUs0LZc.md#p-0dea016c4fba832b7580ebdff3fa3e4a8001ecabffa16b1ca5f66229b985e79d) · video 00:00–27:22.
-- 2026-05-19 · **Lane unspecified** · [TEEMO LEVEL 1 CHEESE IS JUST FREE LP!!](transcripts/4qJnHDztx-E.md#p-9f80c965332c2f55da240377610f1909113bb3ad48e4025b16bb0534be3de057) · video 00:00–25:38.
-- 2026-04-30 · **Lane unspecified** · [FIRST TEEMO GAME WITH THE NEW ITEMS + BUFFS!!](transcripts/GoNaFBI15BM.md#p-3e1b560d54162d4c79e5ae918ce183e3d3a6ef29a3275b485d72f4d7590f80a2) · video 00:00–23:00.
+- 2026-05-19 · [TEEMO LEVEL 1 CHEESE IS JUST FREE LP!!](transcripts/4qJnHDztx-E.md#p-9f80c965332c2f55da240377610f1909113bb3ad48e4025b16bb0534be3de057) · video 00:00–25:38.
+- 2026-04-30 · [FIRST TEEMO GAME WITH THE NEW ITEMS + BUFFS!!](transcripts/GoNaFBI15BM.md#p-3e1b560d54162d4c79e5ae918ce183e3d3a6ef29a3275b485d72f4d7590f80a2) · video 00:00–23:00.
 - 2026-04-20 · **Top** · [HE KNOWS ABOUT THE LEVEL 1 CHEESE??](transcripts/HPYj7iuCwt0.md#p-ff94d413d9659fd35e6837b0bfdf99438b4f172093b53b3e89eb6b96a93c5f4e) · video 00:00–21:30.
 - 2026-03-25 · **Top** · [THEY NEVER EXPECT THE TEEMO LEVEL 1 CHEESE...](transcripts/5iynGbck6NU.md#p-e4b2572781794a64d139fef67f3b630451e4249fc53b35e8cb1e288faa2c25b6) · video 00:00–23:25.
 
@@ -164,13 +167,14 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 ## Gragas
 
 - 2026-09-14 · **Top** · [THIS IS WHAT 20 KILLS ON TEEMO LOOKS LIKE!!](transcripts/_aAZMW255RU.md#p-6a56679e00e57beaaa07dae4e41d1b918753cda79dfe85ccfadf8ea2609adefd) · video 00:00–37:49.
-- 2026-07-01 · **Lane unspecified** · [10 CS PER MINUTE TEEMO VS GRAGAS](transcripts/ZluenfxNyKk.md#p-6d00ec94bfb0ce516e823c2984380ca9e7c56e55104b46f6bae67b28ac9a00d0) · video 00:00–25:03.
-- 2026-06-10 · **Lane unspecified** · [SHROOMS ARE OP IN THIS MATCHUP!!](transcripts/3wjwQrMW1Ms.md#p-6f095605d1c4cb47417e8c4ea7208ca1507a1c4118d9a53ade05e8986ecf3996) · video 00:00–31:40.
+- 2026-07-01 · [10 CS PER MINUTE TEEMO VS GRAGAS](transcripts/ZluenfxNyKk.md#p-6d00ec94bfb0ce516e823c2984380ca9e7c56e55104b46f6bae67b28ac9a00d0) · video 00:00–25:03.
+- 2026-06-10 · [SHROOMS ARE OP IN THIS MATCHUP!!](transcripts/3wjwQrMW1Ms.md#p-6f095605d1c4cb47417e8c4ea7208ca1507a1c4118d9a53ade05e8986ecf3996) · video 00:00–31:40.
 
 <a id="matchup-illaoi"></a>
 
 ## Illaoi
 
+- 2026-09-27 · **Top** · [DAY 2 ON THE NA SUPERSERVER. (Teemo Unranked to Challenger)](transcripts/z0vw9Une2WM.md#p-1f057f13e797f6489a0e0c9295932ba374992d5fff538a198cc29a44180cbfde) · video 15:46–39:01.
 - 2025-08-25 · **Mid** · [WE MADE NEMESIS BAN TEEMO AFTER THIS](transcripts/h1vlNhOBIjs.md#p-f8f61ec8e6c56fb088ef34a32fb4caf269ceb4b3c294828f80416d9d21931168) · video 00:00–21:15.
 
 <a id="matchup-irelia"></a>
@@ -178,9 +182,9 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 ## Irelia
 
 - 2026-09-22 · **Top** · [When They Pick FULL AD into TEEMO...](transcripts/JnHGvoS972g.md#p-2e81f04df05c40759537b9da4f16e2e0881956e99bd43633ce9f3a729efc8abb) · video 00:00–21:04.
-- 2026-07-08 · **Lane unspecified** · [DOES TEEMO NEED BUFFS??](transcripts/QOWT48xPQRA.md#p-c47848260334ee0f317e870830b3cf0adb9fd4eac17871baae173a7c937ba84d) · video 00:00–24:15.
+- 2026-07-08 · [DOES TEEMO NEED BUFFS??](transcripts/QOWT48xPQRA.md#p-c47848260334ee0f317e870830b3cf0adb9fd4eac17871baae173a7c937ba84d) · video 00:00–24:15.
 - 2026-03-29 · **Top** · [HOW TO NEVER GET GANKED AS TEEMO!](transcripts/FFjfusfvyqs.md#p-cb64fd04b79fe5ef0c4ac0329596703b251c81c5f917603872f16d3876f4a348) · video 00:00–25:11.
-- 2026-02-13 · **Top** · [DUSK &amp; DAWN IS SO OP ON TEEMO](transcripts/Q69SqQ0mB8U.md#p-36a005a670367238c83a1093c5b541868275b7a6e5dd1a176949c263cd9111a9) · video 00:00–29:05.
+- 2026-02-13 · **Top** · [DUSK &amp; DAWN IS SO OP ON TEEMO](transcripts/Q69SqQ0mB8U.md#p-36a005a670367238c83a1093c5b541868275b7a6e5dd1a176949c263cd9111a9) · video 00:00–10:01.
 
 <a id="matchup-jax"></a>
 
@@ -189,8 +193,8 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 - 2026-09-17 · **Top** · [Rank 1 Garen Stood No Chance vs My Teemo!!](transcripts/zVoOvrr0bh8.md#p-e6b3787c26f76ee23e98650fbfdbe4a0857b98d16bd7fd40b34986a3fcc27379) · video 19:31–47:36.
 - 2026-08-09 · **Top** · [KC Canna meets the Rank 1 Teemo...](transcripts/9j8ZvwND_uQ.md#p-64e31bd1e96834ae827365a7e43ba92f609809f282268178f460a4be0c1046d6) · video 00:00–32:39.
 - 2026-07-29 · **Top** · [TEEMO VS THE BEST TOPLANER IN EUROPE (ft. RaiderGO)](transcripts/JvQk3pO9aeU.md#p-6d200a097dcba7eb446ebe1c455987f28d76871676ef007a6ee0a0472856cf3e) · video 00:00–27:10.
-- 2026-05-22 · **Lane unspecified** · [5 MILLION MASTERY TEEMO LOOKS LIKE THIS...](transcripts/KhFQgJwrCsA.md#p-2bf7c53198637f3c43b3354e24838d35d9e172830bb96a4acf2e3ed1adb35c9a) · video 00:00–24:17.
-- 2026-04-12 · **Lane unspecified** · [MAKING CHALLENGER JAX LOOK LIKE IRON WITH MY TEEMO...](transcripts/W7FhdaAw8c4.md#p-64dd97ad214444ad7e0b58e967a904ce1061e467bc580170d6a844b727618157) · video 00:00–22:03.
+- 2026-05-22 · [5 MILLION MASTERY TEEMO LOOKS LIKE THIS...](transcripts/KhFQgJwrCsA.md#p-2bf7c53198637f3c43b3354e24838d35d9e172830bb96a4acf2e3ed1adb35c9a) · video 00:00–24:17.
+- 2026-04-12 · [MAKING CHALLENGER JAX LOOK LIKE IRON WITH MY TEEMO...](transcripts/W7FhdaAw8c4.md#p-64dd97ad214444ad7e0b58e967a904ce1061e467bc580170d6a844b727618157) · video 00:00–22:03.
 
 <a id="matchup-jayce"></a>
 
@@ -198,6 +202,7 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 - 2026-10-12 · **Top** · [SHROOM TEEMO IS THE WAY](transcripts/LsLZ2iEi-IE.md#p-178415e322dddf31c7eae24ef77b6c680ef1ca1b6630ec2c8f6e40f158d9f658) · video 00:00–34:42.
 - 2026-10-10 · **Top** · [SHOWING G2 JANKOS WHAT MY TEEMO CAN DO!!](transcripts/33BHm2xumrI.md#p-decbf2b9af27c53edc213b686f95359f932308e254036529701b5c7646a4d5fd) · video 00:00–25:47.
+- 2026-09-29 · **Top** · [I FINALLY FACED THE CHAMP I'VE BEEN BANNING ALL YEAR](transcripts/-QCM7ZLOu1Q.md#p-adf70ee840c965301c9cb8f5b663aa7cf0260d3ccfb470322c1a190fdb578a91) · video 00:00–19:24.
 - 2026-03-05 · **Top** · [TEEMO JUNGLE IS SO OP (+ game vs @Agurinlol )](transcripts/RP0IuAQqdrE.md#p-a54391c0902ff3c285b50e219aeb68c51dd635b9febb7070228a9281fca8c821) · video 17:28–34:41.
 
 <a id="matchup-karma"></a>
@@ -218,7 +223,7 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 - 2026-09-12 · **Top** · [RANK 1 TEEMO TEACHES YOU HOW TO DESTROY TOPLANE (educational commentary)](transcripts/Z86RdWK4P3s.md#p-acecd31c5661032ebd55f11286af1ed2aa2b177c02e770b73dcdb3da8aef2275) · video 00:00–39:08.
 - 2026-09-08 · **Top** · [I Forced Alois to do the Teemo Level 1 Cheese...](transcripts/02P9C6UHfjI.md#p-a5f1c589b7d82e1b44c270e7ef6e26b0a49f25282cd76a8d43cd0465dfdfdad7) · video 00:00–25:53.
-- 2026-06-22 · **Lane unspecified** · [THIS IS HOW YOU BEAT KENNEN AS TEEMO!! (Level 1 Cheese)](transcripts/V-Ux4XkofuM.md#p-6836794a0f263b0cf7a840a1af5ca643a4ff99ce75c428ab54a735aa7c51a3d1) · video 00:00–17:10.
+- 2026-06-22 · [THIS IS HOW YOU BEAT KENNEN AS TEEMO!! (Level 1 Cheese)](transcripts/V-Ux4XkofuM.md#p-6836794a0f263b0cf7a840a1af5ca643a4ff99ce75c428ab54a735aa7c51a3d1) · video 00:00–17:10.
 
 <a id="matchup-lissandra"></a>
 
@@ -239,10 +244,17 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 - 2026-04-21 · **Top** · [IS AERY THE ANSWER TO THIS MATCHUP??](transcripts/Zk_h8kknVeU.md#p-1e2838c7cd059d4266c59fc6bd523719c810b6d12aaa1dd9e54b31b00968461a) · video 00:00–32:37.
 - 2026-04-18 · **Top** · [TEEMO VS HIS MOST INFAMOUS COUNTER](transcripts/zcs3PSEyi3E.md#p-9fa34f0a16eb7b9e001c5b11741190874371426d9781d636f92380414208c6cd) · video 00:00–27:15.
 
+<a id="matchup-malzahar"></a>
+
+## Malzahar
+
+- 2026-09-28 · **Top** · [YUNG FLAPPY IS TAKING OVER THE SERVER!!](transcripts/gsNNd8zQKYc.md#p-87bce6d18dc2b80b4ca886e1c5d4b6fa0e20869b1a67f0ba808480c9438ec7df) · video 31:46–43:07.
+
 <a id="matchup-master-yi"></a>
 
 ## Master Yi
 
+- 2026-10-01 · **Top** · [I found the NA MONSTERSSS... (is he Vegan?)](transcripts/NTUjuKadtkU.md#p-be288eb3168012188fd53449c2d984a16f72834e1ea5b7a4db0d8d87d9bd9f85) · video 00:00–28:02.
 - 2026-03-31 · **Top** · [I SHOWED MONSTER SSS THE POWER OF TEEMO TOPLANE...](transcripts/bJvJnIzkc-8.md#p-d747a50d5bb76b414ac8a40fa49789577b41f50284c1e3f86d4fca1cd6c1cbbd) · video 00:00–29:28.
 
 <a id="matchup-mel"></a>
@@ -269,23 +281,24 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 ## Nasus
 
 - 2026-09-02 · **Top** · [THIS GAME HAD THE CRAZIEST ENDING](transcripts/zVa93kKP4Q4.md#p-c0e3fa4776cde7f93cd58bb05a927fd07220bc6b96ab524565facb52a3f832e8) · video 00:00–32:39.
-- 2026-07-06 · **Lane unspecified** · [HOW TO DESTROY EASY MATCHUPS AS TEEMO](transcripts/bWYmdpxyGBU.md#p-9e1e6a4274d9eeb66060dfd7bb92b107f5a74215730e6ce723d078566159dcb5) · video 00:00–33:40.
-- 2026-03-03 · **Lane unspecified** · [NASUS IS UNPLAYABLE INTO TEEMO](transcripts/PNacCG7Q4x4.md#p-b8187fa16ccd417bed654db70029da96cbbfb70b666d49e75880bcac8c43b905) · video 00:00–23:02.
+- 2026-07-06 · [HOW TO DESTROY EASY MATCHUPS AS TEEMO](transcripts/bWYmdpxyGBU.md#p-9e1e6a4274d9eeb66060dfd7bb92b107f5a74215730e6ce723d078566159dcb5) · video 00:00–33:40.
+- 2026-03-03 · [NASUS IS UNPLAYABLE INTO TEEMO](transcripts/PNacCG7Q4x4.md#p-b8187fa16ccd417bed654db70029da96cbbfb70b666d49e75880bcac8c43b905) · video 00:00–23:02.
 
 <a id="matchup-olaf"></a>
 
 ## Olaf
 
+- 2026-09-20 · **Top** · [This Item Combo is BROKEN on Teemo!!](transcripts/o2-PqVfzv88.md#p-713a18419d6dbfc13bce9d9661bc9c79bd9bf7199d7640d36bed423321270415) · video 00:00–37:58.
 - 2026-08-29 · **Top** · [THIS MATCHUP IS SO ANNOYING!!!](transcripts/48QcnoGE1l8.md#p-568a2b912bc63042135d955770a7eeab84e7b901ec42be75a6c11eb4a9b729d3) · video 00:00–32:01.
 - 2026-08-15 · **Top** · [BEST TOPLANER IN EUROPE VS RANK 1 TEEMO (ft. G2 BrokenBlade)](transcripts/aQUNJs3_muQ.md#p-a546f54e42d5fe13b20a0579e92e13ca4448ef22eaf9a2a5d4d607620155fdfd) · video 00:00–29:13.
 - 2026-08-08 · **Top** · [New Terminus is OP on Teemo (1V9 COMEBACK)](transcripts/841YjDEd13o.md#p-ed22c7f31ee24aa808d9aaa60e236f7d165dc2e7609e2e46765dfad79f7d73bc) · video 00:00–24:54.
 - 2026-08-06 · **Top** · [THE NEW TERMINUS ON TEEMO IS NOT OKAY...](transcripts/rCccxk2PyLs.md#p-73725db88b0d9f02e1fd05021319f79c6cae9df64954641f1d60011816bf426e) · video 00:00–36:49.
 - 2026-07-30 · **Top** · [THEY THOUGHT A LEVEL 1 GANK COULD STOP MY TEEMO...](transcripts/x00QafAT-Ko.md#p-bc1a71e1e72447439426c121152e4dcf7c024ecb25aafab6e12c195525652823) · video 00:00–25:31.
-- 2026-07-03 · **Lane unspecified** · [I TRIED IPAV'S BUILD IN RANKED AND IT WAS BROKEN...](transcripts/a6xihzOUskQ.md#p-a3d0270286fe71e95035ca1124e3f8d0046cd3b1c4215b9ff45ca4680603ad91) · video 00:00–29:23.
+- 2026-07-03 · [I TRIED IPAV'S BUILD IN RANKED AND IT WAS BROKEN...](transcripts/a6xihzOUskQ.md#p-a3d0270286fe71e95035ca1124e3f8d0046cd3b1c4215b9ff45ca4680603ad91) · video 00:00–29:23.
 - 2026-06-08 · **Top** · [10 CS PER MINUTE TEEMO VS OLAF](transcripts/jGFElxZETYA.md#p-8396814127c5120dd12b20b67b7ef04b58805ce4a194594377cb6b89dc80b73e) · video 00:00–21:10.
-- 2026-05-24 · **Lane unspecified** · [0/8 BOTLANE? NO PROBLEM FOR TEEMO!](transcripts/-uXjerowSog.md#p-e891d2f3f52c5c683248c3c0636de80ae174a2513c2e80314e66c37dbab88ac3) · video 00:00–26:49.
-- 2026-05-21 · **Lane unspecified** · [THIS IS WHY YOU NEVER FF ON TEEMO...](transcripts/j4sSxOFuHGs.md#p-839cca395c6217e4cc1865f82e90a2e859bf40b46fed96ef8662c7033068605b) · video 00:00–31:43.
-- 2026-05-01 · **Lane unspecified** · [NEW STATIKK SHIV DOES INSANE DAMAGE IN TEAMFIGHTS!](transcripts/5IBwIAIv8cM.md#p-f0ea0316faac4ed811804c237915f06bba3bb3eacfa61609027b415c45bdbf38) · video 00:00–25:33.
+- 2026-05-24 · [0/8 BOTLANE? NO PROBLEM FOR TEEMO!](transcripts/-uXjerowSog.md#p-e891d2f3f52c5c683248c3c0636de80ae174a2513c2e80314e66c37dbab88ac3) · video 00:00–26:49.
+- 2026-05-21 · [THIS IS WHY YOU NEVER FF ON TEEMO...](transcripts/j4sSxOFuHGs.md#p-839cca395c6217e4cc1865f82e90a2e859bf40b46fed96ef8662c7033068605b) · video 00:00–31:43.
+- 2026-05-01 · [NEW STATIKK SHIV DOES INSANE DAMAGE IN TEAMFIGHTS!](transcripts/5IBwIAIv8cM.md#p-f0ea0316faac4ed811804c237915f06bba3bb3eacfa61609027b415c45bdbf38) · video 00:00–25:33.
 
 <a id="matchup-ornn"></a>
 
@@ -298,14 +311,14 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 ## Pantheon
 
 - 2026-10-19 · **Top** · [We are BACK above 2000LP!!](transcripts/IazLNw8xfdw.md#p-02526d9236fefc92c291898ff1ad6271b69087dfdd04e4575530183a43ac6683) · video 00:00–19:09.
-- 2026-07-04 · **Lane unspecified** · [IGNORE TOXIC BOTLANE = WIN GAME](transcripts/AejAFJg8DgE.md#p-8776bc59a166a03015242c43bae499eabf0d498e8fb57016cdd458095221f19c) · video 00:00–31:08.
+- 2026-07-04 · [IGNORE TOXIC BOTLANE = WIN GAME](transcripts/AejAFJg8DgE.md#p-8776bc59a166a03015242c43bae499eabf0d498e8fb57016cdd458095221f19c) · video 00:00–31:08.
 - 2026-04-22 · **Top** · [SPEARSHOT GETS THE TEEMO TOP EXPERIENCE...](transcripts/CyF6Y9Rtw0I.md#p-00943fb0ddc6c04916374b4ff67977f49df50cc9f440bdd97dcfc623406285ac) · video 00:00–24:03.
 
 <a id="matchup-poppy"></a>
 
 ## Poppy
 
-- 2026-07-07 · **Lane unspecified** · [THIS IS HOW YOU COMPLETELY TAKE OVER GAMES AS TEEMO!!](transcripts/rzGYPsy_yU8.md#p-c06efa882e987c0630b63bc89a31a72f180a5c88eeb28b7f73bce70d0ea11356) · video 00:00–32:47.
+- 2026-07-07 · [THIS IS HOW YOU COMPLETELY TAKE OVER GAMES AS TEEMO!!](transcripts/rzGYPsy_yU8.md#p-c06efa882e987c0630b63bc89a31a72f180a5c88eeb28b7f73bce70d0ea11356) · video 00:00–32:47.
 
 <a id="matchup-quinn"></a>
 
@@ -319,6 +332,7 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 ## Renekton
 
+- 2026-09-28 · **Top** · [YUNG FLAPPY IS TAKING OVER THE SERVER!!](transcripts/gsNNd8zQKYc.md#p-76eb30c1fd122d25b223939448213f8fa6074c322f6e6ce14cc8b0c95a719ff0) · video 17:42–31:46.
 - 2026-08-07 · **Top** · [RIOT BROKE TEEMO WITH THIS BUILD](transcripts/j9HVq5mQE_Y.md#p-df513b54cfadac95704064d707882393072382277bb3ce297268692e65e39f22) · video 00:00–28:30.
 - 2026-04-09 · **Top** · [THIS CROCODILE STOOD NO CHANCE VS DUSK &amp; DAWN TEEMO](transcripts/CBxqEicq8_c.md#p-49742f6b4a874faadd4cfe554bc745a55d590518e044e304d02b9710278fc4b6) · video 00:00–29:26.
 
@@ -326,14 +340,14 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 ## Riven
 
-- 2026-05-25 · **Lane unspecified** · [THIS IS MY FAVOURITE TEEMO MATCHUP!](transcripts/P8o3NuQj208.md#p-6405ab9a90730ed9771ea26860db14a059117dc878c868bd5f552e570e540df9) · video 00:00–25:51.
-- 2026-01-24 · **Lane unspecified** · [HOW A CHALLENGER TEEMO CONSISTENTLY BEATS RIVEN](transcripts/ykUqr-0jMRo.md#p-45d6c6e5215e5ede097dd7a91b0de8d4f29b11a7d46f260de98011ef3711d877) · video 00:00–18:25.
+- 2026-05-25 · [THIS IS MY FAVOURITE TEEMO MATCHUP!](transcripts/P8o3NuQj208.md#p-6405ab9a90730ed9771ea26860db14a059117dc878c868bd5f552e570e540df9) · video 00:00–25:51.
+- 2026-01-24 · [HOW A CHALLENGER TEEMO CONSISTENTLY BEATS RIVEN](transcripts/ykUqr-0jMRo.md#p-45d6c6e5215e5ede097dd7a91b0de8d4f29b11a7d46f260de98011ef3711d877) · video 00:00–18:25.
 
 <a id="matchup-rumble"></a>
 
 ## Rumble
 
-- 2026-04-23 · **Lane unspecified** · [THIS RUMBLE COULD NOT HANDLE MY TEEMO](transcripts/at3BFFWjylo.md#p-8a852f620dace2c0dc189b0569012fe4e8d8d825455e6fa5179aa5b18dc7e37d) · video 00:00–28:44.
+- 2026-04-23 · [THIS RUMBLE COULD NOT HANDLE MY TEEMO](transcripts/at3BFFWjylo.md#p-8a852f620dace2c0dc189b0569012fe4e8d8d825455e6fa5179aa5b18dc7e37d) · video 00:00–28:44.
 
 <a id="matchup-ryze"></a>
 
@@ -341,8 +355,8 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 - 2026-08-12 · **Top** · [TEEMO LEVEL 1 CHEESE STILL WORKS IN HIGH ELO!!](transcripts/m_KxTTvJg-I.md#p-c362107e68b77ce6df221f52f4ebda8884e6c0fa98b5d8835c158ec64f9434d1) · video 00:00–25:27.
 - 2026-08-05 · **Top** · [TEEMO LEVEL 1 CHEESE VS FNATIC TOPLANER](transcripts/vy85lxv42VM.md#p-5e10f8a9688ee46846a3902e16bdd8286f5082040eda75e4e19c6e6cba590db6) · video 00:00–30:21.
-- 2026-07-02 · **Lane unspecified** · [LEC TOPLANER GETS THE TEEMO TOP EXPERIENCE...](transcripts/WVEviT8Mbl0.md#p-510c827adb84208e25bf6c9ec5f54aaa7e34c3dddee28debe5759b7e82e0be15) · video 00:00–33:09.
-- 2026-05-27 · **Lane unspecified** · [LEVEL 1 CHEESE WORKS EVEN IN CHALLENGER!!](transcripts/qPXrKfzo78w.md#p-1d079978828290f9d4ae7d2559c145d45a358ae6a5ff1ee9eb8d67c0c97ea81d) · video 00:00–20:40.
+- 2026-07-02 · [LEC TOPLANER GETS THE TEEMO TOP EXPERIENCE...](transcripts/WVEviT8Mbl0.md#p-510c827adb84208e25bf6c9ec5f54aaa7e34c3dddee28debe5759b7e82e0be15) · video 00:00–33:09.
+- 2026-05-27 · [LEVEL 1 CHEESE WORKS EVEN IN CHALLENGER!!](transcripts/qPXrKfzo78w.md#p-1d079978828290f9d4ae7d2559c145d45a358ae6a5ff1ee9eb8d67c0c97ea81d) · video 00:00–20:40.
 - 2026-02-23 · **Top** · [MAGES ARE NO MATCH FOR MY TEEMO](transcripts/3icGbxZnbiM.md#p-9270ac459a36a0319136a6612e483207453a197cc27ac71a9e018493a523beff) · video 00:00–21:16.
 - 2026-02-15 · **Top** · [THEY THOUGHT THEY COULD COUNTERPICK ME TWICE IN A ROW](transcripts/MghML1o54zw.md#p-a5ad0e7b263c7501b72ae8cbd0a4602d7685f3eb16ada5c80457596166a1b6fb) · video 00:00–13:00.
 
@@ -352,8 +366,9 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 - 2026-10-26 · **Top** · [TEEMO VS THE BEST SETT IN THE WORLD (ft. Geishu)](transcripts/U8i6wlJBtz4.md#p-42d39bd6642b897106013d39d9c733e817e5473303bfe60b683bf8f4036fc8e8) · video 00:00–31:32.
 - 2026-10-16 · **Top** · [Is Deathfire Touch the New BEST Teemo Rune?](transcripts/NuyuD4qmIwc.md#p-3692a41f3fb9c482a820cccf4754635044f876b91358e583e61c43b4d59b81ef) · video 00:00–29:34.
+- 2026-09-28 · **Top** · [YUNG FLAPPY IS TAKING OVER THE SERVER!!](transcripts/gsNNd8zQKYc.md#p-c50e7f8da9dc002a8ea6828eb86dd8ca4a297e106cc2805624a0d2a07bd85efa) · video 00:00–17:42.
 - 2026-08-04 · **Top** · [RANK 1 SETT AND RANK 1 TALON COULDN'T BELIEVE THEIR EYES!!](transcripts/GmI89SsM-lU.md#p-bb4e8185db5c53ecad5bb0e4da0b98e102d3a266cef8de3de0ccf49b8b66b0f6) · video 00:00–36:07.
-- 2026-02-10 · **Lane unspecified** · [RANK 1 TEEMO VS RANK 1 SETT (ft @Geishuu)](transcripts/lKF7_8MfeFs.md#p-545030480ea59b692c7e89f376e443e2639099a1e6866edf3dae1f31a4342e7f) · video 00:00–14:21.
+- 2026-02-10 · [RANK 1 TEEMO VS RANK 1 SETT (ft @Geishuu)](transcripts/lKF7_8MfeFs.md#p-545030480ea59b692c7e89f376e443e2639099a1e6866edf3dae1f31a4342e7f) · video 00:00–14:21.
 
 <a id="matchup-shen"></a>
 
@@ -361,8 +376,8 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 - 2026-09-18 · **Top** · [When Teemo Gets Filled Jungle...](transcripts/S_Oc4qOyOxk.md#p-1e3b63a86f7d407da2e4f3097b45c547c74ad3fbeaa7acb620cd0f5bd6a29ef3) · video 19:59–37:36.
 - 2026-08-01 · **Top** · [The ONLY time I build Nashor's on Teemo!](transcripts/nHE41YPgfpQ.md#p-b93127b7125813edd236c3f26c43900ef959adf39fbab1dd8f73e1ed7738477a) · video 00:00–26:20.
-- 2026-05-02 · **Lane unspecified** · [THE NEW DUSK &amp; DAWN IS SO OP ON TEEMO!](transcripts/JQ0cvJoIf2E.md#p-02210c2a0770f6995c10a6680ee2982df7fc139696ae0146b2c54ae843a09f24) · video 00:00–24:32.
-- 2025-06-17 · **Lane unspecified** · [How the RANK 1 TEEMO EUW DESTROYS SHEN ONE TRICKS](transcripts/gjgrfQKPCxU.md#p-5de1b9409f3e7f4c266523052971fded305a6e13eddf83dbb69e94416a164095) · video 00:00–33:05.
+- 2026-05-02 · [THE NEW DUSK &amp; DAWN IS SO OP ON TEEMO!](transcripts/JQ0cvJoIf2E.md#p-02210c2a0770f6995c10a6680ee2982df7fc139696ae0146b2c54ae843a09f24) · video 00:00–24:32.
+- 2025-06-17 · [How the RANK 1 TEEMO EUW DESTROYS SHEN ONE TRICKS](transcripts/gjgrfQKPCxU.md#p-5de1b9409f3e7f4c266523052971fded305a6e13eddf83dbb69e94416a164095) · video 00:00–33:05.
 
 <a id="matchup-shyvana"></a>
 
@@ -378,7 +393,7 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 - 2026-10-09 · **Top** · [Singed is UNPLAYABLE into Teemo!!](transcripts/DQpQYfrrbHk.md#p-0752144a635c85c1c5742f1b589546488ec9a447df131b732ddbaabbbd261de6) · video 00:00–24:28.
 - 2026-07-23 · **Top** · [Rank 1 Singed GASSY crashed out after this game...](transcripts/4zG2tGpBdl8.md#p-1fe642235f07c2608fab47174920f3c965deebc6e88dbd36dcd96a5e3678edc1) · video 00:00–27:56.
-- 2026-06-14 · **Lane unspecified** · [I HATE PLAYING VS THIS CHAMPION!!](transcripts/uxw9yDJMzvw.md#p-eff9a0a7e4bc4fba8798b04bbf10dcfe833f30de93091ebf23142456a0e7362f) · video 00:00–25:41.
+- 2026-06-14 · [I HATE PLAYING VS THIS CHAMPION!!](transcripts/uxw9yDJMzvw.md#p-eff9a0a7e4bc4fba8798b04bbf10dcfe833f30de93091ebf23142456a0e7362f) · video 00:00–25:41.
 
 <a id="matchup-sion"></a>
 
@@ -386,11 +401,11 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 - 2026-08-26 · **Top** · [Late Game Shrooms are the KEY to Carrying on Teemo!!](transcripts/JBxGmWGvZXM.md#p-fdcfa2ea7471330138fe9c3f03b23ff600b81658bfbcc076ba5cb58008c05de6) · video 00:00–31:23.
 - 2026-07-26 · **Top** · [BLOODLETTER'S IS THE MOST BROKEN ITEM ON TEEMO!!](transcripts/Ptg28_bWNLg.md#p-306c610bffc3e14e16b99a30311c9606415fbf711d282ed7c026e1db820144d0) · video 00:00–33:20.
-- 2026-07-10 · **Lane unspecified** · [THIS MATCHUP IS NOT OKAY!!](transcripts/2k7YaMIigr4.md#p-81be6ef16a377dd26729c939837805ff112081da74b3722f58f3e358b17cbab5) · video 00:00–21:46.
-- 2026-06-18 · **Lane unspecified** · [QUADRA KILL WITH STATIKK SHIV??](transcripts/p7XuHeW_Hf8.md#p-c29fc0da5bdfff9a995857c5ef60474245707d07baef6296c261c6329ec16d6f) · video 00:00–28:56.
-- 2026-06-12 · **Lane unspecified** · [THIS NEW SION BUILD IS SO ANNOYING!!](transcripts/-kGQCJmiabc.md#p-bc8988bc89e4dc061297728768212af62337729da10238241503b7cc9f7942c2) · video 00:00–34:13.
-- 2026-05-28 · **Lane unspecified** · [TAKING OVER THE ENTIRE ENEMY JUNGLE (12 CS PER MINUTE)](transcripts/R4Gkoa47Fqs.md#p-c6f77fa2b192dea3cc601dadd72c1e995dedfa3e41dac89e7affdbf8080c298a) · video 00:00–22:16.
-- 2026-05-03 · **Lane unspecified** · [IS THE NEW STATIKK SHIV THE ANSWER TO THIS MATCHUP??](transcripts/rIQLnFtuTqs.md#p-adcfff1463b4d8b8c3ec8640d5f4df5d1fd7e6d46a967b7a2815163c582c40a7) · video 00:00–26:34.
+- 2026-07-10 · [THIS MATCHUP IS NOT OKAY!!](transcripts/2k7YaMIigr4.md#p-81be6ef16a377dd26729c939837805ff112081da74b3722f58f3e358b17cbab5) · video 00:00–21:46.
+- 2026-06-18 · [QUADRA KILL WITH STATIKK SHIV??](transcripts/p7XuHeW_Hf8.md#p-c29fc0da5bdfff9a995857c5ef60474245707d07baef6296c261c6329ec16d6f) · video 00:00–28:56.
+- 2026-06-12 · [THIS NEW SION BUILD IS SO ANNOYING!!](transcripts/-kGQCJmiabc.md#p-bc8988bc89e4dc061297728768212af62337729da10238241503b7cc9f7942c2) · video 00:00–34:13.
+- 2026-05-28 · [TAKING OVER THE ENTIRE ENEMY JUNGLE (12 CS PER MINUTE)](transcripts/R4Gkoa47Fqs.md#p-c6f77fa2b192dea3cc601dadd72c1e995dedfa3e41dac89e7affdbf8080c298a) · video 00:00–22:16.
+- 2026-05-03 · [IS THE NEW STATIKK SHIV THE ANSWER TO THIS MATCHUP??](transcripts/rIQLnFtuTqs.md#p-adcfff1463b4d8b8c3ec8640d5f4df5d1fd7e6d46a967b7a2815163c582c40a7) · video 00:00–26:34.
 - 2026-02-15 · **Top** · [THEY THOUGHT THEY COULD COUNTERPICK ME TWICE IN A ROW](transcripts/MghML1o54zw.md#p-f3fb7c3675d80ccefed41d3dcd7044851cbce7ed32e3ca57bc43127c306b103f) · video 13:30–31:55.
 - 2026-01-17 · **Top** · [I WENT ON DISCORD WITH MY TEAM AND 1V9ED THE GAME](transcripts/jBIU1GBMQPE.md#p-e572aa4cef9db7c32a035aead77c808d25b74b930d70379b02b5532a54066be5) · video 00:00–28:59.
 
@@ -399,6 +414,12 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 ## Swain
 
 - 2026-07-17 · **Top** · [HE THOUGHT HE COUNTERPICKED ME, BUT LITTLE DID HE KNOW...](transcripts/L1yqDmPSQp8.md#p-72eed73305d0847e51e4a9613eb714e3cec103954dbded75819a8872438b2943) · video 00:00–21:43.
+
+<a id="matchup-sylas"></a>
+
+## Sylas
+
+- 2026-09-30 · **Jungle** · [NA HIGH ELO, YUNG FLAPPY IS COMING](transcripts/-uJxm7N9IFk.md#p-c1fdd6b17fc8f9649eecc416f82a292956bef1f3754a33b091be4c93f8dacae2) · video 19:44–45:55.
 
 <a id="matchup-syndra"></a>
 
@@ -410,7 +431,7 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 ## Trundle
 
-- 2026-07-16 · **Lane unspecified** · [CHALLENGER TRUNDLE COULD NOT STOP ME FROM 1V9ING!!](transcripts/KDZyTyWo5mI.md#p-9c4ac93ef046c540f469619970a8936056ec63c8774afa68b16d5b59384dbe59) · video 00:00–24:51.
+- 2026-07-16 · [CHALLENGER TRUNDLE COULD NOT STOP ME FROM 1V9ING!!](transcripts/KDZyTyWo5mI.md#p-9c4ac93ef046c540f469619970a8936056ec63c8774afa68b16d5b59384dbe59) · video 00:00–24:51.
 
 <a id="matchup-tryndamere"></a>
 
@@ -429,8 +450,8 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 ## Urgot
 
-- 2026-05-13 · **Lane unspecified** · [BULLYING URGOT WITH MY TEEMO!!](transcripts/isHk2-IC-2k.md#p-aab6375a1290fadbdcc9437b34af36ef4df79343e083e76def3ca3671dbc7ec1) · video 00:00–23:23.
-- 2026-05-11 · **Lane unspecified** · [THIS LEVEL 1 TRICK ALWAYS WORKS VS URGOT...](transcripts/9_CUTeAOfwU.md#p-3d9d305eb7a9171d96142c3ae6aae1ba09e719b839478886ebddd74be0c6d51e) · video 00:00–22:07.
+- 2026-05-13 · [BULLYING URGOT WITH MY TEEMO!!](transcripts/isHk2-IC-2k.md#p-aab6375a1290fadbdcc9437b34af36ef4df79343e083e76def3ca3671dbc7ec1) · video 00:00–23:23.
+- 2026-05-11 · [THIS LEVEL 1 TRICK ALWAYS WORKS VS URGOT...](transcripts/9_CUTeAOfwU.md#p-3d9d305eb7a9171d96142c3ae6aae1ba09e719b839478886ebddd74be0c6d51e) · video 00:00–22:07.
 
 <a id="matchup-varus"></a>
 
@@ -442,16 +463,17 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 ## Vayne
 
-- 2026-06-26 · **Lane unspecified** · [THIS LEVEL 1 TRICK IS SO OP VS VAYNE!!](transcripts/Kmnwm0--OY4.md#p-a161b377a58744681ea3a9bfb0f9bdfa5c6e0bf4e4fda3b51e7b599a03e2a6b9) · video 00:00–23:14.
-- 2026-06-09 · **Lane unspecified** · [TEEMO VS FULL CHALLENGER LOBBY](transcripts/SULBrVIR3XQ.md#p-819fffe7ca6f7e4494b06760c748a620f39c0f44859b6b25bdb6391a639cc854) · video 00:00–32:01.
+- 2026-06-26 · [THIS LEVEL 1 TRICK IS SO OP VS VAYNE!!](transcripts/Kmnwm0--OY4.md#p-a161b377a58744681ea3a9bfb0f9bdfa5c6e0bf4e4fda3b51e7b599a03e2a6b9) · video 00:00–23:14.
+- 2026-06-09 · [TEEMO VS FULL CHALLENGER LOBBY](transcripts/SULBrVIR3XQ.md#p-819fffe7ca6f7e4494b06760c748a620f39c0f44859b6b25bdb6391a639cc854) · video 00:00–32:01.
 - 2026-05-23 · **Top** · [I MADE HER QUIT LANE AFTER JUST 4 LEVELS...](transcripts/kNYKHOyG2ao.md#p-68518b90d3246b2123556263ace2ff3d51bce4f4ad5770818d6b5325308a7987) · video 00:00–23:14.
 - 2026-04-15 · **Top** · [I MADE DRUTUTT LOSE HIS MIND VS MY TEEMO (HE WENT AFK)](transcripts/dFbSv13QXUc.md#p-6df0cfe8514f8ccf620dbaddca0755697063f2fe5908a26836e99078ccfcd119) · video 00:00–22:34.
+- 2026-02-13 · **Top** · [DUSK &amp; DAWN IS SO OP ON TEEMO](transcripts/Q69SqQ0mB8U.md#p-96a47a69f6125c74b2670d81aa9b49aa01e1113c966210284bf5baba46f2d817) · video 10:01–29:05.
 
 <a id="matchup-vi"></a>
 
 ## Vi
 
-- 2026-07-12 · **Lane unspecified** · [100 CS LEAD AT 18 MINS???](transcripts/85tr4Vmwcz8.md#p-60f3461365de605197352cebba2c8cb3336295ae597e8fe92b70090c343e7407) · video 00:00–19:12.
+- 2026-07-12 · [100 CS LEAD AT 18 MINS???](transcripts/85tr4Vmwcz8.md#p-60f3461365de605197352cebba2c8cb3336295ae597e8fe92b70090c343e7407) · video 00:00–19:12.
 
 <a id="matchup-viktor"></a>
 
@@ -472,7 +494,7 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 - 2026-10-04 · **Top** · [100CS LEAD AT 12 MINUTES??? (FLAME HORIZON)](transcripts/9z58FYmaYkE.md#p-2c262f548822ac690866ff8ff7cdc07b742f663d5e5e4c3fbe810930baf42cea) · video 00:00–30:30.
 - 2026-07-21 · **Top** · [TEEMO VS ONE OF THE BEST WARWICKS ON THE SERVER](transcripts/RutzYrhPnTs.md#p-8d8b4f7b2889fd207820b8fa38a97c67de71f6eed304dc2d4f9650407b1bb654) · video 00:00–18:39.
-- 2026-05-12 · **Lane unspecified** · [100 CS LEAD AT 14 MINS???](transcripts/6NOjldBpcMw.md#p-921183d5a1ca1c24f41ffe920582b83eb8818610e1d71ede5a9d7cb383a321f7) · video 00:00–20:41.
+- 2026-05-12 · [100 CS LEAD AT 14 MINS???](transcripts/6NOjldBpcMw.md#p-921183d5a1ca1c24f41ffe920582b83eb8818610e1d71ede5a9d7cb383a321f7) · video 00:00–20:41.
 
 <a id="matchup-yasuo"></a>
 
@@ -487,8 +509,8 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 - 2026-09-26 · **Top** · [FULL ON-HIT TEEMO IS THE WAY (CRAZY DPS)](transcripts/Dp8YMVaNc3o.md#p-fc8954dfc6ed274df0fcaa68713a14e09fda5c6c3b144e89dec324ae3302840d) · video 00:00–20:53.
 - 2026-08-27 · **Top** · [63% Winrate Challenger Yone Could Not Stop My Teemo!!](transcripts/ZrdrdYzhr48.md#p-b17a1a7cb41ab595287b4be6879542c4a6e585e74436db34eded7e700079282b) · video 00:00–15:14.
-- 2026-07-27 · **Lane unspecified** · [THIS IS HOW YOU MAKE COMEBACKS ON TEEMO!!](transcripts/zeKH9_VTkeE.md#p-47b5e4ffebe5e231fe2306c3080b70207d10d976594985ca01ae9151349d7ada) · video 00:00–35:36.
-- 2026-05-10 · **Lane unspecified** · [MAKING YONE RAGE WITH MY TEEMO!!](transcripts/ApevFxy9mB8.md#p-eab101e80d7a36d9589f67df91d82c71c6eced8e2f0b5e668973075671efa32e) · video 00:00–27:02.
+- 2026-07-27 · [THIS IS HOW YOU MAKE COMEBACKS ON TEEMO!!](transcripts/zeKH9_VTkeE.md#p-47b5e4ffebe5e231fe2306c3080b70207d10d976594985ca01ae9151349d7ada) · video 00:00–35:36.
+- 2026-05-10 · [MAKING YONE RAGE WITH MY TEEMO!!](transcripts/ApevFxy9mB8.md#p-eab101e80d7a36d9589f67df91d82c71c6eced8e2f0b5e668973075671efa32e) · video 00:00–27:02.
 - 2026-04-24 · **Top** · [THEY THOUGHT THIS GAME WAS OVER... BUT WE HAD TEEMO!](transcripts/J3tc4XfDRTw.md#p-9eabcdfb7edea722ce561c1411eee205e3745eda275495a84cc2c785666c22cb) · video 00:00–32:47.
 
 <a id="matchup-yorick"></a>
@@ -502,7 +524,7 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 ## Zaahen
 
-- 2026-06-28 · **Lane unspecified** · [THIS IS WHAT 10000 HOURS OF TEEMO LOOKS LIKE...](transcripts/CGftuzochZE.md#p-d0f3f46f6c1d80a3a541c41e5bc00948285eafbc4d25826628ca9464b9ebea15) · video 00:00–21:37.
+- 2026-06-28 · [THIS IS WHAT 10000 HOURS OF TEEMO LOOKS LIKE...](transcripts/CGftuzochZE.md#p-d0f3f46f6c1d80a3a541c41e5bc00948285eafbc4d25826628ca9464b9ebea15) · video 00:00–21:37.
 
 <a id="matchup-zed"></a>
 
@@ -516,12 +538,7 @@ Recorded opponents and roles, with links into the relevant transcript. These are
 
 - 2026-06-29 · **Top** · [HE COULDN'T EVEN TOUCH THE WAVE (LEVEL 1 CHEESE)](transcripts/w1i16ucTPh0.md#p-8bf017fdc99d5e87ddf522e6905d72d2f091c0bf46dd06ab85188695446e00fa) · video 00:00–27:32.
 
-## General guides and matchups awaiting review
+## General guides
 
-- 2026-10-01 — [I found the NA MONSTERSSS... (is he Vegan?)](transcripts/NTUjuKadtkU.md) — matchup awaiting review.
-- 2026-09-29 — [I FINALLY FACED THE CHAMP I'VE BEEN BANNING ALL YEAR](transcripts/-QCM7ZLOu1Q.md) — matchup awaiting review.
-- 2026-09-28 — [YUNG FLAPPY IS TAKING OVER THE SERVER!!](transcripts/gsNNd8zQKYc.md) — matchup awaiting review.
-- 2026-09-27 — [DAY 2 ON THE NA SUPERSERVER. (Teemo Unranked to Challenger)](transcripts/z0vw9Une2WM.md) — matchup awaiting review.
-- 2026-09-20 — [This Item Combo is BROKEN on Teemo!!](transcripts/o2-PqVfzv88.md) — matchup awaiting review.
 - 2026-02-06 — [The ULTIMATE Teemo Level 1 Cheese Guide (FREE LP)](transcripts/gyWGLQYigsE.md).
 - 2025-08-22 — [EVERY Ability That Reveals Teemo Passive](transcripts/5dJ8ObaWENo.md).

@@ -6,7 +6,6 @@ const results = document.getElementById('results');
 const label = document.getElementById('results-label');
 const more = document.getElementById('more');
 const clear = document.getElementById('clear');
-const repo = 'https://github.com/ivystopia/ramyaura-transcripts/blob/main/transcripts/';
 const pageSize = 12;
 let catalog = [];
 let videos = new Map();
@@ -47,26 +46,25 @@ function excerpt(text, at, length) {
 
 function entry(video, encounter, passage, at, length) {
   const node = element('article', undefined, 'entry');
-  const time = passage ? passage.start : (encounter?.start ?? 0);
-  const key = passage?.key ?? encounter?.first;
-  const transcript = repo + video.id + '.md' + (key ? '#p-' + key : '');
+  const time = Math.ceil(passage ? passage.start : (encounter?.start ?? 0));
+  const key = passage?.key ?? (video.encounters.length > 1 ? encounter?.first : null);
+  const transcript = './transcripts/' + video.id + '.html' + (key ? '#p-' + key : '');
   const matchup = encounter ? 'Teemo vs. ' + encounter.name : video.title;
   const details = [video.date];
-  if (encounter && encounter.role !== 'Lane unspecified') details.push(encounter.role);
+  if (encounter?.role) details.push(encounter.role);
   if (passage) {
     node.append(excerpt(passage.text, at, length));
-    details.unshift(!encounter && video.encounters.length ? 'Matchup unassigned' : matchup);
-    details.push('Passage ' + timestamp(passage.start) + '–' + timestamp(passage.end));
+    details.unshift(matchup);
+    details.push('Passage ' + timestamp(time) + '–' + timestamp(Math.ceil(passage.end)));
   } else {
     const heading = element('h3');
     heading.append(link(matchup, transcript));
     node.append(heading);
-    if (video.note) node.append(element('p', video.note));
   }
   node.append(element('div', details.join(' · '), 'meta'));
   const links = element('div', undefined, 'links');
-  links.append(link('Watch from ' + timestamp(time), 'https://www.youtube.com/watch?v=' + video.id + '&t=' + Math.floor(time) + 's'),
-               link(passage ? 'Read full passage' : 'Read transcript', transcript));
+  links.append(link('Watch from ' + timestamp(time), 'https://www.youtube.com/watch?v=' + video.id + '&t=' + time + 's'),
+               link(passage ? 'Read full passage' : (video.visual ? 'Read captions' : 'Read transcript'), transcript));
   node.append(links);
   return node;
 }

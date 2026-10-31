@@ -10,6 +10,10 @@ Machine transcript with automatic spelling corrections; wording has not been edi
 
 **Coarse timing:** timestamps identify the submitted audio chunks, which may cover several minutes or a whole small audio file, not individual sentences. Sentence-level timestamps are unavailable for this upload.
 
+## Recorded matchups
+
+- **Olaf · Top** · [Watch 00:00–37:58](https://www.youtube.com/watch?v=o2-PqVfzv88&t=0s) · [First full passage](#p-713a18419d6dbfc13bce9d9661bc9c79bd9bf7199d7640d36bed423321270415). Ramy explains when he reveals himself against Olaf on the opening wave, then plays around Olaf’s axes.
+
 ## Transcript
 
 <a id="p-713a18419d6dbfc13bce9d9661bc9c79bd9bf7199d7640d36bed423321270415"></a>

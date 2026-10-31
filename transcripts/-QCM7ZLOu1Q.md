@@ -10,6 +10,11 @@ Machine transcript with automatic spelling corrections; wording has not been edi
 
 **Coarse timing:** timestamps identify the submitted audio chunks, which may cover several minutes or a whole small audio file, not individual sentences. Sentence-level timestamps are unavailable for this upload.
 
+## Recorded matchups
+
+- **Jayce · Top** · [Watch 00:00–19:24](https://www.youtube.com/watch?v=-QCM7ZLOu1Q&t=0s) · [First full passage](#p-adf70ee840c965301c9cb8f5b663aa7cf0260d3ccfb470322c1a190fdb578a91). Ramy opens by naming Jayce top and explains why he usually bans him.
+- **Darius · Top** · [Watch 19:24–37:24](https://www.youtube.com/watch?v=-QCM7ZLOu1Q&t=1164s) · [First full passage](#p-ff248900231b6bf94ccc30222b7c77dc74b36de4533430d700c3aed002fb8823). As the second game starts, Ramy names Darius top and plans how to space his pull.
+
 ## Transcript
 
 <a id="p-adf70ee840c965301c9cb8f5b663aa7cf0260d3ccfb470322c1a190fdb578a91"></a>

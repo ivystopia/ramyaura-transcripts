@@ -10,6 +10,11 @@ Machine transcript with automatic spelling corrections; wording has not been edi
 
 **Coarse timing:** timestamps identify the submitted audio chunks, which may cover several minutes or a whole small audio file, not individual sentences. Sentence-level timestamps are unavailable for this upload.
 
+## Recorded matchups
+
+- **Fiora · Top** · [Watch 00:00–15:46](https://www.youtube.com/watch?v=z0vw9Une2WM&t=0s) · [First full passage](#p-e2d86fec85f5474e5c5221040ee3756b01190745c4462dde118b2ba5bbe1aa13). Ramy names Fiora top and explains his rune choice for the level-one trade.
+- **Illaoi · Top** · [Watch 15:46–39:01](https://www.youtube.com/watch?v=z0vw9Une2WM&t=946s) · [First full passage](#p-1f057f13e797f6489a0e0c9295932ba374992d5fff538a198cc29a44180cbfde). The second chapter names Illaoi. Ramy describes dodging her Q and E and clearing a tentacle while she holds the wave.
+
 ## Transcript
 
 <a id="p-e2d86fec85f5474e5c5221040ee3756b01190745c4462dde118b2ba5bbe1aa13"></a>

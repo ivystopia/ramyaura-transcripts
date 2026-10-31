@@ -26,7 +26,7 @@ The human-readable Markdown escapes formatting characters for safe presentation 
 
 Each record contains the public video ID, URL, title, description, channel name and ID, upload date, unknown recording date and patch, listed and decoded duration, audio hash, passage count, content kind, context and relative transcript path.
 
-`encounters` identifies the actual opponent and role in a recorded interval, not every champion mentioned in the commentary. Each encounter retains its name and Riot ID, `start`/`end` bounds, classification basis, evidence passage keys, review status and source hash. A video's title can describe a different game in the same upload: filter using the encounter interval. Include only passages whose entire interval falls inside the encounter; transition passages remain available through the full transcript.
+`encounters` identifies the actual opponent and role in a recorded interval, not every champion mentioned in the commentary. Each encounter retains its name and Riot ID, `start`/`end` bounds, classification basis, evidence passage keys, review status and source hash. Where the creator supplied game chapters, the bounds can follow those timestamps and `metadata_text` records the chapter line. A supporting passage may contain the end of one game and the introduction to the next. Opponent searches include only passages wholly inside the encounter. The full transcript includes the transitions.
 
 The champion reference version used during the archive's terminology and matchup work was Riot Data Dragon **16.18.1**. Canonical names do not establish recording patches or current strategic validity. `review: not_human_verified` remains attached where applicable.
 

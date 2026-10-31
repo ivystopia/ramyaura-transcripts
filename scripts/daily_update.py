@@ -133,9 +133,48 @@ def select_new(inventory, published, channel):
     return result
 
 
+def game_chapter_claims(chapters, duration, passages, roster):
+    """Accept a complete numbered game list with a named opponent in every chapter."""
+    if len(chapters) < 2:
+        return []
+    champions = {entry['name'].casefold(): identifier for identifier, entry in roster.items()}
+    roles = {'top': 'Top', 'mid': 'Mid', 'jungle': 'Jungle', 'adc': 'ADC', 'support': 'Support'}
+    claims = []
+    for number, line in enumerate(chapters, 1):
+        match = re.fullmatch(r'(\d+(?::[0-5]\d){1,2})\s+Game\s+(\d+)\s+vs\.?\s+(.+?)(?:\s+(top|mid|jungle|adc|support))?', line, re.I)
+        if not match or int(match[2]) != number:
+            return []
+        champion = champions.get(match[3].casefold())
+        start = 0
+        for part in match[1].split(':'):
+            start = start * 60 + int(part)
+        if champion is None or start >= duration:
+            return []
+        if (not claims and start != 0) or (claims and start <= claims[-1]['start']):
+            return []
+        role = roles[match[4].lower()] if match[4] else 'Lane unspecified'
+        claims.append(dict(champion=champion, role=role, start=start,
+                           basis='RamyAura names the opponent in this video chapter.',
+                           metadata_field='video_description', metadata_text=line))
+    for claim, end in zip(claims, [c['start'] for c in claims[1:]] + [duration]):
+        claim['end'] = end
+        if not any(r['text'].strip() and r['start_seconds'] >= claim['start'] and r['end_seconds'] <= end + .001 for r in passages):
+            return []  # The matchup index needs a passage that belongs to just this game.
+    return claims
+
+
 def classify_safely(source, passages, reference):
     from ramyaura.library import classify
-    first = (source.get('description') or '').split('\n')[0]
+    description = source.get('description') or ''
+    chapters = [line.strip() for line in description.splitlines() if re.match(r'^\s*(?:\d+:|game\s+\d+\b)', line, re.I)]
+    if any(re.search(r'\bgame\s+\d+\b', line, re.I) for line in chapters):
+        claims = game_chapter_claims(chapters, source['decoded_duration_seconds'], passages, reference.roster)
+        if claims:
+            review = dict(context="Matchups follow the creator's numbered video chapters.", encounters=claims)
+            return classify(source, passages, reference, {source['video_id']: review})
+        # A single opponent in the headline cannot stand in for multiple games.
+        return {'kind': 'unclassified', 'context': 'The numbered game chapters need matchup review.', 'encounters': []}
+    first = description.split('\n')[0]
     names = [name for name in reference.mentions(first) if name != 'Teemo']
     multi = len(names) != 1 or len(re.findall(r'\bvs\.?\b', first, re.I)) != 1
     if not multi:
@@ -203,9 +242,9 @@ def render_indexes(repo, sources, passages):
     matchups = defaultdict(list)
     others = []
     for source in sources:
-        names = '; '.join(e['name'] + ' (' + e['role'] + ')' for e in source['encounters'])
-        label = names or ('Matchup awaiting review' if source['kind'] == 'unclassified' else 'General guide')
-        listing.append(f"- {source['upload_date']} — [{md(source['title'])}]({source['transcript_path']}) — {md(label)}.")
+        names = '; '.join(e['name'] + (f" ({e['role']})" if e['role'] != 'Lane unspecified' else '') for e in source['encounters'])
+        label = names or {'guide': 'General guide', 'visual_guide': 'On-screen guide'}.get(source['kind'])
+        listing.append(f"- {source['upload_date']} — [{md(source['title'])}]({source['transcript_path']})" + (f" — {md(label)}." if label else '.'))
         if not source['encounters']:
             others.append(source)
         for e in source['encounters']:
@@ -214,13 +253,16 @@ def render_indexes(repo, sources, passages):
             matchups[e['name']].append((source, e, candidates[0]['chunk_key']))
     (repo / 'TRANSCRIPTS.md').write_text('\n'.join(listing) + '\n')
     anchor = lambda name: 'matchup-' + re.sub('[^a-z0-9]+', '-', name.lower()).strip('-')
-    out = ['# Browse by matchup', '', 'Recorded opponents and roles, with links into the relevant transcript. These are source classifications, not matchup difficulty rankings or current-patch recommendations. Multi-game uploads use conservative passage boundaries; transition passages remain in the full transcript.', '', '[All transcripts](TRANSCRIPTS.md) · [Dataset notes](README.md)', '', ' · '.join(f'[{md(name)}](#{anchor(name)})' for name in sorted(matchups)), '']
+    out = ['# Browse by matchup', '', 'Recorded opponents and roles, with links to the first full transcript passage in each game. Game times follow the creator’s chapters where available or use conservative passage boundaries. Passages that span two games remain in the full transcript.', '', '[All transcripts](TRANSCRIPTS.md) · [Dataset notes](README.md)', '', ' · '.join(f'[{md(name)}](#{anchor(name)})' for name in sorted(matchups)), '']
     for name in sorted(matchups):
         out += ['', f'<a id="{anchor(name)}"></a>', '', '## ' + md(name), '']
         for source, e, key in matchups[name]:
-            out.append(f"- {source['upload_date']} · **{md(e['role'])}** · [{md(source['title'])}]({source['transcript_path']}#p-{key}) · video {tc(e['start'])}–{tc(e['end'])}.")
-    out += ['', '## General guides and matchups awaiting review', '']
-    out += [f"- {s['upload_date']} — [{md(s['title'])}]({s['transcript_path']})" + (' — matchup awaiting review.' if s['kind'] == 'unclassified' else '.') for s in others]
+            role = f" · **{md(e['role'])}**" if e['role'] != 'Lane unspecified' else ''
+            out.append(f"- {source['upload_date']}{role} · [{md(source['title'])}]({source['transcript_path']}#p-{key}) · video {tc(e['start'])}–{tc(e['end'])}.")
+    if others:
+        heading = 'Guides and other recordings' if any(s['kind'] == 'unclassified' for s in others) else 'General guides'
+        out += ['', '## ' + heading, '']
+        out += [f"- {s['upload_date']} — [{md(s['title'])}]({s['transcript_path']})." for s in others]
     (repo / 'MATCHUPS.md').write_text('\n'.join(out) + '\n')
 
 

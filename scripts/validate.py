@@ -14,7 +14,7 @@ from concept_search import CHANNEL_ID, validate as validate_concepts
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SITE_FILES = {"site/index.html", "site/study.html", "site/style.css", "site/library.js", ".github/workflows/pages.yml"}
+SITE_FILES = {"site/index.html", "site/study.html", "site/transcript.html", "site/style.css", "site/library.js", ".github/workflows/pages.yml"}
 
 
 def sha(data):

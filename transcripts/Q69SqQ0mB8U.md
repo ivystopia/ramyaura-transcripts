@@ -10,7 +10,8 @@ Machine transcript with audited terminology corrections. Times are approximate p
 
 ## Recorded matchups
 
-- [Irelia · Top · 00:00–29:05](#p-36a005a670367238c83a1093c5b541868275b7a6e5dd1a176949c263cd9111a9). Explicit Irelia lane references corroborate the opening ASR error 'I really', her Exhaust, E and passive-stack discussion.
+- **Irelia · Top** · [Watch 00:00–10:01](https://www.youtube.com/watch?v=Q69SqQ0mB8U&t=0s) · [First full passage](#p-36a005a670367238c83a1093c5b541868275b7a6e5dd1a176949c263cd9111a9). Ramy discusses Irelia’s passive stacks, Exhaust and E in the opening lane.
+- **Vayne · Top** · [Watch 10:01–29:05](https://www.youtube.com/watch?v=Q69SqQ0mB8U&t=601s) · [First full passage](#p-96a47a69f6125c74b2670d81aa9b49aa01e1113c966210284bf5baba46f2d817). After the first game ends, Ramy identifies Vayne top with Cleanse and explains why he starts E.
 
 ## Transcript
 

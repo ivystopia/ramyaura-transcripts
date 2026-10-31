@@ -8,7 +8,7 @@ Original creator: **RamyAura** — https://www.youtube.com/channel/UChk2Zu5h5yJ9
 
 ## Read the transcripts
 
-Choose an opponent in [MATCHUPS.md](MATCHUPS.md), or a video in [TRANSCRIPTS.md](TRANSCRIPTS.md). Each transcript has its original title, publication date, recorded opponent and role where established, and links to the relevant moments on YouTube. For uploads containing multiple games, the matchup index links into the appropriate game.
+Open the [matchup library](https://ivystopia.github.io/ramyaura-transcripts/) to read a transcript, share a passage or watch its game on YouTube. You can also choose an opponent in [MATCHUPS.md](MATCHUPS.md), or a video in [TRANSCRIPTS.md](TRANSCRIPTS.md). Each transcript has its original title, publication date, recorded opponent and role where established, and links to the relevant moments on YouTube. For uploads containing multiple games, the matchup index links into the appropriate game.
 
 The collection contains 180 videos with detected speech and one guide presented as on-screen text. The latter has a separately labelled OCR transcript. Livestreams and Shorts are outside this snapshot. Collection last updated on **2026-10-27**, including regular uploads published through **2026-10-26**. New regular uploads are checked daily at 06:00 Europe/London; see [Automation](AUTOMATION.md).
 
@@ -17,7 +17,7 @@ The [gameplay glossary](GLOSSARY.md) explains **19 recurring terms**, starting w
 ## For search and future AI use
 
 - [data/corpus.jsonl](data/corpus.jsonl): 8,256 passage records, including the explicit empty speech record for the visual guide. `text` is the corrected reading; `text_original` preserves the original machine transcript. Records also retain review flags, correction provenance, approximate timestamps and source hashes.
-- [data/sources.jsonl](data/sources.jsonl): 181 video records with public source metadata, upload dates and 179 recorded matchup intervals across 66 opponents. Join it to the corpus using `video_id`.
+- [data/sources.jsonl](data/sources.jsonl): 181 video records with public source metadata, upload dates and 191 recorded matchup intervals across 68 opponents. Join it to the corpus using `video_id`.
 - [data/visual-captions.jsonl](data/visual-captions.jsonl): 190 OCR caption groups from the on-screen guide, kept separate from speech.
 - [data/visual-caption-checks.jsonl](data/visual-caption-checks.jsonl): six separately attributed assistant checks of visible wording and markers. These are not human review or verification of game mechanics.
 - [CONCEPTS.md](CONCEPTS.md): curated concept search, aliases, sense distinctions and contextual decision examples. The separate editorial annotations reference existing Ramy passages; they do not change transcript wording or automatically cover new daily uploads.
