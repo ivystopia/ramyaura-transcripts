@@ -66,6 +66,7 @@ Recorded opponents and roles, with links to the first full transcript passage in
 
 ## Camille
 
+- 2026-11-19 · **Top** · [THE WINTER MAP IS BACK!! (and Ramy)](transcripts/5BRTb63-C6s.md#p-d8b9944e29814f6255596569c7fee270fc110275acb99e6132828ac1c00adc37) · video 00:00–33:09.
 - 2026-09-10 · **Top** · [NEW BUFFS MADE THIS MATCHUP SO HARD!!](transcripts/cgg5XDj4H5k.md#p-2e084d6284097628e820cd59c844e119fb060536427e231ab20a4105a89bb685) · video 00:00–20:53.
 - 2026-08-16 · **Top** · [SHADOWFLAME IS THE MOST BROKEN ITEM ON TEEMO!!](transcripts/zgrjHsil13w.md#p-2666c9ee532111c4c8b8ff3b365c15ec9af472ccfefa596b2a2843b86d6a6345) · video 00:00–24:35.
 - 2026-04-11 · **Top** · [HOW TO TRACK THE ENEMY JUNGLER ALL GAME AS TEEMO!!](transcripts/rA_NJihhFC8.md#p-d9e7e9995c48ddfafd9cf53f1e9bc4896a575e33d2522b273771a322d4ae08bd) · video 00:00–23:52.

@@ -1,7 +1,8 @@
 # All transcripts
 
-181 regular uploads, newest publication first. Dates are upload dates; recording patches remain unknown. [Browse by matchup](MATCHUPS.md).
+182 regular uploads, newest publication first. Dates are upload dates; recording patches remain unknown. [Browse by matchup](MATCHUPS.md).
 
+- 2026-11-19 — [THE WINTER MAP IS BACK!! (and Ramy)](transcripts/5BRTb63-C6s.md) — Camille (Top).
 - 2026-10-26 — [TEEMO VS THE BEST SETT IN THE WORLD (ft. Geishu)](transcripts/U8i6wlJBtz4.md) — Sett (Top).
 - 2026-10-19 — [We are BACK above 2000LP!!](transcripts/IazLNw8xfdw.md) — Pantheon (Top).
 - 2026-10-17 — [How to Win When Your Team is Perma Throwing (EDUCATIONAL)](transcripts/oK9mxRHI60M.md) — Locke (Top).
