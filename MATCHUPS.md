@@ -156,6 +156,7 @@ Recorded opponents and roles, with links to the first full transcript passage in
 
 ## Gnar
 
+- 2026-11-20 · **Top** · [Gnar Found a Way to Counter the Level 1 Cheese...](transcripts/-CEzvqIZLbs.md#p-d3a792cbf9f47bbef160ac93c9cb240ae2ec2cb1749f93ec13d44e94f29c48c5) · video 00:00–22:42.
 - 2026-09-23 · **Top** · [Riot Keep Sending Me Their TOUGHEST Battles...](transcripts/VmGVaa-kf1s.md#p-2a12948028e2c56598d1b4cd7aa6e582d1ec2c30db46e57fd81a77b18fe739c8) · video 00:00–22:15.
 - 2026-07-25 · **Top** · [LEC Toplaner could not handle my Teemo! (FULL CHALLENGER LOBBY)](transcripts/I7PRkUs0LZc.md#p-0dea016c4fba832b7580ebdff3fa3e4a8001ecabffa16b1ca5f66229b985e79d) · video 00:00–27:22.
 - 2026-05-19 · [TEEMO LEVEL 1 CHEESE IS JUST FREE LP!!](transcripts/4qJnHDztx-E.md#p-9f80c965332c2f55da240377610f1909113bb3ad48e4025b16bb0534be3de057) · video 00:00–25:38.
