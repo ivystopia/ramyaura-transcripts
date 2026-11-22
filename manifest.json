@@ -2,24 +2,24 @@
   "schema_version": 2,
   "publication_created_at": "2026-09-17T16:10:50.729606+00:00",
   "counts": {
-    "videos": 183,
-    "passage_records": 8261,
-    "nonempty_spoken_passages": 8260,
-    "videos_with_spoken_text": 182,
-    "audio_hours": 83.91161067,
-    "terminology_corrections": 1684,
-    "corrected_passages": 1197,
-    "known_unresolved_terminology_candidates": 115,
+    "videos": 184,
+    "passage_records": 8264,
+    "nonempty_spoken_passages": 8263,
+    "videos_with_spoken_text": 183,
+    "audio_hours": 84.41068317,
+    "terminology_corrections": 1686,
+    "corrected_passages": 1198,
+    "known_unresolved_terminology_candidates": 118,
     "visual_caption_groups": 190,
     "assistant_visual_checks": 6,
-    "matchup_encounters": 193,
+    "matchup_encounters": 194,
     "opponents": 68
   },
   "upload_date_range": [
     "2025-06-17",
-    "2026-11-20"
+    "2026-11-21"
   ],
-  "source_snapshot": "Regular uploads checked 2026-11-21; automated daily additions, excluding livestreams and Shorts.",
+  "source_snapshot": "Regular uploads checked 2026-11-22; automated daily additions, excluding livestreams and Shorts.",
   "text_preservation": "Corrected and original passage text copied byte-for-byte as UTF-8 strings. Every correction sequence was replayed and checked during export.",
   "publication_transform": "Allowlisted public metadata; local paths, API request identifiers, private review correspondence, personal reviewer identity, and media excluded. Source hashes and public evidence URLs retained.",
   "files": {
@@ -48,15 +48,15 @@
       "bytes": 31592
     },
     "MATCHUPS.md": {
-      "sha256": "cf570e02f64fb44bb5edb0f745ae3ef9485b873d14e455d275f1356c7979d3b3",
-      "bytes": 41682
+      "sha256": "c495d9da0c0a8e0e72507aed6c27545622db340d9a24b2d9e9d3884f3dbaf2b9",
+      "bytes": 41869
     },
     "NOTICE.md": {
       "sha256": "569c4918cc50ed33e7d26b0677f0d4d68989d7a599e52d12b426b718e5c36291",
       "bytes": 1132
     },
     "README.md": {
-      "sha256": "ba534a67dd5919fb406d0bb2b5e7fdc66ab0156353ae564e1480adddfb34768e",
+      "sha256": "600baebf48951d71c97fca86a0872cc100d4c1605ecf01a154849ac4d32d9c0d",
       "bytes": 6750
     },
     "SCHEMA.md": {
@@ -64,8 +64,8 @@
       "bytes": 9491
     },
     "TRANSCRIPTS.md": {
-      "sha256": "9761f372a6f2b83b8a3151936fde01ff399b011e6543983d534572509e44c40e",
-      "bytes": 19854
+      "sha256": "9122c7e19652323989714a9920f915bc2bee5dd86f404377976d6bb14351dd5d",
+      "bytes": 19957
     },
     "data/concept-annotations.jsonl": {
       "sha256": "2075924fae0e264a6216ef7735cb66eb6eb55c55e866ee9cba692b0be589db80",
@@ -76,12 +76,12 @@
       "bytes": 8701
     },
     "data/corpus.jsonl": {
-      "sha256": "b1c60b6e72eb99207bf0b20095767ada4c90a3247260fd96f5807ed7e7d6c508",
-      "bytes": 17329138
+      "sha256": "5ce1a7edca9401fab23f2c48a7cd15b197656d554cbfde09bf6136c2714ac251",
+      "bytes": 17366863
     },
     "data/sources.jsonl": {
-      "sha256": "4b117fcdb0314271d38654d99fc764b11834e190e2ee4ec257a8d72dd38d8eb3",
-      "bytes": 319019
+      "sha256": "9415973af16361ed351f9f0ddbe45bc56667edf98ed58c7ee9046828a9b77b34",
+      "bytes": 320810
     },
     "data/visual-caption-checks.jsonl": {
       "sha256": "bcfc86a95b04ea729dba5fba78475c77ff89c312b296e968c932117a1a5d92a6",
@@ -655,6 +655,10 @@
       "sha256": "4d61c7d8f22b55fa7d23e6da021a6c22eb58fbfa7dab7c5f5c40c167fa86ec30",
       "bytes": 20103
     },
+    "transcripts/dVpa_6EljFE.md": {
+      "sha256": "8d023ea054f3358682e8b1af662f236596a8e671bc306129b0700ac06d4d18f2",
+      "bytes": 17801
+    },
     "transcripts/fCxq0xHwFPE.md": {
       "sha256": "beee1d8dacc531ee378e2720e7a6bf2f66dd1651f87a7ff05c356fe603d16ca3",
       "bytes": 38906
@@ -872,7 +876,7 @@
       "bytes": 18397
     }
   },
-  "publication_updated_at": "2026-11-21T06:00:49.561849+00:00",
+  "publication_updated_at": "2026-11-22T06:02:38.998545+00:00",
   "input_batches": {
     "regular-uploads": {
       "export_manifest_sha256": "5164a2e9017682944c23916b8ea8dae18125189d562fcdd29143bd944cae5dfa",
@@ -969,6 +973,10 @@
     "uploads-2026-11-21-8f14ce2c": {
       "export_manifest_sha256": "05d49b651e53c610fd86d456341873ea5f1c3c6955a765608b874bb99f734633",
       "reading_manifest_sha256": "456ccb55ec284347db9474bce0ac72d8ce8b3f183110066686a8811b21239646"
+    },
+    "uploads-2026-11-22-55ccbb11": {
+      "export_manifest_sha256": "6ff6df2074e7d63d67fae054f651c4ebd99e60789671e2b9b6293a9a42d24ec1",
+      "reading_manifest_sha256": "b7754d3d0e1ad0edb4d5878fe07ab73837ca97e5074b8ab63407b8795cadab8b"
     }
   },
   "baseline_input_sha256": {

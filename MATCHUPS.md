@@ -120,6 +120,7 @@ Recorded opponents and roles, with links to the first full transcript passage in
 
 ## Fiora
 
+- 2026-11-21 · **Top** · [Do THIS Before Every Objective Spawn!!](transcripts/dVpa_6EljFE.md#p-916d5eef20368edffac4db14716000e110ff17e788b045bddbae2bd70a03c560) · video 00:00–29:56.
 - 2026-10-14 · **Top** · [Teemo + Zilean is the FUNNIEST Combo in League](transcripts/CG-DUTCpttw.md#p-514a14d658aee8fd72d1660ac459d5b88eed7374bdb84b522b9f550ce7429291) · video 00:00–23:02.
 - 2026-10-02 · **Top** · [I LOVE PLAYING WITH THIS CHAMPION ON MY TEAM!!](transcripts/0eA2DYi7muo.md#p-740c35e58fa2619b898dd6e33cd3a64a6d8e668781431ef5bc96e130057c10d9) · video 00:00–27:18.
 - 2026-09-27 · **Top** · [DAY 2 ON THE NA SUPERSERVER. (Teemo Unranked to Challenger)](transcripts/z0vw9Une2WM.md#p-e2d86fec85f5474e5c5221040ee3756b01190745c4462dde118b2ba5bbe1aa13) · video 00:00–15:46.
