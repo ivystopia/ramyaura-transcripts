@@ -350,6 +350,7 @@ Recorded opponents and roles, with links to the first full transcript passage in
 
 ## Rumble
 
+- 2026-11-23 · **Top** · [21 KILLS VS PRO PLAYER RUMBLE?!?!](transcripts/QNCzWxc2HDA.md#p-44a9bc57d4a7a4ebe9805f066ab9eb0cc200171610e869b9c21f52266a4059ec) · video 00:00–32:08.
 - 2026-04-23 · [THIS RUMBLE COULD NOT HANDLE MY TEEMO](transcripts/at3BFFWjylo.md#p-8a852f620dace2c0dc189b0569012fe4e8d8d825455e6fa5179aa5b18dc7e37d) · video 00:00–28:44.
 
 <a id="matchup-ryze"></a>

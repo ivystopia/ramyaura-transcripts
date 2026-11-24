@@ -1,7 +1,8 @@
 # All transcripts
 
-184 regular uploads, newest publication first. Dates are upload dates; recording patches remain unknown. [Browse by matchup](MATCHUPS.md).
+185 regular uploads, newest publication first. Dates are upload dates; recording patches remain unknown. [Browse by matchup](MATCHUPS.md).
 
+- 2026-11-23 — [21 KILLS VS PRO PLAYER RUMBLE?!?!](transcripts/QNCzWxc2HDA.md) — Rumble (Top).
 - 2026-11-21 — [Do THIS Before Every Objective Spawn!!](transcripts/dVpa_6EljFE.md) — Fiora (Top).
 - 2026-11-20 — [Gnar Found a Way to Counter the Level 1 Cheese...](transcripts/-CEzvqIZLbs.md) — Gnar (Top).
 - 2026-11-19 — [THE WINTER MAP IS BACK!! (and Ramy)](transcripts/5BRTb63-C6s.md) — Camille (Top).
