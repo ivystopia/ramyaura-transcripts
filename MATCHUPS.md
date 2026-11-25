@@ -461,6 +461,7 @@ Recorded opponents and roles, with links to the first full transcript passage in
 
 ## Varus
 
+- 2026-11-24 · **Top** · [RANGED TOP ON RANGED TOP ACTION](transcripts/FQs7yTlFhbw.md#p-99851178e231870a582895056b5ba1d02af8137b3b253990c2323c38b432b516) · video 00:00–25:04.
 - 2026-04-19 · **Top** · [I SHOWED DRUTUTT THE POWER OF TEEMO TOPLANE...](transcripts/fCxq0xHwFPE.md#p-7bb45c3594e371e6a4243e3ca74b44e369de54d6f29d789eb2079b04f0b1bbe2) · video 00:00–47:32.
 
 <a id="matchup-vayne"></a>
