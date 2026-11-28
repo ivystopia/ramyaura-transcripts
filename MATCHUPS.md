@@ -193,6 +193,7 @@ Recorded opponents and roles, with links to the first full transcript passage in
 
 ## Jax
 
+- 2026-11-27 · **Top** · [Rank 1 Jax Couldn't Handle My Teemo!](transcripts/ZI63dZvZhjU.md#p-f918935d367d231c82ca0bda1b2c4479f04437144a1394aaa6a8972c47399821) · video 00:00–32:16.
 - 2026-09-17 · **Top** · [Rank 1 Garen Stood No Chance vs My Teemo!!](transcripts/zVoOvrr0bh8.md#p-e6b3787c26f76ee23e98650fbfdbe4a0857b98d16bd7fd40b34986a3fcc27379) · video 19:31–47:36.
 - 2026-08-09 · **Top** · [KC Canna meets the Rank 1 Teemo...](transcripts/9j8ZvwND_uQ.md#p-64e31bd1e96834ae827365a7e43ba92f609809f282268178f460a4be0c1046d6) · video 00:00–32:39.
 - 2026-07-29 · **Top** · [TEEMO VS THE BEST TOPLANER IN EUROPE (ft. RaiderGO)](transcripts/JvQk3pO9aeU.md#p-6d200a097dcba7eb446ebe1c455987f28d76871676ef007a6ee0a0472856cf3e) · video 00:00–27:10.
@@ -344,6 +345,7 @@ Recorded opponents and roles, with links to the first full transcript passage in
 
 ## Riven
 
+- 2026-11-26 · **Top** · [Rank 1 Bard Couldn't Believe What I Did to This Riven](transcripts/gb5MEMDr72Y.md#p-b933fc12b6eb025086f19c669230659e29408038f00feeb4f6c1e2c71c99aab6) · video 00:00–28:32.
 - 2026-05-25 · [THIS IS MY FAVOURITE TEEMO MATCHUP!](transcripts/P8o3NuQj208.md#p-6405ab9a90730ed9771ea26860db14a059117dc878c868bd5f552e570e540df9) · video 00:00–25:51.
 - 2026-01-24 · [HOW A CHALLENGER TEEMO CONSISTENTLY BEATS RIVEN](transcripts/ykUqr-0jMRo.md#p-45d6c6e5215e5ede097dd7a91b0de8d4f29b11a7d46f260de98011ef3711d877) · video 00:00–18:25.
 

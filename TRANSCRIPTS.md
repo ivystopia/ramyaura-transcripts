@@ -1,7 +1,9 @@
 # All transcripts
 
-187 regular uploads, newest publication first. Dates are upload dates; recording patches remain unknown. [Browse by matchup](MATCHUPS.md).
+189 regular uploads, newest publication first. Dates are upload dates; recording patches remain unknown. [Browse by matchup](MATCHUPS.md).
 
+- 2026-11-27 — [Rank 1 Jax Couldn't Handle My Teemo!](transcripts/ZI63dZvZhjU.md) — Jax (Top).
+- 2026-11-26 — [Rank 1 Bard Couldn't Believe What I Did to This Riven](transcripts/gb5MEMDr72Y.md) — Riven (Top).
 - 2026-11-25 — [Can Teemo 1v9 With a Heavy AP Team?](transcripts/XZ1KSiK5txg.md) — Pantheon (Top).
 - 2026-11-24 — [RANGED TOP ON RANGED TOP ACTION](transcripts/FQs7yTlFhbw.md) — Varus (Top).
 - 2026-11-23 — [21 KILLS VS PRO PLAYER RUMBLE?!?!](transcripts/QNCzWxc2HDA.md) — Rumble (Top).
